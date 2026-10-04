@@ -11,7 +11,7 @@
       "shortTitle": "The Beginning",
       "intro": "A song inspired by Genesis 1.",
       "suno": "b9b82c2c-7c8e-4ef4-9338-942de876644a",
-      "audio": null,
+      "audio": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-1/196c6f8183eb18bc.mp3",
       "poster": null,
       "youtube": "https://www.youtube.com/watch?v=RhDDU1YHzi0",
       "lyric": {
@@ -158,7 +158,7 @@
       "shortTitle": "The Garden",
       "intro": "A song inspired by Genesis 2.",
       "suno": "185c9425-6e80-42ae-8904-fc00cda3e189",
-      "audio": null,
+      "audio": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-2/2e3dda6d8f4f094e.mp3",
       "poster": null,
       "youtube": "https://www.youtube.com/watch?v=8nPHYkw_a5I",
       "lyric": {
@@ -281,7 +281,7 @@
       "shortTitle": "The Exile",
       "intro": "A song inspired by Genesis 3.",
       "suno": "ce009f9c-44bc-4677-becb-6e82ba444e9a",
-      "audio": null,
+      "audio": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-3/f426905c8993fedb.mp3",
       "poster": null,
       "youtube": "https://www.youtube.com/watch?v=NN9Wg_60ON8",
       "lyric": {
@@ -400,7 +400,7 @@
       "shortTitle": "The Brother's Blood",
       "intro": "A song inspired by Genesis 4.",
       "suno": "dd723dc8-5303-4694-9553-6d29f9768d04",
-      "audio": null,
+      "audio": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-4/c26b0dfd26850b09.mp3",
       "poster": null,
       "youtube": "https://www.youtube.com/watch?v=LM3I25AC4ZA",
       "lyric": {
@@ -527,7 +527,7 @@
       "shortTitle": "The Generations of Adam",
       "intro": "From Adam's generations to Noe's birth, this song follows the long line of lives in Genesis 5 and the hope carried through it.",
       "suno": "05c6a0ea-604a-4831-a134-2d753445053a",
-      "audio": null,
+      "audio": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-5/c1edd5707c8a31ab.mp3",
       "poster": null,
       "youtube": null,
       "lyric": {
@@ -678,7 +678,7 @@
       "shortTitle": "Before the Waters",
       "intro": "A song inspired by Genesis 6.",
       "suno": "0af47fbc-4734-4239-a963-d2ece2232397",
-      "audio": null,
+      "audio": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-6/0297181426013422.mp3",
       "poster": null,
       "youtube": null,
       "lyric": {
@@ -789,7 +789,7 @@
       "shortTitle": "The Flood",
       "intro": "A song inspired by Genesis 7.",
       "suno": "169cee8d-0d70-4f84-87b2-77bcc9ca693e",
-      "audio": null,
+      "audio": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-7/6f23e21d7fe1395c.mp3",
       "poster": null,
       "youtube": "https://www.youtube.com/watch?v=m712jvMU-78",
       "lyric": {
@@ -908,7 +908,7 @@
       "shortTitle": "The Dove",
       "intro": "A song inspired by Genesis 8.",
       "suno": "8fd59e03-d071-4fcd-9141-289b9c9e1902",
-      "audio": null,
+      "audio": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-8/6103eb41a14284a9.mp3",
       "poster": null,
       "youtube": "https://www.youtube.com/watch?v=tBN4MmQ3gaY",
       "lyric": {
@@ -1019,7 +1019,7 @@
       "shortTitle": "The Lord Is My Shepherd",
       "intro": "A song inspired by Psalms 23.",
       "suno": "32885123-f4b6-42e6-a546-f4acba404829",
-      "audio": null,
+      "audio": "https://technochristianity-audio.sjfisher33.workers.dev/audio/psalm-23/9f0c3a221e0bba5b.mp3",
       "poster": null,
       "youtube": "https://www.youtube.com/watch?v=r93RcOn0JXA",
       "lyric": {
@@ -1066,7 +1066,7 @@
       "shortTitle": "Create in Me a Clean Heart",
       "intro": "A song inspired by Psalms 51.",
       "suno": "193f9b56-bef1-48cb-8d9b-72956d156437",
-      "audio": null,
+      "audio": "https://technochristianity-audio.sjfisher33.workers.dev/audio/psalm-51/d10a70d34198b9df.mp3",
       "poster": null,
       "youtube": null,
       "lyric": {
@@ -1173,7 +1173,7 @@
       "shortTitle": "A Thousand Shall Fall",
       "intro": "A song inspired by Psalms 91.",
       "suno": "5d78a5c1-4341-4867-b25e-c3698b1ffe54",
-      "audio": null,
+      "audio": "https://technochristianity-audio.sjfisher33.workers.dev/audio/psalm-91/720e6acd79b9ad2e.mp3",
       "poster": null,
       "youtube": "https://www.youtube.com/watch?v=8im3mPcy5G8",
       "lyric": {
@@ -1260,7 +1260,7 @@
       "shortTitle": "Salt and Light",
       "intro": "Jesus calls his followers to be salt and light in the Sermon on the Mount.",
       "suno": "09342e26-f7cd-406d-b049-8b312392133c",
-      "audio": null,
+      "audio": "https://technochristianity-audio.sjfisher33.workers.dev/audio/matthew-5/9b701105170cad43.mp3",
       "poster": null,
       "youtube": "https://www.youtube.com/watch?v=wncSa0w7QyQ",
       "lyric": {
@@ -1270,5 +1270,5 @@
       "source": null
     }
   ],
-  "generatedAt": "2026-10-04T16:12:19.737Z"
+  "generatedAt": "2026-10-04T19:29:01.405Z"
 }
