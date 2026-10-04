@@ -16,6 +16,13 @@ const get = async (path) => {
   if (!response.ok) throw new Error(`Music Studio ${path} returned ${response.status}`);
   return response.json();
 };
+const patch = async (path, body) => {
+  const response = await fetch(`http://127.0.0.1:4319/api/v1${path}`, {
+    method: "PATCH", headers: { ...headers, "Content-Type": "application/json" },
+    body: JSON.stringify(body), signal: AbortSignal.timeout(15000),
+  });
+  if (!response.ok) throw new Error(`Music Studio ${path} returned ${response.status}`);
+};
 const studio = await get("/studio");
 if (studio.settings?.paused) {
   console.log("Music Studio runner is paused; catalog sync skipped.");
@@ -55,23 +62,40 @@ songs.sort((a, b) => Object.keys(label).indexOf(a.book.toLowerCase()) - Object.k
 const contents = { formatVersion: 1, songs };
 const readCurrent = async () => { try { return JSON.parse(await readFile(target, "utf8")); } catch { return null; } };
 const same = (a, b) => JSON.stringify(a?.songs) === JSON.stringify(b.songs) && a?.formatVersion === b.formatVersion;
+const writeOnly = process.argv.includes("--write-only");
+const recordWebsiteHandoff = async () => {
+  if (writeOnly) return;
+  for (const work of approved) {
+    if (work.publications?.website?.status && work.publications.website.status !== "untracked") continue;
+    const slug = `${work.book}-${Number(work.chapter)}`;
+    await patch(`/works/${encodeURIComponent(work.id)}/publications/website`, {
+      status: "submitted", url: `https://technochristianity.com/music/?work=${slug}`,
+      note: "Approved song exported to the public catalog; live page verification pending.",
+    });
+  }
+};
 if (same(await readCurrent(), contents)) {
+  await recordWebsiteHandoff();
   console.log(`Approved catalog current (${songs.length} finalized songs).`);
   process.exit(0);
 }
 const git = (...args) => execFileSync("git", args, { cwd: root, encoding: "utf8", stdio: ["ignore", "pipe", "pipe"] }).trim();
-if (!process.argv.includes("--write-only")) {
+if (!writeOnly) {
   if (git("status", "--porcelain", "--", "approved-chapters.json"))
     throw new Error("Catalog file has local changes; inspect before syncing.");
   if (git("diff", "--cached", "--name-only"))
     throw new Error("Asset repository has staged changes; inspect before syncing.");
   git("pull", "--ff-only", "origin", "main");
-  if (same(await readCurrent(), contents)) process.exit(0);
+  if (same(await readCurrent(), contents)) {
+    await recordWebsiteHandoff();
+    process.exit(0);
+  }
 }
 await writeFile(target, JSON.stringify({ ...contents, generatedAt: new Date().toISOString() }, null, 2) + "\n");
-if (!process.argv.includes("--write-only")) {
+if (!writeOnly) {
   git("add", "--", "approved-chapters.json");
   git("commit", "-m", "Sync Music Studio approved songs for public catalog");
   git("push", "origin", "HEAD:main");
 }
+await recordWebsiteHandoff();
 console.log(`Published catalog with ${songs.length} finalized songs: ${songs.map((song) => song.reference).join(", ")}.`);
