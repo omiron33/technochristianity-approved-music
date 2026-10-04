@@ -22,6 +22,10 @@ if (studio.settings?.paused) {
   process.exit(0);
 }
 const label = { genesis: "Genesis", psalms: "Psalms", matthew: "Matthew" };
+const publicIntros = {
+  "genesis-5": "From Adam's generations to Noe's birth, this song follows the long line of lives in Genesis 5 and the hope carried through it.",
+  "matthew-5": "Jesus calls his followers to be salt and light in the Sermon on the Mount.",
+};
 const approved = studio.works.filter((work) =>
   work.kind === "chapter" && work.audioStatus === "approved" &&
   work.sunoFinalization?.status === "verified" &&
@@ -39,7 +43,7 @@ const songs = await Promise.all(approved.map(async (work) => {
   return {
     id: `${work.book}-${chapter}`, studioId: work.id, book, chapter: String(chapter), reference,
     title: work.title, shortTitle: title,
-    intro: work.description || `An approved song for ${reference}.`,
+    intro: publicIntros[`${work.book}-${chapter}`] || `A song inspired by ${reference}.`,
     suno: work.approvedTakeId,
     audio: typeof work.audioUrl === "string" && work.audioUrl.startsWith(publicMedia) ? work.audioUrl : null,
     poster: typeof work.coverUrl === "string" && work.coverUrl.startsWith(publicMedia) ? work.coverUrl : null,
