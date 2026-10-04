@@ -1,0 +1,23 @@
+{
+  "formatVersion": 1,
+  "release": "2026-10-04-genesis-6",
+  "collection": "music",
+  "website": "https://technochristianity.com/music/",
+  "files": {
+    "genesis-6.mp3": {
+      "byteLength": 5777285,
+      "sha256": "0297181426013422bcaa7e8f141ecffbc190f2eddacd5d3fb39ced78176901bd"
+    },
+    "posters/genesis-6.jpg": {
+      "byteLength": 239422,
+      "sha256": "6320682a6d592bbc5891f8e2248ef9e5bbab3c1c4d48c15bac6da06c9eb4456d"
+    }
+  },
+  "source": {
+    "title": "Before the Waters - Genesis 6",
+    "sunoSongId": "0af47fbc-4734-4239-a963-d2ece2232397",
+    "audioFormat": "MP3 transcoded from approved Suno PCM 16-bit stereo 48 kHz WAV",
+    "durationSeconds": 254.8,
+    "cover": "Published Suno song cover"
+  }
+}
