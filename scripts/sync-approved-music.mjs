@@ -3,10 +3,13 @@ import { homedir } from "node:os";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { execFileSync } from "node:child_process";
+import { deliveredAudio, verifiedYouTube } from "./media-delivery.mjs";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const target = join(root, "approved-chapters.json");
-const publicMedia = "https://omiron33.github.io/technochristianity-approved-music/";
+const legacyPosterMedia = "https://omiron33.github.io/technochristianity-approved-music/";
+const delivery = await readFile(join(root, "media-delivery.json"), "utf8")
+  .then(JSON.parse, () => null);
 const uuid = /^[a-f\d]{8}-[a-f\d]{4}-[a-f\d]{4}-[a-f\d]{4}-[a-f\d]{12}$/i;
 const tokenFile = join(process.env.STUDIO_DATA_DIR || join(homedir(), "Library", "Application Support", "Music Studio"), "api-token");
 const token = (await readFile(tokenFile, "utf8")).trim();
@@ -35,10 +38,10 @@ const publicIntros = {
 };
 const approved = studio.works.filter((work) =>
   work.kind === "chapter" && work.audioStatus === "approved" &&
-  work.sunoFinalization?.status === "verified" &&
+  (work.sunoFinalization?.status === "verified" || work.publications?.website?.status === "verified") &&
   uuid.test(work.approvedTakeId || "") &&
   work.takes?.some((take) => take.id === work.approvedTakeId && take.approved) &&
-  label[work.book] && Number.isInteger(Number(work.chapter)));
+  label[work.book] && Number.isInteger(Number(work.chapter)) && Number(work.chapter) > 0);
 const songs = await Promise.all(approved.map(async (work) => {
   const book = label[work.book], chapter = Number(work.chapter);
   const reference = `${book} ${chapter}`;
@@ -52,8 +55,9 @@ const songs = await Promise.all(approved.map(async (work) => {
     title: work.title, shortTitle: title,
     intro: publicIntros[`${work.book}-${chapter}`] || `A song inspired by ${reference}.`,
     suno: work.approvedTakeId,
-    audio: typeof work.audioUrl === "string" && work.audioUrl.startsWith(publicMedia) ? work.audioUrl : null,
-    poster: typeof work.coverUrl === "string" && work.coverUrl.startsWith(publicMedia) ? work.coverUrl : null,
+    audio: deliveredAudio(work, delivery),
+    poster: typeof work.coverUrl === "string" && work.coverUrl.startsWith(legacyPosterMedia) ? work.coverUrl : null,
+    youtube: verifiedYouTube(work),
     lyric: work.lyrics ? { label: "Song adaptation", text: work.lyrics } : null,
     source,
   };
@@ -66,11 +70,12 @@ const writeOnly = process.argv.includes("--write-only");
 const recordWebsiteHandoff = async () => {
   if (writeOnly) return;
   for (const work of approved) {
+    if (!songs.some((song) => song.studioId === work.id && song.audio)) continue;
     if (work.publications?.website?.status && work.publications.website.status !== "untracked") continue;
     const slug = `${work.book}-${Number(work.chapter)}`;
     await patch(`/works/${encodeURIComponent(work.id)}/publications/website`, {
       status: "submitted", url: `https://technochristianity.com/music/?work=${slug}`,
-      note: "Approved song exported to the public catalog; live page verification pending.",
+      note: "Approved song with verified R2 compressed audio exported to the public catalog; live page verification pending.",
     });
   }
 };

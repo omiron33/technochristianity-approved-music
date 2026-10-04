@@ -1,0 +1,9 @@
+{
+  "name": "technochristianity-audio",
+  "main": "worker/audio.js",
+  "compatibility_date": "2026-10-04",
+  "workers_dev": true,
+  "r2_buckets": [
+    { "binding": "AUDIO", "bucket_name": "technochristianity-audio" }
+  ]
+}
