@@ -31,9 +31,10 @@ if (studio.settings?.paused) {
   console.log("Music Studio runner is paused; catalog sync skipped.");
   process.exit(0);
 }
-const label = { genesis: "Genesis", psalms: "Psalms", matthew: "Matthew" };
+const label = { genesis: "Genesis", judges: "Judges", psalms: "Psalms", matthew: "Matthew" };
 const publicIntros = {
   "genesis-5": "From Adam's generations to Noe's birth, this song follows the long line of lives in Genesis 5 and the hope carried through it.",
+  "judges-3": "A comic country-funk retelling of Ehud and Eglon in Judges 3:12–30. This is a loose adaptation, not a verse-by-verse setting.",
   "matthew-5": "Jesus calls his followers to be salt and light in the Sermon on the Mount.",
 };
 const approved = studio.works.filter((work) =>

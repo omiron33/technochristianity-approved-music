@@ -17,6 +17,19 @@
       "verifiedAt": "2026-10-04T19:28:42.745Z"
     },
     {
+      "workId": "b66dd56a-5809-4c05-bf94-188ea68b242a",
+      "title": "Don't Knock, He's Busy - Judges 3",
+      "approvedTakeId": "97e18ff1-6a66-47ba-90d5-02e944e982f8",
+      "sourceSha256": "d922df7dec3e48bf87c3a8a292ee8f9ca25f87b0347044545a2b57ed1bffcd41",
+      "sourceCodec": "pcm_s16le",
+      "sha256": "caae2a4e429a3ecce90679d5be7dafab19f08e5f89f51dc6b7a5b8b26d14087b",
+      "bytes": 4523543,
+      "contentType": "audio/mpeg",
+      "key": "audio/judges-3/caae2a4e429a3ecc.mp3",
+      "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/judges-3/caae2a4e429a3ecc.mp3",
+      "verifiedAt": "2026-10-05T04:26:16.513Z"
+    },
+    {
       "workId": "chapter:genesis:1",
       "title": "The Beginning - Genesis 1",
       "approvedTakeId": "b9b82c2c-7c8e-4ef4-9338-942de876644a",
