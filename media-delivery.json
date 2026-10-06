@@ -43,6 +43,19 @@
       "verifiedAt": "2026-10-04T19:28:35.176Z"
     },
     {
+      "workId": "chapter:genesis:10",
+      "title": "After the Flood - Genesis 10",
+      "approvedTakeId": "5fd5a15e-ed55-4847-8dc4-5dfa5c316185",
+      "sourceSha256": "acef84ee6899f876e441036f928eed2cd6a27f683f546475435576d3b9d207fb",
+      "sourceCodec": "pcm_s16le",
+      "sha256": "63efc0abbcfa3c923103c982b5684282ec145f91674b052c6372254b76322032",
+      "bytes": 8396730,
+      "contentType": "audio/mpeg",
+      "key": "audio/genesis-10/63efc0abbcfa3c92.mp3",
+      "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-10/63efc0abbcfa3c92.mp3",
+      "verifiedAt": "2026-10-06T12:03:33.388Z"
+    },
+    {
       "workId": "chapter:genesis:2",
       "title": "The Garden - Genesis 2",
       "approvedTakeId": "185c9425-6e80-42ae-8904-fc00cda3e189",
