@@ -1010,6 +1010,157 @@
       }
     },
     {
+      "id": "genesis-10",
+      "studioId": "chapter:genesis:10",
+      "book": "Genesis",
+      "chapter": "10",
+      "reference": "Genesis 10",
+      "title": "The Nations - Genesis 10",
+      "shortTitle": "The Nations",
+      "intro": "A song inspired by Genesis 10.",
+      "suno": "5fd5a15e-ed55-4847-8dc4-5dfa5c316185",
+      "audio": null,
+      "poster": null,
+      "youtube": null,
+      "lyric": {
+        "label": "Song adaptation",
+        "text": "\"After the Flood\" (Genesis 10)\n\n[Intro – slow, 808 rumble]\nWater's gone, ground dry, ark on the mountain\nThree sons standing, now we start countin'\nShem, Ham, Japheth (yeah)\nSons born after the flood (after the flood)\nGenerations, Genesis Ten, let it drop\n\n[Hook]\nAfter the flood (after the flood)\nNations rose up from the sons of Noah's blood\nBy their clans, by their tongues, by their lands\nEvery nation on the map came from three men\nDivided in the earth, let the whole world know\nGenesis Ten, watch the nations grow\n\n[Verse 1 – Japheth]\nJapheth up first, seven sons on the roll\nGomer, Magog, Madai, let it go\nJavan, Tubal, Meshech, Tiras, full set\nSeven deep from Japheth, ain't a name you forget\nGomer had three: Ashkenaz, Riphath\nTogarmah on the end, put the bass on that\nJavan had four, coastline flow\nElishah, Tarshish, Kittim, Dodanim, go\nFrom these the coastland peoples spread through their lands\nEach with his own tongue, his clan, his nation, understand\n\n[Hook]\nAfter the flood (after the flood)\nNations rose up from the sons of Noah's blood\nBy their clans, by their tongues, by their lands\nEvery nation on the map came from three men\nDivided in the earth, let the whole world know\nGenesis Ten, watch the nations grow\n\n[Verse 2 – Ham]\nSons of Ham: Cush, Mizraim, Put, Canaan\nFour-man lineup, now the bassline's rainin'\nCush had Seba, Havilah, Sabtah\nRaamah, Sabteca, five sons, stack 'em up\nRaamah had two: Sheba and Dedan\nThen Cush fathered Nimrod, the earth heard him comin'\nFirst mighty man on the earth, built strong\nMighty hunter before the LORD, that's the saying passed on:\n\"Like Nimrod, a mighty hunter before the LORD\"\nHis kingdom began where the empires were born\nBabel, Erech, Accad, Calneh\nLand of Shinar, that's where he laid it\nFrom that land to Assyria he went\nBuilt Nineveh, Rehoboth-Ir, Calah, cement\nThen Resen, between Nineveh and Calah set\nThat's the great city, put it on the record\n\n[Verse 3 – Mizraim & Canaan]\nMizraim fathered Ludim, Anamim\nLehabim, Naphtuhim, keep it spinnin'\nPathrusim, Casluhim, the Philistines came from them\nCaphtorim to close it, that's the end of the line for him\nCanaan's firstborn: Sidon, then Heth\nJebusites, Amorites, Girgashites, next\nHivites, Arkites, Sinites, roll\nArvadites, Zemarites, Hamathites, whole\nThen the clans of Canaan spread abroad\nBorder ran from Sidon, down toward Gerar\nAll the way to Gaza, then toward Sodom\nGomorrah, Admah, Zeboiim, as far as Lasha, got 'em\nThese are the sons of Ham, laid out plain\nBy their clans, their tongues, their lands, their nations' names\n\n[Hook]\nAfter the flood (after the flood)\nNations rose up from the sons of Noah's blood\nBy their clans, by their tongues, by their lands\nEvery nation on the map came from three men\nDivided in the earth, let the whole world know\nGenesis Ten, watch the nations grow\n\n[Verse 4 – Shem]\nNow Shem, father of all of Eber's kids\nJapheth's brother, sons were born to him\nElam, Asshur, Arpachshad\nLud and Aram, five sons, hold that\nAram had Uz, Hul, Gether, Mash\nArpachshad fathered Shelah, Shelah fathered Eber, fast\nEber had two sons, check the name:\nPeleg, 'cause in his days the earth got divided, man\nHis brother was Joktan, thirteen deep\nAlmodad, Sheleph, Hazarmaveth, Jerah, beat\nHadoram, Uzal, Diklah, run it\nObal, Abimael, Sheba, keep it comin'\nOphir, Havilah, Jobab, that's the crew\nAll the sons of Joktan, every name came through\nThey lived from Mesha toward Sephar, way out\nThe hill country of the east, that's the route\nThese are the sons of Shem, laid out plain\nBy their clans, their tongues, their lands, their nations' names\n\n[Outro – beat drops out, 808 tail]\nThese are the clans of Noah's sons\nBy their generations, in their nations, one by one\nFrom these the nations spread across the earth\nAfter the flood (after the flood)\nGenesis Ten"
+      },
+      "source": {
+        "sourceReference": "Genesis 10",
+        "verses": [
+          {
+            "number": "1",
+            "text": "Now these [are] the generations of the sons of Noe, Sem, Cham, Japheth; and sons were born to them after the flood."
+          },
+          {
+            "number": "2",
+            "text": "The sons of Japheth, Gamer, and Magog, and Madoi, and Jovan, and Elisa, and Thobel, and Mosoch, and Thiras."
+          },
+          {
+            "number": "3",
+            "text": "And the sons of Gamer, Aschanaz, and Riphath, and Thorgama."
+          },
+          {
+            "number": "4",
+            "text": "And the sons of Jovan, Elisa, and Tharseis, Cetians, Rhodians."
+          },
+          {
+            "number": "5",
+            "text": "From these were the islands of the Gentiles divided in their land, each according to his tongue, in their tribes and in their nations."
+          },
+          {
+            "number": "6",
+            "text": "And the sons of Cham, Chus, and Mesrain, Phud, and Chanaan."
+          },
+          {
+            "number": "7",
+            "text": "And the sons of Chus, Saba, and Evila, and Sabatha, and Rhegma, and Sabathaca. And the sons of Rhegma, Saba, and Dadan."
+          },
+          {
+            "number": "8",
+            "text": "And Chus begot Nebrod: he began to be a giant upon the earth."
+          },
+          {
+            "number": "9",
+            "text": "He was a giant hunter before the Lord God; therefore they say, As Nebrod the giant hunter before the Lord."
+          },
+          {
+            "number": "10",
+            "text": "And the beginning of his kingdom was Babylon, and Orech, and Archad, and Chalanne, in the land of Senaar."
+          },
+          {
+            "number": "11",
+            "text": "Out of that land came Assur, and built Ninevi, and the city Rhooboth, and Chalach,"
+          },
+          {
+            "number": "12",
+            "text": "and Dase between Ninevi and Chalach: this is the great city."
+          },
+          {
+            "number": "13",
+            "text": "And Mesrain begot the Ludiim, and the Nephthalim, and the Enemetiim, and the Labiim,"
+          },
+          {
+            "number": "14",
+            "text": "and the Patrosoniim, and the Chasmoniim (whence came forth Phylistiim) and the Gaphthoriim."
+          },
+          {
+            "number": "15",
+            "text": "And Chanaan begot Sidon his first-born, and the Chettite,"
+          },
+          {
+            "number": "16",
+            "text": "and the Jebusite, and the Amorite, and the Girgashite,"
+          },
+          {
+            "number": "17",
+            "text": "and the Evite, and the Arukite, and the Asennite,"
+          },
+          {
+            "number": "18",
+            "text": "and the Aradian, and the Samarean, and the Amathite; and after this the tribes of the Chananites were dispersed."
+          },
+          {
+            "number": "19",
+            "text": "And the boundaries of the Chananites were from Sidon till one comes to Gerara and Gaza, till one comes to Sodom and Gomorrha, Adama and Seboim, as far as Dasa."
+          },
+          {
+            "number": "20",
+            "text": "These [were] the sons of Cham in their tribes according to their tongues, in their countries, and in their nations."
+          },
+          {
+            "number": "21",
+            "text": "And to Sem himself also were children born, the father of all the sons of Heber, the brother of Japheth the elder."
+          },
+          {
+            "number": "22",
+            "text": "Sons of Sem, Elam, and Assur, and Arphaxad, and Lud, and Aram, and Cainan."
+          },
+          {
+            "number": "23",
+            "text": "And sons of Aram, Uz, and Ul, and Gater, and Mosoch."
+          },
+          {
+            "number": "24",
+            "text": "And Arphaxad begot Cainan, and Cainan begot Sala. And Sala begot Heber."
+          },
+          {
+            "number": "25",
+            "text": "And to Heber were born two sons, the name of the one, Phaleg, because in his days the earth was divided, and the name of his brother Jektan."
+          },
+          {
+            "number": "26",
+            "text": "And Jektan begot Elmodad, and Saleth, and Sarmoth, and Jarach,"
+          },
+          {
+            "number": "27",
+            "text": "and Odorrha, and Aibel, and Decla,"
+          },
+          {
+            "number": "28",
+            "text": "and Eval, and Abimael, and Saba,"
+          },
+          {
+            "number": "29",
+            "text": "and Uphir, and Evila, and Jobab, all these were the sons of Jektan."
+          },
+          {
+            "number": "30",
+            "text": "And their dwelling was from Masse, till one comes to Saphera, a mountain of the east."
+          },
+          {
+            "number": "31",
+            "text": "These were the sons of Sem in their tribes, according to their tongues, in their countries, and in their nations."
+          },
+          {
+            "number": "32",
+            "text": "These are the tribes of the sons of Noe, according to their generations, according to their nations: of them were the islands of the Gentiles scattered over the earth after the flood."
+          }
+        ]
+      }
+    },
+    {
       "id": "judges-3",
       "studioId": "b66dd56a-5809-4c05-bf94-188ea68b242a",
       "book": "Judges",
@@ -1417,5 +1568,5 @@
       "source": null
     }
   ],
-  "generatedAt": "2026-10-05T04:26:37.478Z"
+  "generatedAt": "2026-10-06T11:55:58.890Z"
 }
