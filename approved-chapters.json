@@ -1161,6 +1161,157 @@
       }
     },
     {
+      "id": "genesis-11",
+      "studioId": "chapter:genesis:11",
+      "book": "Genesis",
+      "chapter": "11",
+      "reference": "Genesis 11",
+      "title": "Babel and Abram - Genesis 11",
+      "shortTitle": "Babel and Abram",
+      "intro": "A song inspired by Genesis 11.",
+      "suno": "df3e7224-7577-4d73-86ce-50c4c9d4c5d3",
+      "audio": null,
+      "poster": null,
+      "youtube": null,
+      "lyric": {
+        "label": "Song adaptation",
+        "text": "[Intro – sparse, breathy]\nOnce the whole earth\nhad one word\none mouth\none breath\n\n[Verse 1]\nWe came out of the east with the flood still in our hair\nFound a plain in Shinar and we settled there\nSaid, \"Come, let us make bricks, let us burn them through\"\nBrick for stone, and the pitch for glue\n\n[Pre-Chorus]\nHigher, higher\nFire in the kiln\nHigher, higher\nHeaven's just a hill\n\n[Chorus]\nLet us build us a city\nLet us raise up a tower\nWith its top in the heavens\nLet us make us a name\nOr the wind will come scatter us\nOver the face of the earth\nLet us build, let us build\nLet us make us a name\n\n[Verse 2 – steady, mechanical]\nBrick on brick on brick on brick\nHand on hand on hand\nOne tongue, one hammer\nOne people, one plan\nEvery morning the kiln\nEvery evening the stair\nReaching up for a heaven\nWe could climb to from here\n\n[Chorus]\nLet us build us a city\nLet us raise up a tower\nWith its top in the heavens\nLet us make us a name\nOr the wind will come scatter us\nOver the face of the earth\nLet us build, let us build\nLet us make us a name\n\n[Break – silence]\n\n[Low drone, slow]\nAnd the LORD came down\nto see the city\nand the tower\nthe children of men had built\n\n[Spoken word, deep choir underneath]\n\"Behold, the people is one\nand they have all one language\nand this they begin to do\nand now nothing will be withheld from them\nCome, let Us go down\nand confound their language there\nthat they may not understand\none another's speech\"\n\n[Glitch breakdown – chaotic, overlapping voices]\nLet us b—\nbring me the—\nwhat?\nbrick— pitch— your mouth—\nI don't know your mouth\nba— ba— bal—\nBABEL\nbabble, babble, babble\nSCATTERED\nscattered\nover the face\nof the earth\n\n[Hushed]\nThey left off building the city\nAnd they called its name Babel\nFor there the LORD confused\nthe language of all the earth\n\n[Interlude – soft pulse, slowly building]\nShem begat Arphaxad, two years past the flood\nSons and daughters, sons and daughters\nArphaxad, Shelah, Eber, Peleg\nSons and daughters, sons and daughters\n\n[Build – drums layering, tempo rising]\nReu, Serug, Nahor, Terah\nSix hundred years, four hundred years, two hundred years\nThe days grow shorter, the line runs on\nOut of the scattering, one thread strong\nSons and daughters, sons and daughters\nTerah begat—\nTerah begat—\n\n[Crescendo – full choir, orchestra, triumphant]\nABRAM!\nAbram, Nahor, and Haran\nABRAM!\nOut of the ashes of Babel\nOne name rising\nABRAM!\n\n[Verse 3 – sudden quiet, intimate]\nHaran had a son and his name was Lot\nHaran died in Ur while his father was alive\nAbram took Sarai, Nahor took Milcah\nBut Sarai was barren\nShe had no child\n\n[Final Crescendo – building to full glory]\nTerah took his son, took his grandson, took the bride\nOut of Ur of the Chaldeans, toward Canaan's side\nThey tried to build a name with brick and fire\nBut the name comes walking out of Ur\nABRAM!\nToward the land of Canaan\nABRAM!\nThe road is open\nABRAM!\n\n[Outro – fading, reverent]\nThey came to Haran and they settled there\nAnd Terah died in Haran\nTwo hundred and five years\nBut the road\nis still ahead\n\n[End]"
+      },
+      "source": {
+        "sourceReference": "Genesis 11",
+        "verses": [
+          {
+            "number": "1",
+            "text": "And all the earth was one lip, and there was one language to all."
+          },
+          {
+            "number": "2",
+            "text": "And it came to pass as they moved from the east, they found a plain in the land of Senaar, and they dwelt there."
+          },
+          {
+            "number": "3",
+            "text": "And a man said to his neighbour, Come, let us make bricks and bake them with fire. And the brick was to them for stone, and their mortar was bitumen."
+          },
+          {
+            "number": "4",
+            "text": "And they said, Come, let us build to ourselves a city and tower, whose top shall be to heaven, and let us make to ourselves a name, before we are scattered abroad upon the face of all the earth."
+          },
+          {
+            "number": "5",
+            "text": "And the Lord came down to see the city and the tower, which the sons of men built."
+          },
+          {
+            "number": "6",
+            "text": "And the Lord said, Behold, [there is] one race, and one lip of all, and they have begun to do this, and now nothing shall fail from them of all that they may have undertaken to do."
+          },
+          {
+            "number": "7",
+            "text": "Come, and having gone down let us there confound their tongue, that they may not understand each the voice of his neighbour."
+          },
+          {
+            "number": "8",
+            "text": "And the Lord scattered them thence over the face of all the earth, and they left off building the city and the tower."
+          },
+          {
+            "number": "9",
+            "text": "On this account its name was called Confusion, because there the Lord confounded the languages of all the earth, and thence the Lord scattered them upon the face of all the earth."
+          },
+          {
+            "number": "10",
+            "text": "And these [are] the generations of Sem: and Sem was a hundred years old when he begot Arphaxad, the second year after the flood."
+          },
+          {
+            "number": "11",
+            "text": "And Sem lived, after he had begotten Arphaxad, five hundred years, and begot sons and daughters, and died."
+          },
+          {
+            "number": "12",
+            "text": "And Arphaxad lived a hundred and thirty-five years, and begot Cainan."
+          },
+          {
+            "number": "13",
+            "text": "And Arphaxad lived after he had begotten Cainan, four hundred years, and begot sons and daughters, and died. And Cainan lived a hundred and thirty years and begot Sala; and Cainan lived after he had begotten Sala, three hundred and thirty years, and begot sons and daughters, and died."
+          },
+          {
+            "number": "14",
+            "text": "And Sala lived an hundred and thirty years, and begot Heber."
+          },
+          {
+            "number": "15",
+            "text": "And Sala lived after he had begotten Heber, three hundred and thirty years, and begot sons and daughters, and died."
+          },
+          {
+            "number": "16",
+            "text": "And Heber lived an hundred and thirty-four years, and begot Phaleg."
+          },
+          {
+            "number": "17",
+            "text": "And Heber lived after he had begotten Phaleg two hundred and seventy years, and begot sons and daughters, and died."
+          },
+          {
+            "number": "18",
+            "text": "And Phaleg lived an hundred and thirty years, and begot Ragau."
+          },
+          {
+            "number": "19",
+            "text": "And Phaleg lived after he had begotten Ragau, two hundred and nine years, and begot sons and daughters, and died."
+          },
+          {
+            "number": "20",
+            "text": "And Ragau lived an hundred thirty and two years, and begot Seruch."
+          },
+          {
+            "number": "21",
+            "text": "And Ragau lived after he had begotten Seruch, two hundred and seven years, and begot sons and daughters, and died."
+          },
+          {
+            "number": "22",
+            "text": "And Seruch lived a hundred and thirty years, and begot Nachor."
+          },
+          {
+            "number": "23",
+            "text": "And Seruch lived after he had begotten Nachor, two hundred years, and begot sons and daughters, and died."
+          },
+          {
+            "number": "24",
+            "text": "And Nachor lived a hundred and seventy-nine years, and begot Tharrha."
+          },
+          {
+            "number": "25",
+            "text": "And Nachor lived after he had begotten Tharrha, an hundred and twenty-five years, and begot sons and daughters, and he died."
+          },
+          {
+            "number": "26",
+            "text": "And Tharrha lived seventy years, and begot Abram, and Nachor, and Arrhan."
+          },
+          {
+            "number": "27",
+            "text": "And these [are] the generations of Tharrha. Tharrha begot Abram and Nachor, and Arrhan; and Arrhan begot Lot."
+          },
+          {
+            "number": "28",
+            "text": "And Arrhan died in the presence of Tharrha his father, in the land in which he was born, in the country of the Chaldees."
+          },
+          {
+            "number": "29",
+            "text": "And Abram and Nachor took to themselves wives, the name of the wife of Abram was Sara, and the name of the wife of Nachor, Malcha, daughter of Arrhan, and he was the father of Malcha, the father of Jescha."
+          },
+          {
+            "number": "30",
+            "text": "And Sara was barren, and did not bear children."
+          },
+          {
+            "number": "31",
+            "text": "And Tharrha took Abram his son, and Lot the son of Arrhan, the son of his son, and Sara his daughter-in-law, the wife of Abram his son, and led them forth out of the land of the Chaldees, to go into the land of Chanaan, and they came as far as Charrhan, and he dwelt there."
+          },
+          {
+            "number": "32",
+            "text": "And all the days of Tharrha in the land of Charrhan were two hundred and five years, and Tharrha died in Charrhan."
+          }
+        ]
+      }
+    },
+    {
       "id": "judges-3",
       "studioId": "b66dd56a-5809-4c05-bf94-188ea68b242a",
       "book": "Judges",
@@ -1568,5 +1719,5 @@
       "source": null
     }
   ],
-  "generatedAt": "2026-10-06T19:39:53.369Z"
+  "generatedAt": "2026-10-07T02:39:57.226Z"
 }
