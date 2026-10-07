@@ -518,6 +518,157 @@
       }
     },
     {
+      "id": "genesis-5",
+      "studioId": "chapter:genesis:5",
+      "book": "Genesis",
+      "chapter": "5",
+      "reference": "Genesis 5",
+      "title": "The Generations of Adam - Genesis 5",
+      "shortTitle": "The Generations of Adam",
+      "intro": "From Adam's generations to Noe's birth, this song follows the long line of lives in Genesis 5 and the hope carried through it.",
+      "suno": "7f48e9b9-0ee1-4506-90fd-9c5c58329d3b",
+      "audio": null,
+      "poster": null,
+      "youtube": null,
+      "lyric": {
+        "label": "Song adaptation",
+        "text": "[Verse 1 — intimate, spare]\nIn the image of God, the first faces shone;\nmale and female, blessed and known.\nAdam saw his likeness in a child called Seth—\ntwo hundred thirty years before that breath.\nSeven hundred more, with daughters and sons;\nnine hundred thirty, and his days were done.\n\n[Chorus — restrained]\nHand to hand, the living flame;\nthe years fall down, but the names remain.\nDust takes the body, not the song;\nthe light goes on, the light goes on.\n\n[Verse 2 — the pulse moves forward]\nSeth gave Enos a name at two hundred five;\nseven hundred seven more with his house alive.\nNine hundred twelve, then he slipped from sight.\nEnos raised Cainan at one hundred ninety;\nseven hundred fifteen, children around him;\nnine hundred five beneath the turning sky.\n\n[Verse 3 — rising guitars, varied cadence]\nCainan at one hundred seventy called Maleleel his son;\nseven hundred forty after, the generations ran.\nNine hundred ten, and his long road closed.\nMaleleel at one sixty-five gave Jared his name;\nseven hundred thirty more, daughters and sons came;\neight hundred ninety-five, then the silence rose.\n\n[Chorus — fuller, not louder than the bridge]\nHand to hand, the living flame;\nthe years fall down, but the names remain.\nOne voice fades, another grows;\nthe light goes on where the river flows.\n\n[Verse 4 — gathering toward Enoch]\nJared saw Enoch at one hundred sixty-two;\neight hundred years more, and the family grew.\nNine hundred sixty-two: the earth received his breath.\nBut Enoch was not another line that ended in death.\n\n[Bridge — poignant crescendo, drums and harmony opening]\nAt one hundred sixty-five, Mathusala came;\ntwo hundred years Enoch walked with God,\nwith sons and daughters beside his name.\nThree hundred sixty-five, and the count stopped there—\nhe pleased the Lord; he was no longer found.\nGod translated him beyond the ground.\n[Hold the final phrase; let the band crest, then fall to one pulse]\n\n[Verse 5 — grounded again]\nMathusala gave Lamech life at one hundred sixty-seven;\neight hundred two years more beneath the heavens,\nsons and daughters, a house grown wide.\nNine hundred sixty-nine, and Mathusala died.\nLamech held a child at one hundred eighty-eight;\nfive hundred sixty-five more while the family grew.\nSeven hundred fifty-three, and his labor was through.\n\n[Final build — a new, warmer crescendo]\nHis hands knew the soil, and the soil knew pain;\nhe named the child Noah in hope of rest:\n“From our work and the toil of our hands,\nfrom this cursed ground, may comfort come.”\nFive hundred years, and Noah’s house rang out:\nShem, Ham and Japeth—three names in the dawn.\n\n[Final chorus — glorious, hopeful, unresolved ending]\nHand to hand, the living flame;\nthe years fall down, but the names remain.\nFrom weary hands a promise comes;\nthe light goes on, the light goes on.\nShem, Ham and Japeth—carry it on."
+      },
+      "source": {
+        "sourceReference": "Genesis 5",
+        "verses": [
+          {
+            "number": "1",
+            "text": "This [is] the genealogy of men in the day in which God made Adam; in the image of God he made him:"
+          },
+          {
+            "number": "2",
+            "text": "male and female he made them, and blessed them; and he called his name Adam, in the day in which he made them."
+          },
+          {
+            "number": "3",
+            "text": "And Adam lived two hundred and thirty years, and begot [a son] after his [own] form, and after his [own] image, and he called his name Seth."
+          },
+          {
+            "number": "4",
+            "text": "And the days of Adam, which he lived after his begetting Seth, were seven hundred years; and he begot sons and daughters."
+          },
+          {
+            "number": "5",
+            "text": "And all the days of Adam which he lived were nine hundred and thirty years, and he died."
+          },
+          {
+            "number": "6",
+            "text": "Now Seth lived two hundred and five years, and begot Enos."
+          },
+          {
+            "number": "7",
+            "text": "And Seth lived after his begetting Enos, seven hundred and seven years, and he begot sons and daughters."
+          },
+          {
+            "number": "8",
+            "text": "And all the days of Seth were nine hundred and twelve years, and he died."
+          },
+          {
+            "number": "9",
+            "text": "And Enos lived an hundred and ninety years, and begot Cainan."
+          },
+          {
+            "number": "10",
+            "text": "And Enos lived after his begetting Cainan, seven hundred and fifteen years, and he begot sons and daughters."
+          },
+          {
+            "number": "11",
+            "text": "And all the days of Enos were nine hundred and five years, and he died."
+          },
+          {
+            "number": "12",
+            "text": "And Cainan lived an hundred and seventy years, and he begot Maleleel."
+          },
+          {
+            "number": "13",
+            "text": "And Cainan lived after his begetting Maleleel, seven hundred and forty years, and he begot sons and daughters."
+          },
+          {
+            "number": "14",
+            "text": "And all the days of Cainan were nine hundred and ten years, and he died."
+          },
+          {
+            "number": "15",
+            "text": "And Maleleel lived an hundred and sixty and five years, and he begot Jared."
+          },
+          {
+            "number": "16",
+            "text": "And Maleleel lived after his begetting Jared, seven hundred and thirty years, and he begot sons and daughters."
+          },
+          {
+            "number": "17",
+            "text": "And all the days of Maleleel were eight hundred and ninety and five years, and he died."
+          },
+          {
+            "number": "18",
+            "text": "And Jared lived an hundred and sixty and two years, and begot Enoch:"
+          },
+          {
+            "number": "19",
+            "text": "and Jared lived after his begetting Enoch, eight hundred years, and he begot sons and daughters."
+          },
+          {
+            "number": "20",
+            "text": "And all the days of Jared were nine hundred and sixty and two years, and he died."
+          },
+          {
+            "number": "21",
+            "text": "And Enoch lived an hundred and sixty and five years, and begat Mathusala."
+          },
+          {
+            "number": "22",
+            "text": "And Enoch was well-pleasing to God after his begetting Mathusala, two hundred years, and he begot sons and daughters."
+          },
+          {
+            "number": "23",
+            "text": "And all the days of Enoch were three hundred and sixty and five years."
+          },
+          {
+            "number": "24",
+            "text": "And Enoch was well-pleasing to God, and was not found, because God translated him."
+          },
+          {
+            "number": "25",
+            "text": "And Mathusala lived an hundred and sixty and seven years, and begot Lamech."
+          },
+          {
+            "number": "26",
+            "text": "And Mathusala lived after his begetting Lamech eight hundred and two years, and begot sons and daughters."
+          },
+          {
+            "number": "27",
+            "text": "And all the days of Mathusala which he lived, were nine hundred and sixty and nine years, and he died."
+          },
+          {
+            "number": "28",
+            "text": "And Lamech lived an hundred and eighty and eight years, and begot a son."
+          },
+          {
+            "number": "29",
+            "text": "And he called his name Noe, saying, This one will cause us to cease from our works, and from the toils of our hands, and from the earth, which the Lord God has cursed."
+          },
+          {
+            "number": "30",
+            "text": "And Lamech lived after his begetting Noe, five hundred and sixty and five years, and begot sons and daughters."
+          },
+          {
+            "number": "31",
+            "text": "And all the days of Lamech were seven hundred and fifty-three years, and he died."
+          },
+          {
+            "number": "32",
+            "text": "And Noe was five hundred years old, and he begot three sons, Sem, Cham, and Japheth."
+          }
+        ]
+      }
+    },
+    {
       "id": "genesis-6",
       "studioId": "chapter:genesis:6",
       "book": "Genesis",
@@ -1568,5 +1719,5 @@
       "source": null
     }
   ],
-  "generatedAt": "2026-10-07T04:50:21.172Z"
+  "generatedAt": "2026-10-07T04:52:40.066Z"
 }
