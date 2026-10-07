@@ -97,15 +97,15 @@
     {
       "workId": "chapter:genesis:5",
       "title": "The Generations of Adam - Genesis 5",
-      "approvedTakeId": "05c6a0ea-604a-4831-a134-2d753445053a",
-      "sourceSha256": "c1edd5707c8a31ab17a5cad13ae0f4b1cb4c5e3f42b5ce4a3702c59fcc34c136",
-      "sourceCodec": "mp3",
-      "sha256": "c1edd5707c8a31ab17a5cad13ae0f4b1cb4c5e3f42b5ce4a3702c59fcc34c136",
-      "bytes": 7210214,
+      "approvedTakeId": "7f48e9b9-0ee1-4506-90fd-9c5c58329d3b",
+      "sourceSha256": "c3cf83db83e6424435d33da4bf390e292824ee45610c2736769528f3694b963f",
+      "sourceCodec": "pcm_s16le",
+      "sha256": "cf35c34dd74b556126db7129418acaa5f51a83d538b7da12d57937ef5e4d3fd9",
+      "bytes": 6369865,
       "contentType": "audio/mpeg",
-      "key": "audio/genesis-5/c1edd5707c8a31ab.mp3",
-      "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-5/c1edd5707c8a31ab.mp3",
-      "verifiedAt": "2026-10-04T19:28:39.725Z"
+      "key": "audio/genesis-5/cf35c34dd74b5561.mp3",
+      "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-5/cf35c34dd74b5561.mp3",
+      "verifiedAt": "2026-10-07T11:35:07.524Z"
     },
     {
       "workId": "chapter:genesis:6",
