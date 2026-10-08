@@ -56,6 +56,19 @@
       "verifiedAt": "2026-10-06T12:03:33.388Z"
     },
     {
+      "workId": "chapter:genesis:11",
+      "title": "Babel and Abram - Genesis 11",
+      "approvedTakeId": "df3e7224-7577-4d73-86ce-50c4c9d4c5d3",
+      "sourceSha256": "f912b6a8961a825aef1ea019b041849fc9c3c0f6cde8940b7c4722fbbc1d4a4a",
+      "sourceCodec": "pcm_s16le",
+      "sha256": "a41529c9ab24c7456c3c57bc67cef8e6b8555928f6ae9adf525068f591bf07d2",
+      "bytes": 7558770,
+      "contentType": "audio/mpeg",
+      "key": "audio/genesis-11/a41529c9ab24c745.mp3",
+      "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-11/a41529c9ab24c745.mp3",
+      "verifiedAt": "2026-10-08T09:02:06.560Z"
+    },
+    {
       "workId": "chapter:genesis:2",
       "title": "The Garden - Genesis 2",
       "approvedTakeId": "185c9425-6e80-42ae-8904-fc00cda3e189",
