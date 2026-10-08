@@ -2,7 +2,7 @@
 // One chapter delivery, invoked by the one-shot local website publication agent.
 import { createHash } from "node:crypto";
 import { spawnSync } from "node:child_process";
-import { readFile, writeFile } from "node:fs/promises";
+import { readFile, stat, writeFile } from "node:fs/promises";
 import { homedir } from "node:os";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -10,12 +10,15 @@ import { fileURLToPath } from "node:url";
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const option = (flag) => process.argv.includes(flag) ? process.argv[process.argv.indexOf(flag) + 1] : null;
 const workId = option("--work-id");
-const sourceWav = option("--source-wav");
+let sourceWav = option("--source-wav");
+const sourceReceipt = option("--source-receipt");
 const receiptOut = option("--receipt-out");
 const statusOnly = process.argv.includes("--status");
-if (!workId || !/^[a-z0-9:-]+$/.test(workId) || (statusOnly && sourceWav))
-  throw new Error("Usage: node scripts/ensure-r2-chapter.mjs --work-id chapter:genesis:11 [--status | --source-wav /absolute/export.wav] [--receipt-out /absolute/receipt.json]");
+if (!workId || !/^[a-z0-9:-]+$/.test(workId) || (statusOnly && (sourceWav || sourceReceipt)) ||
+    (sourceWav && sourceReceipt))
+  throw new Error("Usage: node scripts/ensure-r2-chapter.mjs --work-id chapter:genesis:11 [--status | --source-wav /absolute/export.wav | --source-receipt /absolute/export.json] [--receipt-out /absolute/receipt.json]");
 if (sourceWav && !sourceWav.startsWith("/")) throw new Error("--source-wav needs an absolute path.");
+if (sourceReceipt && !sourceReceipt.startsWith("/")) throw new Error("--source-receipt needs an absolute path.");
 if (receiptOut && !receiptOut.startsWith("/")) throw new Error("--receipt-out needs an absolute path.");
 
 const dataDir = process.env.STUDIO_DATA_DIR || join(homedir(), "Library", "Application Support", "Music Studio");
@@ -31,6 +34,20 @@ if (work.kind !== "chapter" || work.audioStatus !== "approved" || !take ||
   throw new Error("Website delivery needs the exact current approved Suno chapter take.");
 if (work.sunoFinalization?.status !== "verified" && work.publications?.website?.status !== "verified")
   throw new Error("Finish Suno finalization for this approved chapter before website delivery.");
+if (sourceReceipt) {
+  const exportRecord = JSON.parse(await readFile(sourceReceipt, "utf8"));
+  if (exportRecord.songId !== take.id || !exportRecord.sourceWav?.startsWith("/") ||
+      !/^[a-f0-9]{64}$/.test(exportRecord.sha256 || "") ||
+      !(exportRecord.bytes > 1_000_000) || !(exportRecord.durationSeconds > 10) ||
+      !Number.isFinite(Date.parse(exportRecord.observedAt)) ||
+      (take.durationSeconds > 0 && Math.abs(exportRecord.durationSeconds - take.durationSeconds) > 5))
+    throw new Error("The Suno export receipt does not match the current approved take.");
+  const file = await stat(exportRecord.sourceWav);
+  if (!file.isFile() || file.size !== exportRecord.bytes ||
+      createHash("sha256").update(await readFile(exportRecord.sourceWav)).digest("hex") !== exportRecord.sha256)
+    throw new Error("The fresh Suno WAV differs from its browser export receipt.");
+  sourceWav = exportRecord.sourceWav;
+}
 
 const manifestPath = join(root, "media-delivery.json");
 const baseUrl = "https://technochristianity-audio.sjfisher33.workers.dev";
