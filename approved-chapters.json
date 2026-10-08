@@ -1312,6 +1312,109 @@
       }
     },
     {
+      "id": "genesis-12",
+      "studioId": "chapter:genesis:12",
+      "book": "Genesis",
+      "chapter": "12",
+      "reference": "Genesis 12",
+      "title": "Go From Your Land - Genesis 12",
+      "shortTitle": "Go From Your Land",
+      "intro": "A song inspired by Genesis 12.",
+      "suno": "25b7106b-0938-4fcd-9c16-d61fe99aa440",
+      "audio": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-12/37c9ebbe9830e014.mp3",
+      "poster": null,
+      "youtube": null,
+      "lyric": {
+        "label": "Song adaptation",
+        "text": "[Verse 1]\nThe Lord said to Abram,\n“Leave your land, your kin,\nyour father’s house;\ncome to the land\nI will show you.”\n“I will make you a great nation,\nbless you, make your name great;\nyou shall be blessed.”\n“I will bless those who bless you,\ncurse those who curse you;\nthrough you, all earth’s tribes\nwill be blessed.”\n\n[Verse 2]\nAbram went as the Lord spoke;\nLot went with him.\nAbram was seventy-five\nwhen he left Charrhan.\nAbram took Sara his wife,\nLot, his brother’s son,\nall they had gained,\nand every person they had gathered\nin Charrhan.\nThey set out for Chanaan.\nAbram crossed the land\nto Sychem, to the high oak.\nThe Chananites lived there then.\n\n[Verse 3]\nThe Lord appeared to Abram:\n“I will give this land\nto your seed.”\nAbram built an altar there\nto the Lord who appeared.\nHe moved to the mountain\neastward of Bæthel.\nThere he pitched his tent at Bæthel,\nnear the sea, with Aggai to the east.\nThere he built an altar\nand called on the Lord’s name.\nAbram moved on,\nencamping in the wilderness.\n\n[Verse 4]\nFamine struck the land.\nAbram went down to Egypt\nto stay awhile;\nthe famine was severe.\nNear Egypt, Abram told\nSara his wife, “I know\nyou are a beautiful woman.”\n“When the Egyptians see you,\nthey will say, ‘His wife,’\nthen kill me and spare you.”\n“Say you are my sister,\nso they will treat me well\nbecause of you,\nand I will live through you.”\n\n[Verse 5]\nWhen Abram entered Egypt,\nthe Egyptians saw his wife:\nshe was very beautiful.\nPharaoh’s princes saw her,\npraised her to Pharaoh,\nand brought her to his house.\nFor her sake they treated Abram well;\nhe had sheep and calves and donkeys,\nmen servants and women servants,\nmules and camels.\n\n[Final Verse]\nGod struck Pharaoh and his house\nwith great, severe afflictions\nbecause of Sara,\nAbram’s wife.\nPharaoh called Abram:\n“What have you done to me?\nWhy didn’t you tell me\nshe was your wife?”\n“Why say, ‘She is my sister’?\nI took her as my wife!\nNow here is your wife;\ntake her and go at once.”\nPharaoh ordered his men\nto send Abram on his way,\nwith his wife and all he owned."
+      },
+      "source": {
+        "sourceReference": "Genesis 12",
+        "verses": [
+          {
+            "number": "1",
+            "text": "And the Lord said to Abram, Go forth out of thy land and out of thy kindred, and out of the house of thy father, and come into the land which I shall shew thee."
+          },
+          {
+            "number": "2",
+            "text": "And I will make thee a great nation, and I will bless thee and magnify thy name, and thou shalt be blessed."
+          },
+          {
+            "number": "3",
+            "text": "And I will bless those that bless thee, and curse those that curse thee, and in thee shall all the tribes of the earth be blessed."
+          },
+          {
+            "number": "4",
+            "text": "And Abram went as the Lord spoke to him, and Lot departed with him, and Abram was seventy-five years old, when he went out of Charrhan."
+          },
+          {
+            "number": "5",
+            "text": "And Abram took Sara his wife, and Lot the son of his brother, and all their possessions, as many as they had got, and every soul which they had got in Charrhan, and they went forth to go into the land of Chanaan."
+          },
+          {
+            "number": "6",
+            "text": "And Abram traversed the land lengthwise as far as the place Sychem, to the high oak, and the Chananites then inhabited the land."
+          },
+          {
+            "number": "7",
+            "text": "And the Lord appeared to Abram, and said to him, I will give this land to thy seed. And Abram built an altar there to the Lord, who appeared to him."
+          },
+          {
+            "number": "8",
+            "text": "And he departed thence to the mountain eastward of Bæthel, and there he pitched his tent in Bæthel near the sea, and Aggai toward the east, and there he built an altar to the Lord, and called on the name of the Lord."
+          },
+          {
+            "number": "9",
+            "text": "And Abram departed and went and encamped in the wilderness."
+          },
+          {
+            "number": "10",
+            "text": "And there was a famine in the land, and Abram went down to Egypt to sojourn there, because the famine prevailed in the land."
+          },
+          {
+            "number": "11",
+            "text": "And it came to pass when Abram drew nigh to enter into Egypt, Abram said to Sara his wife, I know that thou art a fair woman."
+          },
+          {
+            "number": "12",
+            "text": "It shall come to pass then that when the Egyptians shall see thee, they shall say, This is his wife, and they shall slay me, but they shall save thee alive."
+          },
+          {
+            "number": "13",
+            "text": "Say, therefore, I am his sister, that it may be well with me on account of thee, and my soul shall live because of thee."
+          },
+          {
+            "number": "14",
+            "text": "And it came to pass when Abram entered into Egypt—the Egyptians having seen his wife that she was very beautiful—"
+          },
+          {
+            "number": "15",
+            "text": "that the princes of Pharao saw her, and praised her to Pharao and brought her into the house of Pharao."
+          },
+          {
+            "number": "16",
+            "text": "And they treated Abram well on her account, and he had sheep, and calves, and asses, and men-servants, and women-servants, and mules, and camels."
+          },
+          {
+            "number": "17",
+            "text": "And God afflicted Pharao with great and severe afflictions, and his house, because of Sara, Abram's wife."
+          },
+          {
+            "number": "18",
+            "text": "And Pharao having called Abram, said, What is this thou hast done to me, that thou didst not tell me that she was thy wife?"
+          },
+          {
+            "number": "19",
+            "text": "Wherefore didst thou say, She is my sister? and I took her for a wife to myself; and now, behold, thy wife is before thee, take her and go quickly away."
+          },
+          {
+            "number": "20",
+            "text": "And Pharao gave charge to men concerning Abram, to join in sending him forward, and his wife, and all that he had."
+          }
+        ]
+      }
+    },
+    {
       "id": "judges-3",
       "studioId": "b66dd56a-5809-4c05-bf94-188ea68b242a",
       "book": "Judges",
@@ -1719,5 +1822,5 @@
       "source": null
     }
   ],
-  "generatedAt": "2026-10-08T09:02:14.228Z"
+  "generatedAt": "2026-10-08T09:06:35.994Z"
 }
