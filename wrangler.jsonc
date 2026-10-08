@@ -1,5 +1,6 @@
 {
   "name": "technochristianity-audio",
+  "account_id": "8d841d263ac85176f70fff6456ef4c52",
   "main": "worker/audio.js",
   "compatibility_date": "2026-10-04",
   "workers_dev": true,
