@@ -43,7 +43,8 @@ const approved = studio.works.filter((work) =>
   uuid.test(work.approvedTakeId || "") &&
   work.takes?.some((take) => take.id === work.approvedTakeId && take.approved) &&
   label[work.book] && Number.isInteger(Number(work.chapter)) && Number(work.chapter) > 0);
-const songs = await Promise.all(approved.map(async (work) => {
+// A public song must have a verified R2 copy of its current approved take.
+const songs = (await Promise.all(approved.map(async (work) => {
   const book = label[work.book], chapter = Number(work.chapter);
   const reference = `${book} ${chapter}`;
   const bible = await get(`/bible/${encodeURIComponent(work.book)}/${chapter}`);
@@ -62,7 +63,7 @@ const songs = await Promise.all(approved.map(async (work) => {
     lyric: work.lyrics ? { label: "Song adaptation", text: work.lyrics } : null,
     source,
   };
-}));
+}))).filter((song) => Boolean(song.audio));
 songs.sort((a, b) => Object.keys(label).indexOf(a.book.toLowerCase()) - Object.keys(label).indexOf(b.book.toLowerCase()) || Number(a.chapter) - Number(b.chapter));
 const contents = { formatVersion: 1, songs };
 const readCurrent = async () => { try { return JSON.parse(await readFile(target, "utf8")); } catch { return null; } };
