@@ -69,6 +69,19 @@
       "verifiedAt": "2026-10-08T09:02:06.560Z"
     },
     {
+      "workId": "chapter:genesis:12",
+      "title": "Go From Your Land - Genesis 12",
+      "approvedTakeId": "25b7106b-0938-4fcd-9c16-d61fe99aa440",
+      "sourceSha256": "12930d7a67eca1f2f127d3aa51949e4c4816d283c887f56d79a69c2344242526",
+      "sourceCodec": "pcm_s16le",
+      "sha256": "37c9ebbe9830e0148b2014afb4d62040d62fb96a3627d89283de38c6e4d34c64",
+      "bytes": 6568964,
+      "contentType": "audio/mpeg",
+      "key": "audio/genesis-12/37c9ebbe9830e014.mp3",
+      "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-12/37c9ebbe9830e014.mp3",
+      "verifiedAt": "2026-10-08T09:06:29.620Z"
+    },
+    {
       "workId": "chapter:genesis:2",
       "title": "The Garden - Genesis 2",
       "approvedTakeId": "185c9425-6e80-42ae-8904-fc00cda3e189",
