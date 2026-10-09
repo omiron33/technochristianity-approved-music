@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { deliveredAudio, verifiedYouTube } from "../scripts/media-delivery.mjs";
+import { deliveredAudio, queuedSunoFallback, verifiedYouTube } from "../scripts/media-delivery.mjs";
 
 test("a prior take cannot replace the current approved recording on the public site", () => {
   const work = { id: "chapter:genesis:6", approvedTakeId: "current" };
@@ -17,4 +17,21 @@ test("film links require Studio's verified current YouTube publication", () => {
   assert.equal(verifiedYouTube(work), work.publications.youtube.url);
   work.publications.youtube.mediaChangePending = { reason: "media_changed" };
   assert.equal(verifiedYouTube(work), null);
+});
+
+test("only an exact approved take with observed exhausted downloads gets a Suno fallback", () => {
+  const id = "00000000-0000-4000-8000-000000000001";
+  const url = `https://suno.com/song/${id}`;
+  const work = { id: "chapter:genesis:15", approvedTakeId: id,
+    takes: [{ id, url, approved: true }],
+    audioDownloadQueue: { status: "queued", approvedTakeId: id, url,
+      reason: "download_limit", source: "suno_download_dialog", observedAt: "2026-10-09T10:00:00Z" } };
+  assert.equal(queuedSunoFallback(work, null), url);
+  work.audioDownloadQueue.approvedTakeId = "another-take";
+  assert.equal(queuedSunoFallback(work, null), null);
+  work.audioDownloadQueue.approvedTakeId = id;
+  work.audioDownloadQueue.status = "delivered";
+  assert.equal(queuedSunoFallback(work, null), null);
+  work.audioDownloadQueue.status = "retrying";
+  assert.equal(queuedSunoFallback(work, null), url);
 });

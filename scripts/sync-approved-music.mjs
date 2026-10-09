@@ -3,7 +3,7 @@ import { homedir } from "node:os";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { execFileSync } from "node:child_process";
-import { deliveredAudio, verifiedYouTube } from "./media-delivery.mjs";
+import { deliveredAudio, queuedSunoFallback, verifiedYouTube } from "./media-delivery.mjs";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const target = join(root, "approved-chapters.json");
@@ -43,7 +43,8 @@ const approved = studio.works.filter((work) =>
   uuid.test(work.approvedTakeId || "") &&
   work.takes?.some((take) => take.id === work.approvedTakeId && take.approved) &&
   label[work.book] && Number.isInteger(Number(work.chapter)) && Number(work.chapter) > 0);
-// A public song must have a verified R2 copy of its current approved take.
+// A current R2 copy plays here. An observed Suno download limit keeps the
+// exact approved song discoverable through its Suno link until R2 is ready.
 const songs = (await Promise.all(approved.map(async (work) => {
   const book = label[work.book], chapter = Number(work.chapter);
   const reference = `${book} ${chapter}`;
@@ -58,12 +59,14 @@ const songs = (await Promise.all(approved.map(async (work) => {
     intro: publicIntros[`${work.book}-${chapter}`] || `A song inspired by ${reference}.`,
     suno: work.approvedTakeId,
     audio: deliveredAudio(work, delivery),
+    audioSource: deliveredAudio(work, delivery) ? "cloudflare-r2" :
+      queuedSunoFallback(work, delivery) ? "suno" : null,
     poster: typeof work.coverUrl === "string" && work.coverUrl.startsWith(legacyPosterMedia) ? work.coverUrl : null,
     youtube: verifiedYouTube(work),
     lyric: work.lyrics ? { label: "Song adaptation", text: work.lyrics } : null,
     source,
   };
-}))).filter((song) => Boolean(song.audio));
+}))).filter((song) => Boolean(song.audio || song.audioSource === "suno"));
 songs.sort((a, b) => Object.keys(label).indexOf(a.book.toLowerCase()) - Object.keys(label).indexOf(b.book.toLowerCase()) || Number(a.chapter) - Number(b.chapter));
 const contents = { formatVersion: 1, songs };
 const readCurrent = async () => { try { return JSON.parse(await readFile(target, "utf8")); } catch { return null; } };
@@ -72,12 +75,16 @@ const writeOnly = process.argv.includes("--write-only");
 const recordWebsiteHandoff = async () => {
   if (writeOnly) return;
   for (const work of approved) {
-    if (!songs.some((song) => song.studioId === work.id && song.audio)) continue;
+    if (!songs.some((song) => song.studioId === work.id && (song.audio || song.audioSource === "suno"))) continue;
+    if (studio.jobs.some((job) => job.workId === work.id && job.stage === "website" &&
+        ["queued", "awaiting_agent", "running"].includes(job.status))) continue;
     if (work.publications?.website?.status && work.publications.website.status !== "untracked") continue;
     const slug = `${work.book}-${Number(work.chapter)}`;
     await patch(`/works/${encodeURIComponent(work.id)}/publications/website`, {
       status: "submitted", url: `https://technochristianity.com/music/?work=${slug}`,
-      note: "Approved song with verified R2 compressed audio exported to the public catalog; live page verification pending.",
+      note: songs.find((song) => song.studioId === work.id)?.audioSource === "suno"
+        ? "Approved Suno link exported while download slots are exhausted; R2 delivery remains queued. Live link verification pending."
+        : "Approved song with verified R2 compressed audio exported to the public catalog; live page verification pending.",
     });
   }
 };

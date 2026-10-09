@@ -14,6 +14,19 @@ export function deliveredAudio(work, delivery) {
   return item.audioUrl;
 }
 
+export function queuedSunoFallback(work, delivery) {
+  if (deliveredAudio(work, delivery)) return null;
+  const queue = work.audioDownloadQueue;
+  const take = work.takes?.find((entry) => entry.id === work.approvedTakeId && entry.approved);
+  if (!["queued", "retrying"].includes(queue?.status) ||
+      queue.approvedTakeId !== take?.id || queue.reason !== "download_limit" ||
+      queue.source !== "suno_download_dialog" ||
+      !Number.isFinite(Date.parse(queue.observedAt || "")) ||
+      take.url !== `https://suno.com/song/${take.id}` || queue.url !== take.url)
+    return null;
+  return take.url;
+}
+
 export function verifiedYouTube(work) {
   const publication = work.publications?.youtube;
   if (publication?.status !== "verified" || publication.mediaChangePending) return null;
