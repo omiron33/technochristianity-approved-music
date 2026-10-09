@@ -12,6 +12,7 @@
       "intro": "A song inspired by Genesis 1.",
       "suno": "b9b82c2c-7c8e-4ef4-9338-942de876644a",
       "audio": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-1/196c6f8183eb18bc.mp3",
+      "audioSource": "cloudflare-r2",
       "poster": null,
       "youtube": "https://www.youtube.com/watch?v=RhDDU1YHzi0",
       "lyric": {
@@ -159,6 +160,7 @@
       "intro": "A song inspired by Genesis 2.",
       "suno": "185c9425-6e80-42ae-8904-fc00cda3e189",
       "audio": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-2/2e3dda6d8f4f094e.mp3",
+      "audioSource": "cloudflare-r2",
       "poster": null,
       "youtube": "https://www.youtube.com/watch?v=8nPHYkw_a5I",
       "lyric": {
@@ -282,6 +284,7 @@
       "intro": "A song inspired by Genesis 3.",
       "suno": "ce009f9c-44bc-4677-becb-6e82ba444e9a",
       "audio": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-3/f426905c8993fedb.mp3",
+      "audioSource": "cloudflare-r2",
       "poster": null,
       "youtube": "https://www.youtube.com/watch?v=NN9Wg_60ON8",
       "lyric": {
@@ -401,6 +404,7 @@
       "intro": "A song inspired by Genesis 4.",
       "suno": "dd723dc8-5303-4694-9553-6d29f9768d04",
       "audio": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-4/c26b0dfd26850b09.mp3",
+      "audioSource": "cloudflare-r2",
       "poster": null,
       "youtube": "https://www.youtube.com/watch?v=LM3I25AC4ZA",
       "lyric": {
@@ -528,6 +532,7 @@
       "intro": "From Adam's generations to Noe's birth, this song follows the long line of lives in Genesis 5 and the hope carried through it.",
       "suno": "7f48e9b9-0ee1-4506-90fd-9c5c58329d3b",
       "audio": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-5/cf35c34dd74b5561.mp3",
+      "audioSource": "cloudflare-r2",
       "poster": null,
       "youtube": null,
       "lyric": {
@@ -679,6 +684,7 @@
       "intro": "A song inspired by Genesis 6.",
       "suno": "0af47fbc-4734-4239-a963-d2ece2232397",
       "audio": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-6/0297181426013422.mp3",
+      "audioSource": "cloudflare-r2",
       "poster": null,
       "youtube": "https://www.youtube.com/watch?v=daoonepCq2M",
       "lyric": {
@@ -790,6 +796,7 @@
       "intro": "A song inspired by Genesis 7.",
       "suno": "169cee8d-0d70-4f84-87b2-77bcc9ca693e",
       "audio": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-7/6f23e21d7fe1395c.mp3",
+      "audioSource": "cloudflare-r2",
       "poster": null,
       "youtube": "https://www.youtube.com/watch?v=m712jvMU-78",
       "lyric": {
@@ -909,6 +916,7 @@
       "intro": "A song inspired by Genesis 8.",
       "suno": "8fd59e03-d071-4fcd-9141-289b9c9e1902",
       "audio": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-8/6103eb41a14284a9.mp3",
+      "audioSource": "cloudflare-r2",
       "poster": null,
       "youtube": "https://www.youtube.com/watch?v=tBN4MmQ3gaY",
       "lyric": {
@@ -1020,6 +1028,7 @@
       "intro": "A song inspired by Genesis 10.",
       "suno": "5fd5a15e-ed55-4847-8dc4-5dfa5c316185",
       "audio": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-10/63efc0abbcfa3c92.mp3",
+      "audioSource": "cloudflare-r2",
       "poster": null,
       "youtube": null,
       "lyric": {
@@ -1171,6 +1180,7 @@
       "intro": "A song inspired by Genesis 11.",
       "suno": "df3e7224-7577-4d73-86ce-50c4c9d4c5d3",
       "audio": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-11/a41529c9ab24c745.mp3",
+      "audioSource": "cloudflare-r2",
       "poster": null,
       "youtube": null,
       "lyric": {
@@ -1322,6 +1332,7 @@
       "intro": "A song inspired by Genesis 12.",
       "suno": "25b7106b-0938-4fcd-9c16-d61fe99aa440",
       "audio": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-12/37c9ebbe9830e014.mp3",
+      "audioSource": "cloudflare-r2",
       "poster": null,
       "youtube": null,
       "lyric": {
@@ -1425,6 +1436,7 @@
       "intro": "A comic country-funk retelling of Ehud and Eglon in Judges 3:12–30. This is a loose adaptation, not a verse-by-verse setting.",
       "suno": "97e18ff1-6a66-47ba-90d5-02e944e982f8",
       "audio": "https://technochristianity-audio.sjfisher33.workers.dev/audio/judges-3/caae2a4e429a3ecc.mp3",
+      "audioSource": "cloudflare-r2",
       "poster": null,
       "youtube": "https://www.youtube.com/watch?v=giZ-Ls3FrsQ",
       "lyric": {
@@ -1572,6 +1584,7 @@
       "intro": "A song inspired by Psalms 23.",
       "suno": "32885123-f4b6-42e6-a546-f4acba404829",
       "audio": "https://technochristianity-audio.sjfisher33.workers.dev/audio/psalm-23/9f0c3a221e0bba5b.mp3",
+      "audioSource": "cloudflare-r2",
       "poster": null,
       "youtube": "https://www.youtube.com/watch?v=r93RcOn0JXA",
       "lyric": {
@@ -1619,6 +1632,7 @@
       "intro": "A song inspired by Psalms 51.",
       "suno": "193f9b56-bef1-48cb-8d9b-72956d156437",
       "audio": "https://technochristianity-audio.sjfisher33.workers.dev/audio/psalm-51/d10a70d34198b9df.mp3",
+      "audioSource": "cloudflare-r2",
       "poster": null,
       "youtube": null,
       "lyric": {
@@ -1726,6 +1740,7 @@
       "intro": "A song inspired by Psalms 91.",
       "suno": "5d78a5c1-4341-4867-b25e-c3698b1ffe54",
       "audio": "https://technochristianity-audio.sjfisher33.workers.dev/audio/psalm-91/720e6acd79b9ad2e.mp3",
+      "audioSource": "cloudflare-r2",
       "poster": null,
       "youtube": "https://www.youtube.com/watch?v=8im3mPcy5G8",
       "lyric": {
@@ -1813,6 +1828,7 @@
       "intro": "Jesus calls his followers to be salt and light in the Sermon on the Mount.",
       "suno": "09342e26-f7cd-406d-b049-8b312392133c",
       "audio": "https://technochristianity-audio.sjfisher33.workers.dev/audio/matthew-5/9b701105170cad43.mp3",
+      "audioSource": "cloudflare-r2",
       "poster": null,
       "youtube": "https://www.youtube.com/watch?v=wncSa0w7QyQ",
       "lyric": {
@@ -1822,5 +1838,5 @@
       "source": null
     }
   ],
-  "generatedAt": "2026-10-08T09:06:35.994Z"
+  "generatedAt": "2026-10-09T10:47:49.848Z"
 }
