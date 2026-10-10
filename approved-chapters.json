@@ -1566,6 +1566,282 @@
       }
     },
     {
+      "id": "genesis-14",
+      "studioId": "chapter:genesis:14",
+      "book": "Genesis",
+      "chapter": "14",
+      "reference": "Genesis 14",
+      "title": "Kings and Priest - Genesis 14",
+      "shortTitle": "Kings and Priest",
+      "intro": "A song inspired by Genesis 14.",
+      "suno": "c9776922-b628-4c2e-af86-99afb09cd570",
+      "audio": null,
+      "audioSource": "suno",
+      "poster": null,
+      "youtube": null,
+      "lyric": {
+        "label": "Song adaptation",
+        "text": "[Verse 1]\nFour kings came down through the land:\nAmarphal of Sennaar, Arioch of Ellasar,\nChodollogomor of Elam, Thargal from afar.\nBalla of Sodom, Barsa of Gomorrha,\nSennaar of Adama, Symobor of Seboim,\nthe king of Balac, called Segor,\nmet them where the salt winds blow.\nTwelve years they bowed to Elam's throne;\nthe thirteenth year they broke away.\nIn the fourteenth, war came riding back\nacross the burning plain.\n\n[Verse 2]\nAt Astaroth and Carnain the giants fell;\nthrough Save, Seir and Pharan the armies ran.\nThey turned by Cades, the well of judgment,\nthrough Amalec and the Amorites' land.\nFour kings against five in the Salt Valley;\nthe slime pits swallowed the kings who fled.\nThey carried off the horses and the stores,\nand Lot, who lived in Sodom, was led away.\n\n[Pre-Chorus]\nOne escaped beneath Mamre's oak\nand told Abram the Hebrew there:\n\"Your brother's son is captive.\"\nAbram rose; he would not leave him there.\n\n[Chorus]\nBring them home through the night,\nbring them home before the dawn.\nNot for a crown, not for the spoils;\nhe went because his kin was gone.\n\n[Verse 3]\nThree hundred and eighteen, born in his house,\nwith Eschol, Aunan and Mamre beside him.\nHe followed them to Dan, struck in the dark,\nand chased them to Choba, left of Damascus.\nHe brought back Lot and all he owned,\nthe horses, the women and the people.\nOut of the night they came together;\nnone of them left as a king's prize.\n\n[Chorus]\nBring them home through the night,\nbring them home before the dawn.\nNot for a crown, not for the spoils;\nhe went because his kin was gone.\n\n[Bridge — drums fall away]\nIn Saby's valley, the plain of kings,\nMelchisedec came from Salem:\na priest of God Most High\nwith loaves and wine in his hands.\n\"Blessed be Abram by God Most High,\nmaker of heaven and earth.\nBlessed be God who gave your foes\ninto your hand.\"\nAbram gave a tenth of all.\n\n[Final Verse — quiet, resolute]\nThe king of Sodom said, \"Give me the people;\ntake the horses for your own.\"\nAbram raised his hand to God Most High:\n\"I will not take a thread, a sandal strap,\nor let you say you made me rich.\"\nOnly the food the young men ate,\nand the share of those who stood with me:\nEschol, Aunan and Mamre—\nlet each man take his share."
+      },
+      "source": {
+        "sourceReference": "Genesis 14",
+        "verses": [
+          {
+            "number": "1",
+            "text": "And it came to pass in the reign of Amarphal king of Sennaar, and Arioch king of Ellasar, that Chodollogomor king of Elam, and Thargal king of nations,"
+          },
+          {
+            "number": "2",
+            "text": "made war with Balla king of Sodom, and with Barsa king of Gomorrha, and with Sennaar, king of Adama, and with Symobor king of Seboim and the king of Balac, this is Segor."
+          },
+          {
+            "number": "3",
+            "text": "All these met with one consent at the salt valley; this is [now] the sea of salt."
+          },
+          {
+            "number": "4",
+            "text": "Twelve years they served Chodollogomor, and the thirteenth year they revolted."
+          },
+          {
+            "number": "5",
+            "text": "And in the fourteenth year came Chodollogomor, and the kings with him, and cut to pieces the giants in Astaroth, and Carnain, and strong nations with them, and the Ommæans in the city Save."
+          },
+          {
+            "number": "6",
+            "text": "And the Chorrhæans in the mountains of Seir, to the turpentine tree of Pharan, which is in the desert."
+          },
+          {
+            "number": "7",
+            "text": "And having turned back they came to the well of judgment; this is Cades, and they cut in pieces all the princes of Amalec, and the Amorites dwelling in Asasonthamar."
+          },
+          {
+            "number": "8",
+            "text": "And the king of Sodom went out, and the king of Gomorrha, and king of Adama, and king of Seboim, and king of Balac, this is Segor, and they set themselves in array against them for war in the salt valley,"
+          },
+          {
+            "number": "9",
+            "text": "against Chodollogomor king of Elam, and Thargal king of nations, and Amarphal king of Sennaar, and Arioch king of Ellasar, the four kings against the five."
+          },
+          {
+            "number": "10",
+            "text": "Now the salt valley [consists of] slime-pits. And the king of Sodom fled and the king of Gomorrha, and they fell in there: and they that were left fled to the mountain country."
+          },
+          {
+            "number": "11",
+            "text": "And they took all the cavalry of Sodom and Gomorrha, and all their provisions, and departed."
+          },
+          {
+            "number": "12",
+            "text": "And they took also Lot the son of Abram's brother, and his baggage, and departed, for he dwelt in Sodom."
+          },
+          {
+            "number": "13",
+            "text": "And one of them that had been rescued came and told Abram the Hebrew; and he dwelt by the oak of Mamre the Amorite the brother of Eschol, and the brother of Aunan, who were confederates with Abram."
+          },
+          {
+            "number": "14",
+            "text": "And Abram having heard that Lot his nephew had been taken captive, numbered his own home-born [servants] three hundred and eighteen, and pursued after them to Dan."
+          },
+          {
+            "number": "15",
+            "text": "And he came upon them by night, he and his servants, and he smote them and pursued them as far as Choba, which is on the left of Damascus."
+          },
+          {
+            "number": "16",
+            "text": "And he recovered all the cavalry of Sodom, and he recovered Lot his nephew, and all his possessions, and the women and the people."
+          },
+          {
+            "number": "17",
+            "text": "And the king of Sodom went out to meet him, after he returned from the slaughter of Chodollogomor, and the kings with him, to the valley of Saby; this was the plain of the kings."
+          },
+          {
+            "number": "18",
+            "text": "And Melchisedec king of Salem brought forth loaves and wine, and he was the priest of the most high God."
+          },
+          {
+            "number": "19",
+            "text": "And he blessed Abram, and said, Blessed be Abram of the most high God, who made heaven and earth,"
+          },
+          {
+            "number": "20",
+            "text": "and blessed be the most high God who delivered thine enemies into thy power. And Abram gave him the tithe of all."
+          },
+          {
+            "number": "21",
+            "text": "And the king of Sodom said to Abram, Give me the men, and take the horses to thyself."
+          },
+          {
+            "number": "22",
+            "text": "And Abram said to the king of Sodom, I will stretch out my hand to the Lord the most high God, who made the heaven and the earth,"
+          },
+          {
+            "number": "23",
+            "text": "[that] I will not take from all thy goods from a string to a shoe-latchet, lest thou shouldest say, I have made Abram rich."
+          },
+          {
+            "number": "24",
+            "text": "Except what things the young men have eaten, and the portion of the men that went with me, Eschol, Aunan, Mambre, these shall take a portion."
+          }
+        ]
+      }
+    },
+    {
+      "id": "genesis-18",
+      "studioId": "chapter:genesis:18",
+      "book": "Genesis",
+      "chapter": "18",
+      "reference": "Genesis 18",
+      "title": "At the Tent - Genesis 18",
+      "shortTitle": "At the Tent",
+      "intro": "A song inspired by Genesis 18.",
+      "suno": "de6f613c-0cc2-42ea-b6df-8e03d007a1fe",
+      "audio": null,
+      "audioSource": "suno",
+      "poster": null,
+      "youtube": null,
+      "lyric": {
+        "label": "Song adaptation",
+        "text": "[The open tent]\nGod appeared to Abraam by the oak of Mambre,\nas he sat at his tent door at noon.\n\nHe looked up and saw three men standing nearby.\nHe ran from his tent to meet them,\nand bowed low to the ground.\n\nHe said, “Lord, if I have found favor with you,\nplease do not pass your servant by.”\n\n[Water and bread]\n“Bring water, please, and wash your feet.\nRest beneath the tree.”\n\n“I will bring bread for you to eat;\nthen you can continue on your way.\nYou have come to your servant for this refreshment.”\nHe said, “Do as you have said.”\n\nAbraam hurried to Sarrha in the tent:\n“Quick, knead three measures of fine flour\nand bake some cakes.”\n\nHe ran to the herd, chose a tender, choice calf,\nand gave it to his servant to prepare at once.\n\nHe brought butter, milk, and the calf he had prepared,\nset them before the visitors, and stood beside them\nunder the tree as they ate.\n\n[The promise behind the cloth]\nHe asked him, “Where is Sarrha your wife?”\nAbraam said, “There, in the tent.”\n\nOne said, “I will return to you at this season,\nand Sarrha your wife will have a son.”\nSarrha heard it from the tent door behind him.\n\nAbraam and Sarrha were old, well along in years;\nSarrha was past the time of childbearing.\n\nSarrha laughed within herself and said,\n“This has not happened to me, even until now,\nand my lord is old.”\n\n[Nothing impossible]\nThe Lord said to Abraam,\n“Why did Sarrha laugh to herself and say,\n‘Can I truly bear a child, now that I am old?’”\n\n“Is anything impossible for the Lord?\nAt this season I will return to you,\nand Sarrha will have a son.”\n\nSarrha denied it, afraid: “I did not laugh.”\nHe said, “No—you did laugh.”\n\n[Toward the city]\nThe men rose and looked toward Sodom and Gomorrha.\nAbraam went with them to see them on their way.\n\nThe Lord said, “Shall I hide from Abraam,\nmy servant, what I am about to do?”\n\n“Abraam will become a great, populous nation;\nthrough him all the nations of the earth will be blessed.”\n\n“For I know he will direct his children\nand his household after him to keep the Lord’s way,\ndoing justice and judgment, so the Lord may bring\nupon Abraam all that he has spoken.”\n\n[Standing before the Lord]\nThe Lord said, “The cry of Sodom and Gomorrha\nhas grown loud before me; their sins are very great.”\n\n“I will go down and see whether their deeds\nmatch the cry that has reached me.\nIf not, I will know.”\n\nThe men departed and came to Sodom,\nbut Abraam still stood before the Lord.\n\nAbraam came near and said,\n“Will you destroy the righteous with the wicked?\nWill the righteous be as the wicked?”\n\n[Fifty and earth]\n“If fifty righteous people are in the city,\nwill you destroy it? Will you not spare the place\nfor the sake of those fifty?”\n\n“Far be it from you to do this—to destroy\nthe righteous with the wicked, treating both alike.\nFar be it! Will not the Judge of all the earth\ndo what is right?”\n\nThe Lord said, “If I find fifty righteous\nin Sodom, I will spare the whole city for their sake.”\n\nAbraam answered, “I have begun to speak\nto my Lord, though I am only earth and ashes.”\n\n[The narrowing petition]\n“If five are missing from the fifty,\nwill you destroy the whole city for those five?”\nHe said, “I will not destroy it if I find forty-five.”\n\nAgain Abraam said, “What if forty are found?”\nHe said, “I will not destroy it for the sake of forty.”\n\nAbraam said, “May my Lord not be angry\nif I speak: what if thirty are found?”\nHe said, “I will not destroy it for the sake of thirty.”\n\nHe said, “I have dared to speak to my Lord:\nwhat if twenty are found?”\nHe said, “I will not destroy it if I find twenty.”\n\nHe said, “May my Lord not be angry\nif I speak once more: what if ten are found?”\nHe said, “I will not destroy it for the sake of ten.”\n\n[The place after prayer]\nWhen the Lord finished speaking with Abraam,\nhe departed, and Abraam returned to his place."
+      },
+      "source": {
+        "sourceReference": "Genesis 18",
+        "verses": [
+          {
+            "number": "1",
+            "text": "And God appeared to him by the oak of Mambre, as he sat by the door of his tent at noon."
+          },
+          {
+            "number": "2",
+            "text": "And he lifted up his eyes and beheld, and lo! three men stood before him; and having seen them he ran to meet them from the door of his tent, and did obeisance to the ground."
+          },
+          {
+            "number": "3",
+            "text": "And he said, Lord, if indeed I have found grace in thy sight, pass not by thy servant."
+          },
+          {
+            "number": "4",
+            "text": "Let water now be brought, and let them wash your feet, and do ye refresh [yourselves] under the tree."
+          },
+          {
+            "number": "5",
+            "text": "And I will bring bread, and ye shall eat, and after this ye shall depart on your journey, on account of which [refreshment] ye have turned aside to your servant. And he said, So do, as thou hast said."
+          },
+          {
+            "number": "6",
+            "text": "And Abraam hasted to the tent to Sarrha, and said to her, Hasten, and knead three measures of fine flour, and make cakes."
+          },
+          {
+            "number": "7",
+            "text": "And Abraam ran to the kine, and took a young calf, tender and good, and gave it to his servant, and he hasted to dress it."
+          },
+          {
+            "number": "8",
+            "text": "And he took butter and milk, and the calf which he had dressed; and he set them before them, and they did eat, and he stood by them under the tree."
+          },
+          {
+            "number": "9",
+            "text": "And he said to him, Where is Sarrha thy wife? And he answered and said, Behold! in the tent."
+          },
+          {
+            "number": "10",
+            "text": "And he said, I will return and come to thee according to this period seasonably, and Sarrha thy wife shall have a son; and Sarrha heard at the door of the tent, being behind him."
+          },
+          {
+            "number": "11",
+            "text": "And Abraam and Sarrha were old, advanced in days, and the custom of women ceased with Sarrha."
+          },
+          {
+            "number": "12",
+            "text": "And Sarrha laughed in herself, saying, The thing has not as yet happened to me, even until now, and my lord is old."
+          },
+          {
+            "number": "13",
+            "text": "And the Lord said to Abraam, Why is it that Sarrha has laughed in herself, saying, Shall I then indeed bear? but I am grown old."
+          },
+          {
+            "number": "14",
+            "text": "Shall anything be impossible with the Lord? At this time I will return to thee seasonably, and Sarrha shall have a son."
+          },
+          {
+            "number": "15",
+            "text": "But Sarrha denied, saying, I did not laugh, for she was afraid. And he said to her, Nay, but thou didst laugh."
+          },
+          {
+            "number": "16",
+            "text": "And the men having risen up from thence looked towards Sodom and Gomorrha. And Abraam went with them, attending them on their journey."
+          },
+          {
+            "number": "17",
+            "text": "And the Lord said, Shall I hide from Abraam my servant what things I intend to do?"
+          },
+          {
+            "number": "18",
+            "text": "But Abraam shall become a great and populous nation, and in him shall all the nations of the earth be blest."
+          },
+          {
+            "number": "19",
+            "text": "For I know that he will order his sons, and his house after him, and they will keep the ways of the Lord, to do justice and judgment, that the Lord may bring upon Abraam all things whatsoever he has spoken to him."
+          },
+          {
+            "number": "20",
+            "text": "And the Lord said, The cry of Sodom and Gomorrha has been increased towards me, and their sins are very great."
+          },
+          {
+            "number": "21",
+            "text": "I will therefore go down and see, if they completely correspond with the cry which comes to me, and if not, that I may know."
+          },
+          {
+            "number": "22",
+            "text": "And the men having departed thence, came to Sodom; and Abraam was still standing before the Lord."
+          },
+          {
+            "number": "23",
+            "text": "And Abraam drew nigh and said, Wouldest thou destroy the righteous with the wicked, and shall the righteous be as the wicked?"
+          },
+          {
+            "number": "24",
+            "text": "Should there be fifty righteous in the city, wilt thou destroy them? wilt thou not spare the whole place for the sake of the fifty righteous, if they be in it?"
+          },
+          {
+            "number": "25",
+            "text": "By no means shalt thou do as this thing [is] so as to destroy the righteous with the wicked, so the righteous shall be as the wicked: by no means. Thou that judgest the whole earth, shalt thou not do right?"
+          },
+          {
+            "number": "26",
+            "text": "And the Lord said, If there should be in Sodom fifty righteous in the city, I will spare the whole city, and the whole place for their sakes."
+          },
+          {
+            "number": "27",
+            "text": "And Abraam answered and said, Now I have begun to speak to my Lord, and I am earth and ashes."
+          },
+          {
+            "number": "28",
+            "text": "But if the fifty righteous should be diminished to forty-five, wilt thou destroy the whole city because of the five [wanting]? And he said, I will not destroy it, if I should find there forty-five."
+          },
+          {
+            "number": "29",
+            "text": "And he continued to speak to him still, and said, But if there should be found there forty? And he said, I will not destroy it for the forty's sake."
+          },
+          {
+            "number": "30",
+            "text": "And he said, Will there be anything [against me], Lord, if I shall speak? but if there be found there thirty? And he said, I will not destroy it for the thirty's sake."
+          },
+          {
+            "number": "31",
+            "text": "And he said, Since I am able to speak to the Lord, what if there should be found there twenty? And he said, I will not destroy it, if I should find there twenty."
+          },
+          {
+            "number": "32",
+            "text": "And he said, Will there be anything [against me], Lord, if I speak yet once? but if there should be found there ten? And he said, I will not destroy it for the ten's sake."
+          },
+          {
+            "number": "33",
+            "text": "And the Lord departed, when he left off speaking to Abraam, and Abraam returned to his place."
+          }
+        ]
+      }
+    },
+    {
       "id": "judges-3",
       "studioId": "b66dd56a-5809-4c05-bf94-188ea68b242a",
       "book": "Judges",
@@ -1978,5 +2254,5 @@
       "source": null
     }
   ],
-  "generatedAt": "2026-10-09T10:59:07.199Z"
+  "generatedAt": "2026-10-10T20:37:59.505Z"
 }
