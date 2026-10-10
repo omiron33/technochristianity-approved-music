@@ -1882,6 +1882,138 @@
       }
     },
     {
+      "id": "genesis-17",
+      "studioId": "chapter:genesis:17",
+      "book": "Genesis",
+      "chapter": "17",
+      "reference": "Genesis 17",
+      "title": "A New Name - Genesis 17",
+      "shortTitle": "A New Name",
+      "intro": "A song inspired by Genesis 17.",
+      "suno": "aeed196a-41b3-4a4b-ae7d-0ff07af5e42b",
+      "audio": null,
+      "audioSource": "suno",
+      "poster": null,
+      "youtube": null,
+      "lyric": {
+        "label": "Song adaptation",
+        "text": "[Verse 1]\nAbram was ninety-nine years old\nwhen the Lord appeared to him:\n“I am your God. Be well-pleasing before me,\nand be blameless.”\n“I will make my covenant between us,\nand multiply you beyond measure.”\nAbram fell facedown,\nand God spoke to him:\n\n[Chorus]\n“As for me, this is my covenant with you:\nyou will father a multitude of nations.”\n“You will no longer be called Abram.\nYour name will be Abraam,\nfor I have made you father of many nations.”\n“I will make you exceedingly fruitful.\nNations and kings will come from you.”\n“I will keep my covenant with you\nand your descendants through every generation,\nan everlasting covenant: I will be your God\nand the God of your descendants.”\n“I will give you and your descendants\nall the land of Chanaan where you live as a stranger,\nan everlasting possession; I will be their God.”\n\n[Verse 2]\nGod said to Abraam,\n“You and your descendants through every generation\nmust fully keep my covenant.”\n“This is the covenant you must fully keep\nbetween me and you,\nand your descendants through their generations:\nevery male among you must be circumcised.”\n“You shall be circumcised in the flesh\nof your foreskin. This will be the sign\nof the covenant between us.”\n\n[Verse 3]\n“Every boy, eight days old, must be circumcised\nthroughout your generations—those born in your house,\nand those bought with money from strangers,\nwho are not your descendants.”\n“Those born in your house and those bought\nwith money must be circumcised.\nMy covenant will be marked on your flesh,\nan everlasting covenant.”\n“The male not circumcised in the flesh\nof his foreskin on the eighth day—\nthat soul shall be utterly destroyed from its family,\nfor he has broken my covenant.”\n\n[Bridge]\nGod said to Abraam,\n“Your wife Sara shall no longer be called Sara;\nher name will be Sarrha.”\n“I will bless her and give you a son by her.\nI will bless him; he will become nations,\nand kings of nations will come from him.”\nAbraam fell facedown and laughed,\nsaying in his heart, “Can a child be born\nto a man of a hundred? Can Sarrha,\nat ninety years old, bear a child?”\nAbraam said to God,\n“May Ismael live before you!”\n\n[Verse 4]\nGod said to Abraam, “Yes. Sarrha your wife\nwill bear you a son. You shall name him Isaac.\nI will establish my covenant with him,\nan everlasting covenant,\nto be God to him and his seed after him.”\n“As for Ismael, I have heard you.\nI have blessed him; I will make him fruitful\nand multiply him greatly. He will father\ntwelve nations, and I will make him a great nation.”\n“But I will establish my covenant with Isaac,\nwhom Sarrha will bear to you at this season\nnext year.”\n\n[Outro]\nWhen God had finished speaking with Abraam,\nGod went up from him.\nAbraam took Ismael his son,\nall born in his house and all bought with money,\nevery male in his household, and circumcised them\nthat very day, as God had told him.\nAbraam was ninety-nine years old\nwhen he was circumcised.\nIsmael his son was thirteen years old\nwhen he was circumcised.\nThat very day Abraam was circumcised,\nand Ismael his son,\nand every man in his household,\nborn in the house or bought with money\nfrom foreigners."
+      },
+      "source": {
+        "sourceReference": "Genesis 17",
+        "verses": [
+          {
+            "number": "1",
+            "text": "And Abram was ninety-nine years old, and the Lord appeared to Abram and said to him, I am thy God, be well-pleasing before me, and be blameless."
+          },
+          {
+            "number": "2",
+            "text": "And I will establish my covenant between me and thee, and I will multiply thee exceedingly."
+          },
+          {
+            "number": "3",
+            "text": "And Abram fell upon his face, and God spoke to him, saying,"
+          },
+          {
+            "number": "4",
+            "text": "And I, behold! my covenant [is] with thee, and thou shalt be a father of a multitude of nations."
+          },
+          {
+            "number": "5",
+            "text": "And thy name shall no more be called Abram, but thy name shall be Abraam, for I have made thee a father of many nations."
+          },
+          {
+            "number": "6",
+            "text": "And I will increase thee very exceedingly, and I will make nations of thee, and kings shall come out of thee."
+          },
+          {
+            "number": "7",
+            "text": "And I will establish my covenant between thee and thy seed after thee, to their generations, for an everlasting covenant, to be thy God, and [the God] of thy seed after thee."
+          },
+          {
+            "number": "8",
+            "text": "And I will give to thee and to thy seed after thee the land wherein thou sojournest, even all the land of Chanaan for an everlasting possession, and I will be to them a God."
+          },
+          {
+            "number": "9",
+            "text": "And God said to Abraam, Thou also shalt fully keep my covenant, thou and thy seed after thee for their generations."
+          },
+          {
+            "number": "10",
+            "text": "And this [is] the covenant which thou shalt fully keep between me and you, and between thy seed after thee for their generations; every male of you shall be circumcised."
+          },
+          {
+            "number": "11",
+            "text": "And ye shall be circumcised in the flesh of your foreskin, and it shall be for a sign of a covenant between me and you."
+          },
+          {
+            "number": "12",
+            "text": "And the child of eight days [old] shall be circumcised by you, every male throughout your generations, and [the servant] born in the house and he that is bought with money, of every son of a stranger, who is not of thy seed."
+          },
+          {
+            "number": "13",
+            "text": "He that is born in thy house, and he that is bought with money shall be surely circumcised, and my covenant shall be on your flesh for an everlasting covenant."
+          },
+          {
+            "number": "14",
+            "text": "And the uncircumcised male, who shall not be circumcised in the flesh of his foreskin on the eighth day, that soul shall be utterly destroyed from its family, for he has broken my covenant."
+          },
+          {
+            "number": "15",
+            "text": "And God said to Abraam, Sara thy wife—her name shall not be called Sara, Sarrha shall be her name."
+          },
+          {
+            "number": "16",
+            "text": "And I will bless her, and give thee a son of her, and I will bless him, and he shall become nations, and kings of nations shall be of him."
+          },
+          {
+            "number": "17",
+            "text": "And Abraam fell upon his face, and laughed; and spoke in his heart, saying, Shall there be a child to one who is a hundred years old, and shall Sarrha who is ninety years old, bear?"
+          },
+          {
+            "number": "18",
+            "text": "And Abraam said to God, Let this Ismael live before thee."
+          },
+          {
+            "number": "19",
+            "text": "And God said to Abraam, Yea, behold, Sarrha thy wife shall bear thee a son, and thou shalt call his name Isaac; and I will establish my covenant with him, for an everlasting covenant, to be a God to him and to his seed after him."
+          },
+          {
+            "number": "20",
+            "text": "And concerning Ismael, behold, I have heard thee, and, behold, I have blessed him, and will increase him and multiply him exceedingly; twelve nations shall he beget, and I will make him a great nation."
+          },
+          {
+            "number": "21",
+            "text": "But I will establish my covenant with Isaac, whom Sarrha shall bear to thee at this time, in the next year."
+          },
+          {
+            "number": "22",
+            "text": "And he left off speaking with him, and God went up from Abraam."
+          },
+          {
+            "number": "23",
+            "text": "And Abraam took Ismael his son, and all his home-born [servants], and all those bought with money, and every male of the men in the house of Abraam, and he circumcised their foreskins in the time of that day, according as God spoke to him."
+          },
+          {
+            "number": "24",
+            "text": "And Abraam was ninety-nine years old, when he was circumcised in the flesh of his foreskin."
+          },
+          {
+            "number": "25",
+            "text": "And Ismael his son was thirteen years old when he was circumcised in the flesh of his foreskin."
+          },
+          {
+            "number": "26",
+            "text": "And at the period of that day, Abraam was circumcised, and Ismael his son,"
+          },
+          {
+            "number": "27",
+            "text": "and all the men of his house, both those born in the house, and those bought with money of foreign nations."
+          }
+        ]
+      }
+    },
+    {
       "id": "genesis-18",
       "studioId": "chapter:genesis:18",
       "book": "Genesis",
@@ -2450,5 +2582,5 @@
       "source": null
     }
   ],
-  "generatedAt": "2026-10-10T20:49:10.563Z"
+  "generatedAt": "2026-10-10T20:51:59.305Z"
 }
