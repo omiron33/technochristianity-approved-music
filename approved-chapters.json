@@ -1686,6 +1686,114 @@
       }
     },
     {
+      "id": "genesis-15",
+      "studioId": "chapter:genesis:15",
+      "book": "Genesis",
+      "chapter": "15",
+      "reference": "Genesis 15",
+      "title": "Under the Stars - Genesis 15",
+      "shortTitle": "Under the Stars",
+      "intro": "A song inspired by Genesis 15.",
+      "suno": "46d224f4-15ae-4b24-a66d-2630f2e74a3f",
+      "audio": null,
+      "audioSource": "suno",
+      "poster": null,
+      "youtube": null,
+      "lyric": {
+        "label": "Song adaptation",
+        "text": "[Verse 1]\nThe Lord’s word came to Abram in a vision:\n“Do not fear, Abram. I am your shield;\nyour reward will be very great.”\nAbram said, “Master, Lord,\nwhat will you give me?\nI depart without a child.\nThis Eliezer of Damascus,\nson of Masek, my home-born woman servant,\nis my heir.”\nAbram said, “I am grieved:\nyou have given me no seed.\nMy home-born servant\nwill inherit from me.”\n\n[Pre-Chorus]\nAt once the Lord’s voice came:\n“He will not be your heir.\nOne born from you\nwill be your heir.”\n\n[Chorus]\nHe brought Abram outside:\n“Look up at heaven; count the stars,\nif you can number them all.”\nThen he said, “So shall your children be.”\nAbram believed God,\nand God counted it to him as righteousness.\n\n[Verse 2]\nHe said, “I am God, who brought you\nfrom the land of the Chaldeans\nto give you this land as your inheritance.”\nAbram said, “Master, Lord,\nhow can I know I will inherit it?”\nHe said, “Bring me a heifer\nin her third year,\na she-goat in her third year,\nand a ram in his third year,\na dove and a pigeon.”\nAbram brought them, cut the animals in two,\nand laid each half opposite its mate.\nBut he did not divide the birds.\nBirds came down upon the bodies,\nupon the divided pieces;\nAbram sat down beside them.\n\n[Bridge]\nAt sunset a trance fell upon Abram;\na great and gloomy terror fell on him.\nThe Lord said to Abram,\n“Know for certain:\nyour seed will be strangers\nin a land not their own.\nThey will be enslaved, afflicted and humbled\nfor four hundred years.”\n“I will judge the nation they serve.\nAfterward they will come forth here\nwith great possessions.”\n“You will go to your fathers in peace,\nnourished in a good old age.”\n“In the fourth generation they will return here,\nfor the Amorites’ sins are not yet complete.”\n\n[Verse 3]\nAs the sun went down, a flame appeared:\na smoking furnace and fiery lamps\npassed between the divided pieces.\nThat day the Lord made a covenant with Abram:\n“To your descendants I give this land,\nfrom Egypt’s river to the great Euphrates.”\n\n[Outro]\n“The Kenites, the Kenezites,\nand the Kedmoneans,”\nthe Chettites, the Pherezites,\nand the Raphaim;\nthe Amorites, the Chananites,\nthe Evites, the Gergesites,\nand the Jebusites."
+      },
+      "source": {
+        "sourceReference": "Genesis 15",
+        "verses": [
+          {
+            "number": "1",
+            "text": "And after these things the word of the Lord came to Abram in a vision, saying, Fear not, Abram, I shield thee, thy reward shall be very great."
+          },
+          {
+            "number": "2",
+            "text": "And Abram said, Master [and] Lord, what wilt thou give me? whereas I am departing without a child, but the son of Masek my home-born female slave, this Eliezer of Damascus [is mine heir]."
+          },
+          {
+            "number": "3",
+            "text": "And Abram said, [I am grieved] since thou hast given me no seed, but my home-born [servant] shall succeed me."
+          },
+          {
+            "number": "4",
+            "text": "And immediately there was a voice of the Lord to him, saying, This shall not be thine heir; but he that shall come out of thee shall be thine heir."
+          },
+          {
+            "number": "5",
+            "text": "And he brought him out and said to him, Look up now to heaven, and count the stars, if thou shalt be able to number them fully, and he said, Thus shall thy seed be."
+          },
+          {
+            "number": "6",
+            "text": "And Abram believed God, and it was counted to him for righteousness."
+          },
+          {
+            "number": "7",
+            "text": "And he said to him, I am God that brought thee out of the land of the Chaldeans, so as to give thee this land to inherit."
+          },
+          {
+            "number": "8",
+            "text": "And he said, Master [and] Lord, how shall I know that I shall inherit it?"
+          },
+          {
+            "number": "9",
+            "text": "And he said to him, Take for me an heifer in her third year, and a she-goat in her third year, and a ram in his third year, and a dove and a pigeon."
+          },
+          {
+            "number": "10",
+            "text": "So he took to him all these, and divided them in the midst, and set them opposite to each other, but the birds he did not divide."
+          },
+          {
+            "number": "11",
+            "text": "And birds came down upon the bodies, [even] upon the divided parts of them, and Abram sat down by them."
+          },
+          {
+            "number": "12",
+            "text": "And about sunset a trance fell upon Abram, and lo! a great gloomy terror falls upon him."
+          },
+          {
+            "number": "13",
+            "text": "And it was said to Abram, Thou shalt surely know that thy seed shall be a sojourner in a land not their own, and they shall enslave them, and afflict them, and humble them four hundred years."
+          },
+          {
+            "number": "14",
+            "text": "And the nation whomsoever they shall serve I will judge; and after this, they shall come forth hither with much property."
+          },
+          {
+            "number": "15",
+            "text": "But thou shalt depart to thy fathers in peace, nourished in a good old age."
+          },
+          {
+            "number": "16",
+            "text": "And in the fourth generation they shall return hither, for the sins of the Amorites are not yet filled up, even until now."
+          },
+          {
+            "number": "17",
+            "text": "And when the sun was about to set, there was a flame, and behold a smoking furnace and lamps of fire, which passed between these divided pieces."
+          },
+          {
+            "number": "18",
+            "text": "In that day the Lord made a covenant with Abram, saying, To thy seed I will give this land, from the river of Egypt to the great river Euphrates."
+          },
+          {
+            "number": "19",
+            "text": "The Kenites, and the Kenezites, and the Kedmoneans,"
+          },
+          {
+            "number": "20",
+            "text": "and the Chettites, and the Pherezites, and the Raphaim,"
+          },
+          {
+            "number": "21",
+            "text": "and the Amorites, and the Chananites, and the Evites, and the Gergesites, and the Jebusites."
+          }
+        ]
+      }
+    },
+    {
       "id": "genesis-18",
       "studioId": "chapter:genesis:18",
       "book": "Genesis",
@@ -2254,5 +2362,5 @@
       "source": null
     }
   ],
-  "generatedAt": "2026-10-10T20:37:59.505Z"
+  "generatedAt": "2026-10-10T20:38:29.825Z"
 }
