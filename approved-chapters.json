@@ -1794,6 +1794,94 @@
       }
     },
     {
+      "id": "genesis-16",
+      "studioId": "chapter:genesis:16",
+      "book": "Genesis",
+      "chapter": "16",
+      "reference": "Genesis 16",
+      "title": "Agar in the Wilderness - Genesis 16",
+      "shortTitle": "Agar in the Wilderness",
+      "intro": "A song inspired by Genesis 16.",
+      "suno": "ae23a2de-a873-4181-a84b-393ee17d517b",
+      "audio": null,
+      "audioSource": "suno",
+      "poster": null,
+      "youtube": null,
+      "lyric": {
+        "label": "Song adaptation",
+        "text": "[Verse 1]\nSara, Abram’s wife, bore no children.\nShe had an Egyptian maid named Agar.\nSara said to Abram, “The Lord has kept me\nfrom having children. Go to my maid,\nso I may have children through her.”\nAbram listened to Sara.\nAfter Abram had lived ten years in Chanaan,\nSara took Agar the Egyptian, her maid,\nand gave her to Abram as his wife.\n\n[Verse 2]\nHe went in to Agar, and she conceived.\nWhen she knew she was pregnant,\nshe looked down on her mistress.\nSara said to Abram, “This wrong is your fault.\nI gave my maid to you, and now that she is pregnant,\nI am dishonored before her. Let the Lord judge\nbetween you and me.”\nAbram said to Sara, “Your maid is in your hands.\nTreat her as you think best.”\nSara afflicted Agar, and she fled from her.\n\n[Verse 3]\nThe Lord’s angel found her by a spring\nin the wilderness, on the road to Sur.\nThe angel said, “Agar, Sara’s maid,\nwhere have you come from, and where are you going?”\nShe said, “I am fleeing from my mistress Sara.”\nThe Lord’s angel said,\n“Return to your mistress;\nsubmit yourself under her hands.”\n\n[Verse 4]\nThe Lord’s angel said,\n“I will greatly multiply your descendants;\nthey will be too many to count.”\nThe Lord’s angel said, “You are with child;\nyou will bear a son. Name him Ismael,\nfor the Lord has heard your humiliation.”\n“He will be a wild man;\nhis hands against all, all hands against him.\nHe will live before all his brothers.”\n\n[Bridge]\nShe named the Lord God who spoke to her,\n“You are God who sees me.”\nShe said, “I have openly seen\nhim who appeared to me.”\nShe called it “The well of him\nwhom I have openly seen.”\nIt lies between Cades and Barad.\n\n[Outro]\nAgar bore Abram a son,\nand Abram named the boy Ismael.\nAbram was eighty-six years old\nwhen Agar bore Ismael to him."
+      },
+      "source": {
+        "sourceReference": "Genesis 16",
+        "verses": [
+          {
+            "number": "1",
+            "text": "And Sara the wife of Abram bore him no children; and she had an Egyptian maid, whose name was Agar."
+          },
+          {
+            "number": "2",
+            "text": "And Sara said to Abram, Behold, the Lord has restrained me from bearing, go therefore in to my maid, that I may get children for myself through her. And Abram hearkened to the voice of Sara."
+          },
+          {
+            "number": "3",
+            "text": "So Sara the wife of Abram having taken Agar the Egyptian her handmaid, after Abram had dwelt ten years in the land of Chanaan, gave her to Abram her husband as a wife to him."
+          },
+          {
+            "number": "4",
+            "text": "And he went in to Agar, and she conceived, and saw that she was with child, and her mistress was dishonoured before her."
+          },
+          {
+            "number": "5",
+            "text": "And Sara said to Abram, I am injured by thee; I gave my handmaid into thy bosom, and when I saw that she was with child, I was dishonoured before her. The Lord judge between me and thee."
+          },
+          {
+            "number": "6",
+            "text": "And Abram said to Sara, Behold thy handmaid is in thy hands, use her as it may seem good to thee. And Sara afflicted her, and she fled from her face."
+          },
+          {
+            "number": "7",
+            "text": "And an angel of the Lord found her by the fountain of water in the wilderness, by the fountain in the way to Sur."
+          },
+          {
+            "number": "8",
+            "text": "And the angel of the Lord said to her, Agar, Sara's maid, whence comest thou, and whither goest thou? and she said, I am fleeing from the face of my mistress Sara."
+          },
+          {
+            "number": "9",
+            "text": "And the angel of the Lord said to her, Return to thy mistress, and submit thyself under her hands."
+          },
+          {
+            "number": "10",
+            "text": "And the angel of the Lord said to her, I will surely multiply thy seed, and it shall not be numbered for multitude."
+          },
+          {
+            "number": "11",
+            "text": "And the angel of the Lord said to her, Behold, thou art with child, and shalt bear a son, and shalt call his name Ismael, for the Lord hath hearkened to thy humiliation."
+          },
+          {
+            "number": "12",
+            "text": "He shall be a wild man, his hands against all, and the hands of all against him, and he shall dwell in the presence of all his brethren."
+          },
+          {
+            "number": "13",
+            "text": "And she called the name of the Lord God who spoke to her, Thou art God who seest me; for she said, For I have openly seen him that appeared to me."
+          },
+          {
+            "number": "14",
+            "text": "Therefore she called the well, The well of him whom I have openly seen; behold it is between Cades and Barad."
+          },
+          {
+            "number": "15",
+            "text": "And Agar bore a son to Abram; and Abram called the name of his son which Agar bore to him, Ismael."
+          },
+          {
+            "number": "16",
+            "text": "And Abram was eighty-six years old, when Agar bore Ismael to Abram."
+          }
+        ]
+      }
+    },
+    {
       "id": "genesis-18",
       "studioId": "chapter:genesis:18",
       "book": "Genesis",
@@ -2362,5 +2450,5 @@
       "source": null
     }
   ],
-  "generatedAt": "2026-10-10T20:38:29.825Z"
+  "generatedAt": "2026-10-10T20:49:10.563Z"
 }
