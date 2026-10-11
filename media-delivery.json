@@ -280,14 +280,14 @@
       "workId": "chapter:psalms:91",
       "title": "A Thousand Shall Fall - Psalms 91",
       "approvedTakeId": "5d78a5c1-4341-4867-b25e-c3698b1ffe54",
-      "sourceSha256": "b444350b68359bc06f17a90ace1b6d7bba9255a0358b308acec9cdccf3103420",
-      "sourceCodec": "opus",
-      "sha256": "720e6acd79b9ad2e0a334687675f7024d604c4c811bfe1c607cdd948befbd40a",
-      "bytes": 7465559,
+      "sourceSha256": "4d52d5d67c1cb0a582faf40b41c7a11f5dab1a6089931c8f2d5c5bbd26946897",
+      "sourceCodec": "pcm_s16le",
+      "sha256": "4050881a2b1515a77be1fabcff126e2a6b9424ed4f8580f97d07e531c81f085d",
+      "bytes": 7480535,
       "contentType": "audio/mpeg",
-      "key": "audio/psalm-91/720e6acd79b9ad2e.mp3",
-      "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/psalm-91/720e6acd79b9ad2e.mp3",
-      "verifiedAt": "2026-10-04T19:28:45.203Z"
+      "key": "audio/psalms-91/4050881a2b1515a7.mp3",
+      "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/psalms-91/4050881a2b1515a7.mp3",
+      "verifiedAt": "2026-10-11T18:27:42.972Z"
     },
     {
       "workId": "thematic:poisoned-cups",
