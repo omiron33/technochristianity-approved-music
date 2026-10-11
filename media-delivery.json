@@ -173,6 +173,19 @@
       "verifiedAt": "2026-10-04T19:28:41.823Z"
     },
     {
+      "workId": "chapter:genesis:9",
+      "title": "The Bow in the Cloud - Genesis 9",
+      "approvedTakeId": "16b9f9b3-d0f4-4243-b46d-58b05fce358b",
+      "sourceSha256": "db85e24185c57d6b9c311fb3b6f630a67e1a0ed293ab956e88d4fd88c9d349f9",
+      "sourceCodec": "pcm_s16le",
+      "sha256": "df43e0da99276297321ad55aa25d3ff75ff77037204c5f49d114b95835d2efb5",
+      "bytes": 7543366,
+      "contentType": "audio/mpeg",
+      "key": "audio/genesis-9/df43e0da99276297.mp3",
+      "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-9/df43e0da99276297.mp3",
+      "verifiedAt": "2026-10-11T18:15:47.418Z"
+    },
+    {
       "workId": "chapter:psalms:23",
       "title": "The Lord Is My Shepherd - Psalms 23",
       "approvedTakeId": "32885123-f4b6-42e6-a546-f4acba404829",
