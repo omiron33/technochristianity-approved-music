@@ -150,14 +150,14 @@
       "workId": "chapter:genesis:2",
       "title": "The Garden - Genesis 2",
       "approvedTakeId": "185c9425-6e80-42ae-8904-fc00cda3e189",
-      "sourceSha256": "2e3dda6d8f4f094ef5d38f6bfdf59d2d3f6bdb0af5cb34a6103ea83b4ac4b325",
-      "sourceCodec": "mp3",
-      "sha256": "2e3dda6d8f4f094ef5d38f6bfdf59d2d3f6bdb0af5cb34a6103ea83b4ac4b325",
-      "bytes": 6141365,
+      "sourceSha256": "a9ce7b64af9abe9d0f6124eaf45a46158e87d029a2591162b884c5290c198309",
+      "sourceCodec": "pcm_s16le",
+      "sha256": "c5ba89d1c96171c06905f63c0a9f09ffd7c239db7f1a31210e425b8627823221",
+      "bytes": 6728028,
       "contentType": "audio/mpeg",
-      "key": "audio/genesis-2/2e3dda6d8f4f094e.mp3",
-      "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-2/2e3dda6d8f4f094e.mp3",
-      "verifiedAt": "2026-10-04T19:28:36.072Z"
+      "key": "audio/genesis-2/c5ba89d1c96171c0.mp3",
+      "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-2/c5ba89d1c96171c0.mp3",
+      "verifiedAt": "2026-10-11T18:34:03.549Z"
     },
     {
       "workId": "chapter:genesis:3",
