@@ -33,14 +33,14 @@
       "workId": "chapter:genesis:1",
       "title": "The Beginning - Genesis 1",
       "approvedTakeId": "b9b82c2c-7c8e-4ef4-9338-942de876644a",
-      "sourceSha256": "196c6f8183eb18bc530f4ebb83b1af44532d210deecfacaa465eb6592046bbc2",
-      "sourceCodec": "mp3",
-      "sha256": "196c6f8183eb18bc530f4ebb83b1af44532d210deecfacaa465eb6592046bbc2",
-      "bytes": 6676627,
+      "sourceSha256": "327ade53abdaaad466879ce91f7e8ff54a982ae8988364d5d8845150e40e73ca",
+      "sourceCodec": "pcm_s16le",
+      "sha256": "48d06b4a48631f9cb526a939c450a51a3f55e70360fb2c9205cde12fe84e5600",
+      "bytes": 6628671,
       "contentType": "audio/mpeg",
-      "key": "audio/genesis-1/196c6f8183eb18bc.mp3",
-      "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-1/196c6f8183eb18bc.mp3",
-      "verifiedAt": "2026-10-04T19:28:35.176Z"
+      "key": "audio/genesis-1/48d06b4a48631f9c.mp3",
+      "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-1/48d06b4a48631f9c.mp3",
+      "verifiedAt": "2026-10-11T18:25:13.628Z"
     },
     {
       "workId": "chapter:genesis:10",
