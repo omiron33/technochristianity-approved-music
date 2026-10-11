@@ -82,6 +82,19 @@
       "verifiedAt": "2026-10-08T09:06:29.620Z"
     },
     {
+      "workId": "chapter:genesis:14",
+      "title": "Kings and Priest - Genesis 14",
+      "approvedTakeId": "c9776922-b628-4c2e-af86-99afb09cd570",
+      "sourceSha256": "5392d18bf515889c98aa287892f6897e9291e0cd6a240cddf02c97e4841a8392",
+      "sourceCodec": "pcm_s16le",
+      "sha256": "d188bcaed7f464cfdc7ca6b17cf7f763aab67698106e83a01c79cb028360b687",
+      "bytes": 6902467,
+      "contentType": "audio/mpeg",
+      "key": "audio/genesis-14/d188bcaed7f464cf.mp3",
+      "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-14/d188bcaed7f464cf.mp3",
+      "verifiedAt": "2026-10-11T18:16:55.539Z"
+    },
+    {
       "workId": "chapter:genesis:2",
       "title": "The Garden - Genesis 2",
       "approvedTakeId": "185c9425-6e80-42ae-8904-fc00cda3e189",
