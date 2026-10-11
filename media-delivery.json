@@ -121,6 +121,19 @@
       "verifiedAt": "2026-10-11T18:18:30.487Z"
     },
     {
+      "workId": "chapter:genesis:17",
+      "title": "A New Name - Genesis 17",
+      "approvedTakeId": "aeed196a-41b3-4a4b-ae7d-0ff07af5e42b",
+      "sourceSha256": "ec09563f323901b804a93e4160d7fca44d5684b9ff43b7db257bf34b194d37b6",
+      "sourceCodec": "pcm_s16le",
+      "sha256": "abc024dbb4f9ffaf0d23e9fe4930013a5997108c522d5f2f261eaed8c79a5a04",
+      "bytes": 8076637,
+      "contentType": "audio/mpeg",
+      "key": "audio/genesis-17/abc024dbb4f9ffaf.mp3",
+      "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-17/abc024dbb4f9ffaf.mp3",
+      "verifiedAt": "2026-10-11T18:19:24.334Z"
+    },
+    {
       "workId": "chapter:genesis:2",
       "title": "The Garden - Genesis 2",
       "approvedTakeId": "185c9425-6e80-42ae-8904-fc00cda3e189",
