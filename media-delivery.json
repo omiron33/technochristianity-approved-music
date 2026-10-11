@@ -267,14 +267,14 @@
       "workId": "chapter:psalms:51",
       "title": "Create in Me a Clean Heart - Psalms 51",
       "approvedTakeId": "193f9b56-bef1-48cb-8d9b-72956d156437",
-      "sourceSha256": "d10a70d34198b9df285a51903ecb649bdb9603fe65cbc891e0692bfb330b8945",
-      "sourceCodec": "mp3",
-      "sha256": "d10a70d34198b9df285a51903ecb649bdb9603fe65cbc891e0692bfb330b8945",
-      "bytes": 6110591,
+      "sourceSha256": "4c1ce1e4b170491a33aee5665b2c62caebfe5c1885dc673bb2cc1338060485db",
+      "sourceCodec": "pcm_s16le",
+      "sha256": "b684f09f870e82e5c42d13d9ecf86482c283a8c5decd48b1d5f16b3183f26e8d",
+      "bytes": 6086716,
       "contentType": "audio/mpeg",
-      "key": "audio/psalm-51/d10a70d34198b9df.mp3",
-      "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/psalm-51/d10a70d34198b9df.mp3",
-      "verifiedAt": "2026-10-04T19:28:44.188Z"
+      "key": "audio/psalms-51/b684f09f870e82e5.mp3",
+      "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/psalms-51/b684f09f870e82e5.mp3",
+      "verifiedAt": "2026-10-11T18:26:54.484Z"
     },
     {
       "workId": "chapter:psalms:91",
