@@ -2483,7 +2483,7 @@
       "shortTitle": "A Thousand Shall Fall",
       "intro": "A song inspired by Psalms 91.",
       "suno": "5d78a5c1-4341-4867-b25e-c3698b1ffe54",
-      "audio": "https://technochristianity-audio.sjfisher33.workers.dev/audio/psalm-91/720e6acd79b9ad2e.mp3",
+      "audio": "https://technochristianity-audio.sjfisher33.workers.dev/audio/psalms-91/4050881a2b1515a7.mp3",
       "audioSource": "cloudflare-r2",
       "poster": null,
       "youtube": "https://www.youtube.com/watch?v=8im3mPcy5G8",
@@ -2582,5 +2582,5 @@
       "source": null
     }
   ],
-  "generatedAt": "2026-10-11T18:27:00.842Z"
+  "generatedAt": "2026-10-11T18:27:49.007Z"
 }
