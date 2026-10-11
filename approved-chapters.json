@@ -1695,8 +1695,8 @@
       "shortTitle": "Under the Stars",
       "intro": "A song inspired by Genesis 15.",
       "suno": "46d224f4-15ae-4b24-a66d-2630f2e74a3f",
-      "audio": null,
-      "audioSource": "suno",
+      "audio": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-15/d7d91629b8071525.mp3",
+      "audioSource": "cloudflare-r2",
       "poster": null,
       "youtube": null,
       "lyric": {
@@ -2582,5 +2582,5 @@
       "source": null
     }
   ],
-  "generatedAt": "2026-10-11T18:17:03.450Z"
+  "generatedAt": "2026-10-11T18:17:50.416Z"
 }
