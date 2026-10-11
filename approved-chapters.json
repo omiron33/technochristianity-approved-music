@@ -1891,8 +1891,8 @@
       "shortTitle": "A New Name",
       "intro": "A song inspired by Genesis 17.",
       "suno": "aeed196a-41b3-4a4b-ae7d-0ff07af5e42b",
-      "audio": null,
-      "audioSource": "suno",
+      "audio": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-17/abc024dbb4f9ffaf.mp3",
+      "audioSource": "cloudflare-r2",
       "poster": null,
       "youtube": null,
       "lyric": {
@@ -2582,5 +2582,5 @@
       "source": null
     }
   ],
-  "generatedAt": "2026-10-11T18:18:38.014Z"
+  "generatedAt": "2026-10-11T18:19:30.276Z"
 }
