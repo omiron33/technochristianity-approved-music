@@ -134,6 +134,19 @@
       "verifiedAt": "2026-10-11T18:19:24.334Z"
     },
     {
+      "workId": "chapter:genesis:18",
+      "title": "At the Tent - Genesis 18",
+      "approvedTakeId": "de6f613c-0cc2-42ea-b6df-8e03d007a1fe",
+      "sourceSha256": "281ababfd8808147973ab7ab01b5fd6622bc9b87787503c8a2ab0f3604e5e880",
+      "sourceCodec": "pcm_s16le",
+      "sha256": "757d7da63daa8e28e5bb8349836c63e8bc39b4fdebf3ec30a6e35f539b4ae818",
+      "bytes": 7598174,
+      "contentType": "audio/mpeg",
+      "key": "audio/genesis-18/757d7da63daa8e28.mp3",
+      "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-18/757d7da63daa8e28.mp3",
+      "verifiedAt": "2026-10-11T18:20:10.999Z"
+    },
+    {
       "workId": "chapter:genesis:2",
       "title": "The Garden - Genesis 2",
       "approvedTakeId": "185c9425-6e80-42ae-8904-fc00cda3e189",
