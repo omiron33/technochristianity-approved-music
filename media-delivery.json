@@ -293,14 +293,14 @@
       "workId": "thematic:poisoned-cups",
       "title": "Poisoned Cups",
       "approvedTakeId": "5d017230-8c02-444f-b691-dba87dfe8f8f",
-      "sourceSha256": "4383254e54b6e3fdb6258915bb9a30e405dda2e905868b92a591c571d3d44d0e",
-      "sourceCodec": "mp3",
-      "sha256": "4383254e54b6e3fdb6258915bb9a30e405dda2e905868b92a591c571d3d44d0e",
-      "bytes": 6752789,
+      "sourceSha256": "98625a1e4d81169970c2b544e7dbe17d5ba93b73399989d31838f9f22ee2d632",
+      "sourceCodec": "pcm_s16le",
+      "sha256": "f1f0808c62a2f6c68dd31aa6c57e806a90dbcced52fbaf44974568f71265f2c5",
+      "bytes": 3661923,
       "contentType": "audio/mpeg",
-      "key": "audio/poisoned-cups/4383254e54b6e3fd.mp3",
-      "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/poisoned-cups/4383254e54b6e3fd.mp3",
-      "verifiedAt": "2026-10-04T19:28:47.205Z"
+      "key": "audio/poisoned-cups/f1f0808c62a2f6c6.mp3",
+      "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/poisoned-cups/f1f0808c62a2f6c6.mp3",
+      "verifiedAt": "2026-10-11T18:37:34.060Z"
     },
     {
       "workId": "thematic:the-faith-of-the-apostles",
