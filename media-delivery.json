@@ -254,14 +254,14 @@
       "workId": "chapter:psalms:23",
       "title": "The Lord Is My Shepherd - Psalms 23",
       "approvedTakeId": "32885123-f4b6-42e6-a546-f4acba404829",
-      "sourceSha256": "9f0c3a221e0bba5b4343b2aaa346cb547a6b8dcd10e3ea34bbe0e88751f8f777",
-      "sourceCodec": "mp3",
-      "sha256": "9f0c3a221e0bba5b4343b2aaa346cb547a6b8dcd10e3ea34bbe0e88751f8f777",
-      "bytes": 5042641,
+      "sourceSha256": "8f4929b0da53dd95141cd0400594aaaf3a762e78fb8b9c1ea548711698fccec8",
+      "sourceCodec": "pcm_s16le",
+      "sha256": "d4e61ae909013030e497e414591862f4381c3eee79fb0fb598a6a1c572ef0b36",
+      "bytes": 5012857,
       "contentType": "audio/mpeg",
-      "key": "audio/psalm-23/9f0c3a221e0bba5b.mp3",
-      "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/psalm-23/9f0c3a221e0bba5b.mp3",
-      "verifiedAt": "2026-10-04T19:28:43.468Z"
+      "key": "audio/psalms-23/d4e61ae909013030.mp3",
+      "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/psalms-23/d4e61ae909013030.mp3",
+      "verifiedAt": "2026-10-11T18:36:43.306Z"
     },
     {
       "workId": "chapter:psalms:51",
