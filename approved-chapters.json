@@ -2375,7 +2375,7 @@
       "shortTitle": "Create in Me a Clean Heart",
       "intro": "A song inspired by Psalms 51.",
       "suno": "193f9b56-bef1-48cb-8d9b-72956d156437",
-      "audio": "https://technochristianity-audio.sjfisher33.workers.dev/audio/psalm-51/d10a70d34198b9df.mp3",
+      "audio": "https://technochristianity-audio.sjfisher33.workers.dev/audio/psalms-51/b684f09f870e82e5.mp3",
       "audioSource": "cloudflare-r2",
       "poster": null,
       "youtube": null,
@@ -2582,5 +2582,5 @@
       "source": null
     }
   ],
-  "generatedAt": "2026-10-11T18:26:13.794Z"
+  "generatedAt": "2026-10-11T18:27:00.842Z"
 }
