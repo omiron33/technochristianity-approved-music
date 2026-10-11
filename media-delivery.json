@@ -108,6 +108,19 @@
       "verifiedAt": "2026-10-11T18:17:44.275Z"
     },
     {
+      "workId": "chapter:genesis:16",
+      "title": "Agar in the Wilderness - Genesis 16",
+      "approvedTakeId": "ae23a2de-a873-4181-a84b-393ee17d517b",
+      "sourceSha256": "77d643d2ae0b041cc887d3a40756e10b25af67a0878855287405147cf30fe2af",
+      "sourceCodec": "pcm_s16le",
+      "sha256": "1feff5ca9c85e2e2e05cd11f8d53c9c120d84574547c7f6852d24cdd0208887b",
+      "bytes": 6478537,
+      "contentType": "audio/mpeg",
+      "key": "audio/genesis-16/1feff5ca9c85e2e2.mp3",
+      "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-16/1feff5ca9c85e2e2.mp3",
+      "verifiedAt": "2026-10-11T18:18:30.487Z"
+    },
+    {
       "workId": "chapter:genesis:2",
       "title": "The Garden - Genesis 2",
       "approvedTakeId": "185c9425-6e80-42ae-8904-fc00cda3e189",
