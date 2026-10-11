@@ -215,14 +215,14 @@
       "workId": "chapter:genesis:7",
       "title": "The Flood - Genesis 7",
       "approvedTakeId": "169cee8d-0d70-4f84-87b2-77bcc9ca693e",
-      "sourceSha256": "6f23e21d7fe1395ceca8a07ed72b46a8deb57b348fdd826d25f0ed40c253ec23",
-      "sourceCodec": "mp3",
-      "sha256": "6f23e21d7fe1395ceca8a07ed72b46a8deb57b348fdd826d25f0ed40c253ec23",
-      "bytes": 8622289,
+      "sourceSha256": "410c75870a2e9e76bdacfe0b8aec9ee1471c4c98429504751cb698798318081c",
+      "sourceCodec": "pcm_s16le",
+      "sha256": "e10f453b0b7a93271581fbc38a355997991949b5214187289c80cc976499381c",
+      "bytes": 8588123,
       "contentType": "audio/mpeg",
-      "key": "audio/genesis-7/6f23e21d7fe1395c.mp3",
-      "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-7/6f23e21d7fe1395c.mp3",
-      "verifiedAt": "2026-10-04T19:28:40.826Z"
+      "key": "audio/genesis-7/e10f453b0b7a9327.mp3",
+      "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-7/e10f453b0b7a9327.mp3",
+      "verifiedAt": "2026-10-11T18:26:08.722Z"
     },
     {
       "workId": "chapter:genesis:8",
