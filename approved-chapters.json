@@ -915,7 +915,7 @@
       "shortTitle": "The Dove",
       "intro": "A song inspired by Genesis 8.",
       "suno": "8fd59e03-d071-4fcd-9141-289b9c9e1902",
-      "audio": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-8/6103eb41a14284a9.mp3",
+      "audio": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-8/3e1c2b0f0c9661d7.mp3",
       "audioSource": "cloudflare-r2",
       "poster": null,
       "youtube": "https://www.youtube.com/watch?v=tBN4MmQ3gaY",
@@ -2582,5 +2582,5 @@
       "source": null
     }
   ],
-  "generatedAt": "2026-10-11T18:35:13.641Z"
+  "generatedAt": "2026-10-11T18:36:01.640Z"
 }
