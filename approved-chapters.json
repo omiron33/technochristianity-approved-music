@@ -1027,8 +1027,8 @@
       "shortTitle": "The Bow in the Cloud",
       "intro": "A song inspired by Genesis 9.",
       "suno": "16b9f9b3-d0f4-4243-b46d-58b05fce358b",
-      "audio": null,
-      "audioSource": "suno",
+      "audio": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-9/df43e0da99276297.mp3",
+      "audioSource": "cloudflare-r2",
       "poster": null,
       "youtube": null,
       "lyric": {
@@ -2582,5 +2582,5 @@
       "source": null
     }
   ],
-  "generatedAt": "2026-10-10T20:51:59.305Z"
+  "generatedAt": "2026-10-11T18:15:54.374Z"
 }
