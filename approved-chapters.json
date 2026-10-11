@@ -2327,7 +2327,7 @@
       "shortTitle": "The Lord Is My Shepherd",
       "intro": "A song inspired by Psalms 23.",
       "suno": "32885123-f4b6-42e6-a546-f4acba404829",
-      "audio": "https://technochristianity-audio.sjfisher33.workers.dev/audio/psalm-23/9f0c3a221e0bba5b.mp3",
+      "audio": "https://technochristianity-audio.sjfisher33.workers.dev/audio/psalms-23/d4e61ae909013030.mp3",
       "audioSource": "cloudflare-r2",
       "poster": null,
       "youtube": "https://www.youtube.com/watch?v=r93RcOn0JXA",
@@ -2582,5 +2582,5 @@
       "source": null
     }
   ],
-  "generatedAt": "2026-10-11T18:36:01.640Z"
+  "generatedAt": "2026-10-11T18:36:54.547Z"
 }
