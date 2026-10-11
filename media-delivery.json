@@ -202,14 +202,14 @@
       "workId": "chapter:genesis:6",
       "title": "Before the Waters - Genesis 6",
       "approvedTakeId": "0af47fbc-4734-4239-a963-d2ece2232397",
-      "sourceSha256": "0297181426013422bcaa7e8f141ecffbc190f2eddacd5d3fb39ced78176901bd",
-      "sourceCodec": "mp3",
-      "sha256": "0297181426013422bcaa7e8f141ecffbc190f2eddacd5d3fb39ced78176901bd",
-      "bytes": 5777285,
+      "sourceSha256": "0a1cbc174585d44387594015180c9c8221016b4efd015623caaae5cb460d0190",
+      "sourceCodec": "pcm_s16le",
+      "sha256": "b03c13a1c89b3b4f3be8e7da00652428bcd9e2257e4a6b933e758fba613cdf19",
+      "bytes": 5777251,
       "contentType": "audio/mpeg",
-      "key": "audio/genesis-6/0297181426013422.mp3",
-      "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-6/0297181426013422.mp3",
-      "verifiedAt": "2026-10-04T19:28:48.425Z"
+      "key": "audio/genesis-6/b03c13a1c89b3b4f.mp3",
+      "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-6/b03c13a1c89b3b4f.mp3",
+      "verifiedAt": "2026-10-11T18:35:07.069Z"
     },
     {
       "workId": "chapter:genesis:7",
