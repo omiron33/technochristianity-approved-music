@@ -683,7 +683,7 @@
       "shortTitle": "Before the Waters",
       "intro": "A song inspired by Genesis 6.",
       "suno": "0af47fbc-4734-4239-a963-d2ece2232397",
-      "audio": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-6/0297181426013422.mp3",
+      "audio": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-6/b03c13a1c89b3b4f.mp3",
       "audioSource": "cloudflare-r2",
       "poster": null,
       "youtube": "https://www.youtube.com/watch?v=daoonepCq2M",
@@ -2582,5 +2582,5 @@
       "source": null
     }
   ],
-  "generatedAt": "2026-10-11T18:34:10.450Z"
+  "generatedAt": "2026-10-11T18:35:13.641Z"
 }
