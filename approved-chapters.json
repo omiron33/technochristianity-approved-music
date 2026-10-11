@@ -1803,8 +1803,8 @@
       "shortTitle": "Agar in the Wilderness",
       "intro": "A song inspired by Genesis 16.",
       "suno": "ae23a2de-a873-4181-a84b-393ee17d517b",
-      "audio": null,
-      "audioSource": "suno",
+      "audio": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-16/1feff5ca9c85e2e2.mp3",
+      "audioSource": "cloudflare-r2",
       "poster": null,
       "youtube": null,
       "lyric": {
@@ -2582,5 +2582,5 @@
       "source": null
     }
   ],
-  "generatedAt": "2026-10-11T18:17:50.416Z"
+  "generatedAt": "2026-10-11T18:18:38.014Z"
 }
