@@ -1566,6 +1566,102 @@
       }
     },
     {
+      "id": "genesis-13",
+      "studioId": "chapter:genesis:13",
+      "book": "Genesis",
+      "chapter": "13",
+      "reference": "Genesis 13",
+      "title": "The Land Before Them - Genesis 13",
+      "shortTitle": "The Land Before Them",
+      "intro": "A song inspired by Genesis 13.",
+      "suno": "57dfaa43-1f4a-4dcb-81f3-1f67ab052807",
+      "audio": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-13/bd44e21a7ca1fa44.mp3",
+      "audioSource": "cloudflare-r2",
+      "poster": null,
+      "youtube": null,
+      "lyric": {
+        "label": "Song adaptation",
+        "text": "[Genesis 13:1]\nAbram went up from Egypt,\nwith his wife, all he owned,\nand Lot, into the wilderness.\n\n[Genesis 13:2]\nAbram was very rich in cattle,\nsilver and gold.\n\n[Genesis 13:3]\nHe traveled back through the wilderness\nto Bæthel, where his tent had stood,\nbetween Bæthel and Aggai,\n\n[Genesis 13:4]\nto the altar he first built.\nThere Abram called on the Lord.\n\n[Genesis 13:5]\nLot, traveling with Abram,\nhad sheep, cattle, and tents.\n\n[Genesis 13:6]\nTheir wealth was great;\nthe land could not hold them\nliving side by side.\n\n[Genesis 13:7]\nAbram’s herders quarreled\nwith Lot’s herders.\nThe Chananites and Pherezites\nalso lived there.\n\n[Genesis 13:8]\nAbram said to Lot,\n“Let no quarrel divide us,\nor our herders;\nwe are family.”\n\n[Genesis 13:9]\n“The whole land lies before you.\nLet us part: go left, I’ll go right;\ngo right, I’ll go left.”\n\n[Genesis 13:10]\nLot looked over the Jordan plain:\nwell watered everywhere,\nbefore God destroyed Sodom\nand Gomorrha.\nIt was like the Lord’s garden,\nlike Egypt, as far as Zogora.\n\n[Genesis 13:11]\nLot chose the Jordan plain\nand traveled from the east.\nThe brothers parted;\nAbram stayed in Chanaan.\n\n[Genesis 13:12]\nLot lived in a city\nof the neighboring people\nand pitched his tent in Sodom.\n\n[Genesis 13:13]\nSodom’s people were evil,\nexceedingly sinful before God.\n\n[Genesis 13:14]\nAfter Lot parted from Abram,\nGod said, “Look up from where you stand:\nsee north and south,\neastward and seaward.”\n\n[Genesis 13:15]\n“All the land you see\nI will give to you and your seed,\nfor all time.”\n\n[Genesis 13:16]\n“I will make your seed\nlike earth’s dust.\nWho can count the dust?\nSo countless will your seed be.”\n\n[Genesis 13:17]\n“Rise, walk the land,\nits length and breadth.\nI give it to you\nand your seed for all time.”\n\n[Genesis 13:18]\nAbram moved his tent\nand settled by Mambre’s oak,\nin Chebrom.\nThere he built an altar\nto the Lord."
+      },
+      "source": {
+        "sourceReference": "Genesis 13",
+        "verses": [
+          {
+            "number": "1",
+            "text": "And Abram went up out of Egypt, he and his wife, and all that he had, and Lot with him, into the wilderness."
+          },
+          {
+            "number": "2",
+            "text": "And Abram was very rich in cattle, and silver, and gold."
+          },
+          {
+            "number": "3",
+            "text": "And he went [to the place] whence he came, into the wilderness as far as Bæthel, as far as the place where his tent was before, between Bæthel and Aggai,"
+          },
+          {
+            "number": "4",
+            "text": "to the place of the altar, which he built there at first, and Abram there called on the name of the Lord."
+          },
+          {
+            "number": "5",
+            "text": "And Lot who went out with Abram had sheep, and oxen, and tents."
+          },
+          {
+            "number": "6",
+            "text": "And the land was not large enough for them to live together, because their possessions were great; and the land was not large enough for them to live together."
+          },
+          {
+            "number": "7",
+            "text": "And there was a strife between the herdmen of Abram's cattle, and the herdmen of Lot's cattle, and the Chananites and the Pherezites then inhabited the land."
+          },
+          {
+            "number": "8",
+            "text": "And Abram said to Lot, Let there not be a strife between me and thee, and between my herdmen and thy herdmen, for we are brethren."
+          },
+          {
+            "number": "9",
+            "text": "Lo! is not the whole land before thee? Separate thyself from me; if thou [goest] to the left, I will go to the right, and if thou goest to the right, I will go to the left."
+          },
+          {
+            "number": "10",
+            "text": "And Lot having lifted up his eyes, observed all the country round about Jordan, that it was all watered, before God overthrew Sodom and Gomorrha, as the garden of the Lord, and as the land of Egypt, until thou come to Zogora."
+          },
+          {
+            "number": "11",
+            "text": "And Lot chose for himself all the country round Jordan, and Lot went from the east, and they were separated each from his brother. And Abram dwelt in the land of Chanaan."
+          },
+          {
+            "number": "12",
+            "text": "And Lot dwelt in a city of the neighbouring people, and pitched his tent in Sodom."
+          },
+          {
+            "number": "13",
+            "text": "But the men of Sodom were evil, and exceedingly sinful before God."
+          },
+          {
+            "number": "14",
+            "text": "And God said to Abram after Lot was separated from him, Look up with thine eyes, and behold from the place where thou now art northward and southward, and eastward and seaward;"
+          },
+          {
+            "number": "15",
+            "text": "for all the land which thou seest, I will give it to thee and to thy seed for ever."
+          },
+          {
+            "number": "16",
+            "text": "And I will make thy seed like the dust of the earth; if any one is able to number the dust of the earth, then shall thy seed be numbered."
+          },
+          {
+            "number": "17",
+            "text": "Arise and traverse the land, both in the length of it and in the breadth; for to thee will I give it, and to thy seed for ever."
+          },
+          {
+            "number": "18",
+            "text": "And Abram having removed his tent, came and dwelt by the oak of Mambre, which was in Chebrom, and he there built an altar to the Lord."
+          }
+        ]
+      }
+    },
+    {
       "id": "genesis-14",
       "studioId": "chapter:genesis:14",
       "book": "Genesis",
@@ -2582,5 +2678,5 @@
       "source": null
     }
   ],
-  "generatedAt": "2026-10-13T05:04:16.289Z"
+  "generatedAt": "2026-10-13T13:36:52.434Z"
 }
