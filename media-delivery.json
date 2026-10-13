@@ -314,6 +314,19 @@
       "key": "audio/faith-of-the-apostles/ec100c6d0583f79d.mp3",
       "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/faith-of-the-apostles/ec100c6d0583f79d.mp3",
       "verifiedAt": "2026-10-04T19:28:46.129Z"
+    },
+    {
+      "workId": "chapter:genesis:13",
+      "title": "The Land Before Them - Genesis 13",
+      "approvedTakeId": "57dfaa43-1f4a-4dcb-81f3-1f67ab052807",
+      "sourceSha256": "9e4571f5c8fafe528be4b3249c928b388061812327d30bb33abb037ac540d957",
+      "sourceCodec": "pcm_s16le",
+      "sha256": "bd44e21a7ca1fa4415748f840a950cfdc8d9618388dd1853db835a863cb7e57a",
+      "bytes": 5060759,
+      "contentType": "audio/mpeg",
+      "key": "audio/genesis-13/bd44e21a7ca1fa44.mp3",
+      "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-13/bd44e21a7ca1fa44.mp3",
+      "verifiedAt": "2026-10-13T13:36:47.264Z"
     }
   ]
 }
