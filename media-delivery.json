@@ -327,6 +327,19 @@
       "key": "audio/genesis-13/bd44e21a7ca1fa44.mp3",
       "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-13/bd44e21a7ca1fa44.mp3",
       "verifiedAt": "2026-10-13T13:36:47.264Z"
+    },
+    {
+      "workId": "chapter:genesis:19",
+      "title": "Sodom - Genesis 19",
+      "approvedTakeId": "d617ab4f-38cf-44d4-a095-a853a998bc36",
+      "sourceSha256": "276b3147454c961fb4a5b03aa02bb116337d0f7727da5b5884cd744f84193162",
+      "sourceCodec": "pcm_s16le",
+      "sha256": "b708ddc5ea7a5404765e47b290a8d3aac38aa82d15b626a8068b7bd67469dc65",
+      "bytes": 8769320,
+      "contentType": "audio/mpeg",
+      "key": "audio/genesis-19/b708ddc5ea7a5404.mp3",
+      "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-19/b708ddc5ea7a5404.mp3",
+      "verifiedAt": "2026-10-13T13:38:45.146Z"
     }
   ]
 }
