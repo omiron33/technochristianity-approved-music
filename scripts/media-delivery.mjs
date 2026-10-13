@@ -32,8 +32,15 @@ export function verifiedYouTube(work) {
   if (publication?.status !== "verified" || publication.mediaChangePending) return null;
   try {
     const url = new URL(publication.url);
-    return url.protocol === "https:" && url.hostname === "www.youtube.com" &&
-      url.pathname === "/watch" && /^[\w-]{11}$/.test(url.searchParams.get("v") || "")
-      ? url.toString() : null;
+    if (url.protocol !== "https:" || url.username || url.password || url.port) return null;
+    let videoId;
+    if (url.hostname === "youtu.be") {
+      videoId = url.pathname.slice(1);
+    } else if (["youtube.com", "www.youtube.com"].includes(url.hostname) &&
+        url.pathname === "/watch" && url.searchParams.getAll("v").length === 1) {
+      videoId = url.searchParams.get("v");
+    }
+    return /^[A-Za-z0-9_-]{11}$/.test(videoId || "")
+      ? `https://www.youtube.com/watch?v=${videoId}` : null;
   } catch { return null; }
 }
