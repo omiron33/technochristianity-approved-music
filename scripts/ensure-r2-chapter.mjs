@@ -6,6 +6,7 @@ import { readFile, stat, writeFile } from "node:fs/promises";
 import { homedir } from "node:os";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
+import { authorizeWebsiteJob, studioReader } from "./website-job-authority.mjs";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const option = (flag) => process.argv.includes(flag) ? process.argv[process.argv.indexOf(flag) + 1] : null;
@@ -14,6 +15,8 @@ let sourceWav = option("--source-wav");
 const sourceReceipt = option("--source-receipt");
 const receiptOut = option("--receipt-out");
 const statusOnly = process.argv.includes("--status");
+const websiteJobId = option("--website-job");
+const scoped = process.argv.includes("--website-job");
 if (!workId || !/^[a-z0-9:-]+$/.test(workId) || (statusOnly && (sourceWav || sourceReceipt)) ||
     (sourceWav && sourceReceipt))
   throw new Error("Usage: node scripts/ensure-r2-chapter.mjs --work-id chapter:genesis:11 [--status | --source-wav /absolute/export.wav | --source-receipt /absolute/export.json] [--receipt-out /absolute/receipt.json]");
@@ -22,16 +25,15 @@ if (sourceReceipt && !sourceReceipt.startsWith("/")) throw new Error("--source-r
 if (receiptOut && !receiptOut.startsWith("/")) throw new Error("--receipt-out needs an absolute path.");
 
 const dataDir = process.env.STUDIO_DATA_DIR || join(homedir(), "Library", "Application Support", "Music Studio");
-const token = (await readFile(join(dataDir, "api-token"), "utf8")).trim();
-const response = await fetch("http://127.0.0.1:4319/api/v1/works/" + encodeURIComponent(workId), {
-  headers: { Authorization: `Bearer ${token}` }, signal: AbortSignal.timeout(15_000),
-});
-if (!response.ok) throw new Error(`Music Studio returned ${response.status} for ${workId}.`);
-const work = await response.json();
+const get = await studioReader(dataDir);
+const work = await get("/works/" + encodeURIComponent(workId));
 const take = work.takes?.find((item) => item.id === work.approvedTakeId && item.approved);
 if (work.kind !== "chapter" || work.audioStatus !== "approved" || !take ||
     take.url !== `https://suno.com/song/${take.id}`)
   throw new Error("Website delivery needs the exact current approved Suno chapter take.");
+const authority = scoped ? await authorizeWebsiteJob({ jobId: websiteJobId, workId,
+  approvedTakeId: take.id, artifactVersion: work.artifactVersion, dataDir, get }) : null;
+const scopedFlags = authority ? ["--website-job", authority.jobId] : [];
 if (work.sunoFinalization?.status !== "verified" && work.publications?.website?.status !== "verified")
   throw new Error("Finish Suno finalization for this approved chapter before website delivery.");
 if (sourceReceipt) {
@@ -72,6 +74,7 @@ const publicBytesMatch = async (item) => {
 const receipt = (item) => ({ provider: "cloudflare-r2", url: item.audioUrl,
   sha256: item.sha256, approvedTakeId: item.approvedTakeId, verifiedAt: item.verifiedAt });
 const saveReceipt = async (item) => {
+  await authority?.revalidate();
   if (receiptOut) await writeFile(receiptOut, JSON.stringify(receipt(item), null, 2) + "\n", { flag: "wx", mode: 0o600 });
 };
 const run = (command, args) => {
@@ -83,7 +86,11 @@ const changed = spawnSync("git", ["status", "--porcelain", "--", "media-delivery
   { cwd: root, encoding: "utf8" });
 if (changed.status !== 0 || changed.stdout.trim())
   throw new Error("The audio delivery manifest or catalog has local changes. Reconcile them before another publication.");
+const stagedChanges = spawnSync("git", ["diff", "--cached", "--name-only"], { cwd: root, encoding: "utf8" });
+if (stagedChanges.status !== 0 || stagedChanges.stdout.trim())
+  throw new Error("The asset repository has staged changes. Reconcile them before another publication.");
 run("git", ["pull", "--ff-only", "origin", "main"]);
+await authority?.revalidate();
 
 let item = await currentItem();
 if (item && await publicBytesMatch(item)) {
@@ -93,30 +100,33 @@ if (item && await publicBytesMatch(item)) {
   console.log(`NEEDS_SUNO_WAV ${workId} ${take.url}`);
   process.exitCode = 3;
 } else {
-  const staging = join(dataDir, "r2-staging");
+  const staging = join(dataDir, "r2-staging", ...(authority ? [authority.jobId] : []));
   run("python3", ["scripts/prepare-r2-audio.py", "--work-id", workId,
-    "--source-wav", sourceWav, "--staging", staging]);
+    "--source-wav", sourceWav, "--staging", staging, ...scopedFlags]);
   const staged = JSON.parse(await readFile(join(staging, "manifest.json"), "utf8"));
   if (staged.objects?.length !== 1 || staged.objects[0].workId !== workId ||
       staged.objects[0].approvedTakeId !== take.id ||
       staged.objects[0].sourceCodec?.startsWith("pcm_") !== true)
     throw new Error("The staged Suno WAV does not belong to the requested approved take.");
+  await authority?.revalidate();
   run(process.execPath, ["scripts/upload-r2-audio.mjs", "--manifest", join(staging, "manifest.json"), "--bucket", bucket]);
   run(process.execPath, ["scripts/verify-r2-delivery.mjs", "--manifest", join(staging, "manifest.json"),
-    "--base-url", baseUrl]);
+    "--base-url", baseUrl, ...scopedFlags]);
   item = await currentItem();
   if (!item || item.approvedTakeId !== take.id || !(await publicBytesMatch(item)))
     throw new Error("The current approved take does not have a verified R2 delivery.");
   // Keep the approved WAV in Music Studio's private local masters directory.
+  await authority?.revalidate();
   run("git", ["add", "--", "media-delivery.json"]);
   run("git", ["commit", "-m", `Record verified R2 audio for ${work.book} ${work.chapter}`]);
+  await authority?.revalidate();
   run("git", ["push", "origin", "HEAD:main"]);
   await saveReceipt(item);
   console.log(`Verified local WAV master and public audio in R2 for ${workId}.`);
 }
 
 if (item && !statusOnly) {
-  run(process.execPath, ["scripts/sync-approved-music.mjs"]);
+  run(process.execPath, ["scripts/sync-approved-music.mjs", ...scopedFlags]);
   const slug = `${work.book}-${Number(work.chapter)}`;
   let live = false;
   for (let attempt = 0; attempt < 20; attempt++) {

@@ -2,9 +2,9 @@
 // Verify locally staged and publicly served bytes before recording an R2 delivery.
 import { createHash } from "node:crypto";
 import { readFile, writeFile } from "node:fs/promises";
-import { homedir } from "node:os";
 import { dirname, isAbsolute, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
+import { authorizeWebsiteJob, assertWebsiteManifest, mergeWebsiteDelivery, studioReader } from "./website-job-authority.mjs";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const option = (name) => process.argv[process.argv.indexOf(name) + 1];
@@ -19,15 +19,14 @@ if (origin.protocol !== "https:" || origin.search || origin.hash || origin.pathn
 const staged = JSON.parse(await readFile(manifestPath, "utf8"));
 if (staged.formatVersion !== 1 || staged.provider !== "cloudflare-r2" || !Array.isArray(staged.objects))
   throw new Error("Invalid staged R2 manifest.");
-const tokenFile = join(process.env.STUDIO_DATA_DIR || join(homedir(), "Library", "Application Support", "Music Studio"), "api-token");
-const token = (await readFile(tokenFile, "utf8")).trim();
-const studioResponse = await fetch("http://127.0.0.1:4319/api/v1/studio", {
-  headers: { Authorization: `Bearer ${token}` }, signal: AbortSignal.timeout(15000),
-});
-if (!studioResponse.ok) throw new Error(`Music Studio returned ${studioResponse.status}`);
-const studio = await studioResponse.json();
-if (studio.settings?.paused) throw new Error("Music Studio global runner is paused.");
+const websiteJobId = process.argv.includes("--website-job") ? option("--website-job") : null;
+const get = await studioReader();
+const studio = await get("/studio");
+const authority = process.argv.includes("--website-job") ? await authorizeWebsiteJob({ jobId: websiteJobId, get }) : null;
+if (studio.settings?.paused && !authority) throw new Error("Music Studio global runner is paused.");
+assertWebsiteManifest(authority, staged);
 const works = new Map(studio.works.map((work) => [work.id, work]));
+if (authority) works.set(authority.workId, authority.work);
 const seen = new Set();
 const verified = [];
 for (const item of staged.objects) {
@@ -57,10 +56,13 @@ for (const item of staged.objects) {
   console.log(`${item.workId}: R2 bytes and type verified`);
 }
 const target = join(root, "media-delivery.json");
+await authority?.revalidate();
 let prior = null;
 try { prior = JSON.parse(await readFile(target, "utf8")); } catch { /* First delivery. */ }
 const retained = prior?.baseUrl === baseUrl && Array.isArray(prior.objects)
   ? prior.objects.filter((item) => !seen.has(item.workId)) : [];
-await writeFile(target, JSON.stringify({ formatVersion: 1, provider: "cloudflare-r2", baseUrl,
-  objects: [...retained, ...verified].sort((a, b) => a.workId.localeCompare(b.workId)) }, null, 2) + "\n");
+const next = authority ? mergeWebsiteDelivery(prior, baseUrl, verified, authority)
+  : { formatVersion: 1, provider: "cloudflare-r2", baseUrl,
+    objects: [...retained, ...verified].sort((a, b) => a.workId.localeCompare(b.workId)) };
+await writeFile(target, JSON.stringify(next, null, 2) + "\n");
 console.log(`Recorded ${verified.length} verified R2 deliveries.`);

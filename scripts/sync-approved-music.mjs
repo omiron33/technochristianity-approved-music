@@ -4,6 +4,7 @@ import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { execFileSync } from "node:child_process";
 import { deliveredAudio, queuedSunoFallback, verifiedYouTube } from "./media-delivery.mjs";
+import { authorizeWebsiteJob, mergeWebsiteCatalog } from "./website-job-authority.mjs";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const target = join(root, "approved-chapters.json");
@@ -14,20 +15,24 @@ const uuid = /^[a-f\d]{8}-[a-f\d]{4}-[a-f\d]{4}-[a-f\d]{4}-[a-f\d]{12}$/i;
 const tokenFile = join(process.env.STUDIO_DATA_DIR || join(homedir(), "Library", "Application Support", "Music Studio"), "api-token");
 const token = (await readFile(tokenFile, "utf8")).trim();
 const headers = { Authorization: `Bearer ${token}` };
+const origin = process.env.STUDIO_ORIGIN || "http://127.0.0.1:4319";
 const get = async (path) => {
-  const response = await fetch(`http://127.0.0.1:4319/api/v1${path}`, { headers, signal: AbortSignal.timeout(15000) });
+  const response = await fetch(`${origin}/api/v1${path}`, { headers, signal: AbortSignal.timeout(15000) });
   if (!response.ok) throw new Error(`Music Studio ${path} returned ${response.status}`);
   return response.json();
 };
 const patch = async (path, body) => {
-  const response = await fetch(`http://127.0.0.1:4319/api/v1${path}`, {
+  const response = await fetch(`${origin}/api/v1${path}`, {
     method: "PATCH", headers: { ...headers, "Content-Type": "application/json" },
     body: JSON.stringify(body), signal: AbortSignal.timeout(15000),
   });
   if (!response.ok) throw new Error(`Music Studio ${path} returned ${response.status}`);
 };
 const studio = await get("/studio");
-if (studio.settings?.paused) {
+const scoped = process.argv.includes("--website-job");
+const websiteJobId = scoped ? process.argv[process.argv.indexOf("--website-job") + 1] : null;
+const authority = scoped ? await authorizeWebsiteJob({ jobId: websiteJobId, get }) : null;
+if (studio.settings?.paused && !authority) {
   console.log("Music Studio runner is paused; catalog sync skipped.");
   process.exit(0);
 }
@@ -37,7 +42,7 @@ const publicIntros = {
   "judges-3": "A comic country-funk retelling of Ehud and Eglon in Judges 3:12–30. This is a loose adaptation, not a verse-by-verse setting.",
   "matthew-5": "Jesus calls his followers to be salt and light in the Sermon on the Mount.",
 };
-const approved = studio.works.filter((work) =>
+const approved = (authority ? [authority.work] : studio.works).filter((work) =>
   work.kind === "chapter" && work.audioStatus === "approved" &&
   (work.sunoFinalization?.status === "verified" || work.publications?.website?.status === "verified") &&
   uuid.test(work.approvedTakeId || "") &&
@@ -68,12 +73,14 @@ const songs = (await Promise.all(approved.map(async (work) => {
   };
 }))).filter((song) => Boolean(song.audio || song.audioSource === "suno"));
 songs.sort((a, b) => Object.keys(label).indexOf(a.book.toLowerCase()) - Object.keys(label).indexOf(b.book.toLowerCase()) || Number(a.chapter) - Number(b.chapter));
-const contents = { formatVersion: 1, songs };
 const readCurrent = async () => { try { return JSON.parse(await readFile(target, "utf8")); } catch { return null; } };
+const contentsFor = (current) => authority
+  ? mergeWebsiteCatalog(current, songs, authority.work) : { formatVersion: 1, songs };
+let contents = contentsFor(await readCurrent());
 const same = (a, b) => JSON.stringify(a?.songs) === JSON.stringify(b.songs) && a?.formatVersion === b.formatVersion;
 const writeOnly = process.argv.includes("--write-only");
 const recordWebsiteHandoff = async () => {
-  if (writeOnly) return;
+  if (writeOnly || authority) return; // The exact claimed job records its own result and handoff.
   for (const work of approved) {
     if (!songs.some((song) => song.studioId === work.id && (song.audio || song.audioSource === "suno"))) continue;
     if (studio.jobs.some((job) => job.workId === work.id && job.stage === "website" &&
@@ -89,6 +96,7 @@ const recordWebsiteHandoff = async () => {
   }
 };
 if (same(await readCurrent(), contents)) {
+  await authority?.revalidate();
   await recordWebsiteHandoff();
   console.log(`Approved catalog current (${songs.length} finalized songs).`);
   process.exit(0);
@@ -100,15 +108,20 @@ if (!writeOnly) {
   if (git("diff", "--cached", "--name-only"))
     throw new Error("Asset repository has staged changes; inspect before syncing.");
   git("pull", "--ff-only", "origin", "main");
+  await authority?.revalidate();
+  contents = contentsFor(await readCurrent());
   if (same(await readCurrent(), contents)) {
     await recordWebsiteHandoff();
     process.exit(0);
   }
 }
+await authority?.revalidate();
 await writeFile(target, JSON.stringify({ ...contents, generatedAt: new Date().toISOString() }, null, 2) + "\n");
 if (!writeOnly) {
+  await authority?.revalidate();
   git("add", "--", "approved-chapters.json");
   git("commit", "-m", "Sync Music Studio approved songs for public catalog");
+  await authority?.revalidate();
   git("push", "origin", "HEAD:main");
 }
 await recordWebsiteHandoff();

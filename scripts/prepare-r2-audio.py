@@ -102,11 +102,26 @@ def main():
     parser.add_argument("--source-wav", type=Path,
                         help="Exact approved Suno WAV observed and downloaded by the local browser agent")
     parser.add_argument("--staging", type=Path, default=DATA_DIR / "r2-staging")
+    parser.add_argument("--website-job", help="Exact currently claimed direct website delivery")
     args = parser.parse_args()
     if args.source_wav and not args.work_id:
         parser.error("--source-wav requires --work-id")
     studio = json.loads(fetch(STUDIO + "/api/v1/studio"))
-    if studio.get("settings", {}).get("paused"):
+    def authorize():
+        if not args.website_job:
+            return
+        if not args.work_id:
+            raise RuntimeError("A scoped website delivery requires --work-id")
+        work = next((item for item in studio["works"] if item["id"] == args.work_id), None)
+        if not work or not work.get("artifactVersion"):
+            raise RuntimeError("The scoped website work was not found")
+        subprocess.run(["node", str(Path(__file__).with_name("website-job-authority.mjs")),
+                        "--website-job", args.website_job, "--work-id", args.work_id,
+                        "--take-id", work.get("approvedTakeId", ""),
+                        "--artifact-version", work["artifactVersion"]], check=True,
+                       capture_output=True, text=True)
+    authorize()
+    if studio.get("settings", {}).get("paused") and not args.website_job:
         raise RuntimeError("Music Studio global runner is paused")
     works = [work for work in studio["works"] if work.get("audioStatus") == "approved" and
              work.get("approvedTakeId") and (work.get("kind") != "chapter" or
@@ -121,6 +136,7 @@ def main():
     sources.mkdir(parents=True, exist_ok=True)
     records = []
     for work in works:
+        authorize()
         source = source_for(work, sources, args.source_wav)
         source_hash = digest(source)
         source_codec = codec(source)
@@ -150,6 +166,7 @@ def main():
                         "contentType": "audio/mp4" if extension == "m4a" else "audio/mpeg", "key": key})
         print(f"{work['id']}: {source_codec} -> {key}")
     manifest_path = staging / "manifest.json"
+    authorize()
     # The staging manifest is one delivery batch. The verified release manifest
     # retains other chapters after this batch passes all public checks.
     manifest_path.write_text(json.dumps({"formatVersion": 1, "provider": "cloudflare-r2", "objects": records}, indent=2) + "\n")
