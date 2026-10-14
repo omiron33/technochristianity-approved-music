@@ -340,6 +340,19 @@
       "key": "audio/genesis-19/b708ddc5ea7a5404.mp3",
       "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-19/b708ddc5ea7a5404.mp3",
       "verifiedAt": "2026-10-13T13:38:45.146Z"
+    },
+    {
+      "workId": "chapter:genesis:20",
+      "title": "Abimelech - Genesis 20",
+      "approvedTakeId": "865417b8-39ca-46ef-b00e-452d86a00f33",
+      "sourceSha256": "47b64f54ca8a4d2f3ebf858fc1f99ff96cd702743d97505aebe866b1aaf80818",
+      "sourceCodec": "pcm_s16le",
+      "sha256": "0c1d9af9d30c252e8095978aa25e2f3b6263e746c68223ea0aa92dea779a8895",
+      "bytes": 5954748,
+      "contentType": "audio/mpeg",
+      "key": "audio/genesis-20/0c1d9af9d30c252e.mp3",
+      "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-20/0c1d9af9d30c252e.mp3",
+      "verifiedAt": "2026-10-14T00:38:08.526Z"
     }
   ]
 }
