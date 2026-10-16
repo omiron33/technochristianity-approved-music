@@ -2818,6 +2818,110 @@
       }
     },
     {
+      "id": "genesis-23",
+      "studioId": "chapter:genesis:23",
+      "book": "Genesis",
+      "chapter": "23",
+      "reference": "Genesis 23",
+      "title": "Sarah - Genesis 23",
+      "shortTitle": "Sarah",
+      "intro": "A song inspired by Genesis 23.",
+      "suno": "a86e2d55-7c6d-40f5-a8d4-9e9b1fc82f18",
+      "audio": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-23/5b81defa4fa69aea.mp3",
+      "audioSource": "cloudflare-r2",
+      "poster": null,
+      "youtube": null,
+      "lyric": {
+        "label": "Song adaptation",
+        "text": "[One hundred twenty-seven years]\nSarrha lived one hundred twenty-seven years.\n\nSarrha died in the city of Arboc, in the valley—\nChebron, in the land of Chanaan.\nAbraam came to lament for Sarrha\nand to mourn.\n\n[A stranger asking room]\nThen Abraam rose from before his dead\nand spoke to the sons of Chet:\n\n“I am a sojourner and stranger among you.\nGive me possession of a burial place among you,\nso I may bury my dead away from me.”\n\nThe sons of Chet answered Abraam:\n“No, sir,\n\nbut hear us. You are a king from God among us.\nBury your dead in our finest tombs.\nNo one here will withhold his tomb from you\nso that you cannot bury your dead there.”\n\n[The Double Cave]\nAbraam rose and bowed before\nthe people of the land, the sons of Chet.\n\nHe said, “If it is your intention\nthat I bury my dead out of my sight,\nlisten to me and speak for me to Ephron,\nthe son of Saar.”\n\n“Let him give me his Double Cave,\nwhich is in a part of his field.\nLet me pay what it is worth,\nto possess a burial place among you.”\n\n[In everyone’s hearing]\nEphron sat among the sons of Chet.\nEphron the Chettite answered Abraam\nin the hearing of the sons of Chet\nand all who entered the city:\n\n“Attend to me, my lord, and hear me.\nI give you the field and its cave.\nBefore all my countrymen, I give it to you.\nBury your dead.”\n\nAbraam bowed before the people\nof the land.\n\nHe said to Ephron before the people of the land,\n“Since you are on my side, hear me:\nTake the price of the field from me,\nand I will bury my dead there.”\n\n[Four hundred didrachms]\nEphron answered Abraam:\n\n“Nay, my lord, I have indeed heard.\nThe land is worth four hundred silver didrachms.\nWhat is that between you and me?\nDo bury your dead.”\n\nAbraam listened to Ephron and paid him\nthe money named before the sons of Chet:\nfour hundred didrachms of silver\napproved by merchants.\n\n[Field, cave, trees, borders]\nEphron’s field at Double Cave,\nopposite Mambre, was secured—\nthe field, the cave within it,\nevery tree, and all within its borders.\n\nIt became Abraam’s possession\nbefore the sons of Chet\nand all who entered the city.\n\n[A place for the dead]\nThen Abraam buried Sarrha his wife\nin Double Cave, in the field\nopposite Mambre—Chebron,\nin the land of Chanaan.\n\nSo the sons of Chet secured the field\nand the cave within it for Abraam\nas his possession for a burial place."
+      },
+      "source": {
+        "sourceReference": "Genesis 23",
+        "verses": [
+          {
+            "number": "1",
+            "text": "And the life of Sarrha was an hundred and twenty-seven years."
+          },
+          {
+            "number": "2",
+            "text": "And Sarrha died in the city of Arboc, which is in the valley, this is Chebron in the land of Chanaan; and Abraam came to lament for Sarrha and to mourn."
+          },
+          {
+            "number": "3",
+            "text": "And Abraam stood up from before his dead; and Abraam spoke to the sons of Chet, saying,"
+          },
+          {
+            "number": "4",
+            "text": "I am a sojourner and a stranger among you, give me therefore possession of a burying-place among you, and I will bury my dead away from me."
+          },
+          {
+            "number": "5",
+            "text": "And the sons of Chet answered to Abraam, saying, Not so, Sir,"
+          },
+          {
+            "number": "6",
+            "text": "but hear us; thou art in the midst of us a king from God; bury thy dead in our choice sepulchres, for not one of us will by any means withhold his sepulchre from thee, so that thou shouldest not bury thy dead there."
+          },
+          {
+            "number": "7",
+            "text": "And Abraam rose up and did obeisance to the people of the land, to the sons of Chet."
+          },
+          {
+            "number": "8",
+            "text": "And Abraam spoke to them, saying, If ye have it in your mind that I should bury my dead out of my sight, hearken to me, and speak for me to Ephron the son of Saar."
+          },
+          {
+            "number": "9",
+            "text": "And let him give me the double cave which he has, which is in a part of his field, let him give it me for the money it is worth for possession of a burying-place among you."
+          },
+          {
+            "number": "10",
+            "text": "Now Ephron was sitting in the midst of the children of Chet, and Ephron the Chettite answered Abraam and spoke in the hearing of the sons of Chet, and of all who entered the city, saying,"
+          },
+          {
+            "number": "11",
+            "text": "Attend to me, my lord, and hear me, I give to thee the field and the cave which is in it; I have given it thee before all my countrymen; bury thy dead."
+          },
+          {
+            "number": "12",
+            "text": "And Abraam did obeisance before the people of the land."
+          },
+          {
+            "number": "13",
+            "text": "And he said in the ears of Ephron before the people of the land, Since thou art on my side, hear me; take the price of the field from me, and I will bury my dead there."
+          },
+          {
+            "number": "14",
+            "text": "But Ephron answered Abraam, saying,"
+          },
+          {
+            "number": "15",
+            "text": "Nay, my lord, I have heard indeed, the land [is worth] four hundred silver didrachms, but what can this be between me and thee? nay, do thou bury thy dead."
+          },
+          {
+            "number": "16",
+            "text": "And Abraam hearkened to Ephron, and Abraam rendered to Ephron the money, which he mentioned in the ears of the sons of Chet, four hundred didrachms of silver approved with merchants."
+          },
+          {
+            "number": "17",
+            "text": "And the field of Ephron, which was in Double Cave, which is opposite Mambre, the field and the cave, which was in it, and every tree which was in the field, and whatever is in its borders round about, were made sure"
+          },
+          {
+            "number": "18",
+            "text": "to Abraam for a possession, before the sons of Chet, and all that entered into the city."
+          },
+          {
+            "number": "19",
+            "text": "After this Abraam buried Sarrha his wife in the Double Cave of the field, which is opposite Mambre, this is Chebron in the land of Chanaan."
+          },
+          {
+            "number": "20",
+            "text": "So the field and the cave which was in it were made sure to Abraam for possession of a burying place, by the sons of Chet."
+          }
+        ]
+      }
+    },
+    {
       "id": "judges-3",
       "studioId": "b66dd56a-5809-4c05-bf94-188ea68b242a",
       "book": "Judges",
@@ -3230,5 +3334,5 @@
       "source": null
     }
   ],
-  "generatedAt": "2026-10-16T06:59:00.823Z"
+  "generatedAt": "2026-10-16T19:36:55.274Z"
 }
