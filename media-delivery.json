@@ -366,6 +366,19 @@
       "key": "audio/genesis-22/eb84876169f9d802.mp3",
       "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-22/eb84876169f9d802.mp3",
       "verifiedAt": "2026-10-16T06:30:53.235Z"
+    },
+    {
+      "workId": "chapter:genesis:21",
+      "title": "Isaac - Genesis 21",
+      "approvedTakeId": "4ec5021a-c0c0-47c8-99d7-cecd017a5abf",
+      "sourceSha256": "32d127f376bd534396d359ddf966d68b64f650dde99c8e8421063f995ea729a1",
+      "sourceCodec": "pcm_s16le",
+      "sha256": "ffdd1fcc3353d5ca35d79c1dc2fbe185962504b2b868e5c6e11ff5af84c73399",
+      "bytes": 8045648,
+      "contentType": "audio/mpeg",
+      "key": "audio/genesis-21/ffdd1fcc3353d5ca.mp3",
+      "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-21/ffdd1fcc3353d5ca.mp3",
+      "verifiedAt": "2026-10-16T06:58:55.332Z"
     }
   ]
 }
