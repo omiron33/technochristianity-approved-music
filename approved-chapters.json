@@ -2538,6 +2538,166 @@
       }
     },
     {
+      "id": "genesis-21",
+      "studioId": "chapter:genesis:21",
+      "book": "Genesis",
+      "chapter": "21",
+      "reference": "Genesis 21",
+      "title": "Isaac - Genesis 21",
+      "shortTitle": "Isaac",
+      "intro": "A song inspired by Genesis 21.",
+      "suno": "4ec5021a-c0c0-47c8-99d7-cecd017a5abf",
+      "audio": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-21/ffdd1fcc3353d5ca.mp3",
+      "audioSource": "cloudflare-r2",
+      "poster": null,
+      "youtube": null,
+      "lyric": {
+        "label": "Song adaptation",
+        "text": "[Verse 1]\nThe Lord came to Sarah as He had said;\nThe long years turned, and the time had come.\nShe bore Abraham a son in their old age,\nHe named the boy Isaac, joy upon his tongue.\nA hundred years beneath that desert sun,\nHe held the boy he'd waited on.\nOn the eighth day he circumcised the child,\nAs the Lord had commanded him.\nSarah said, \"God made laughter for me;\nLet all who hear rejoice with me.\nWho'd have told him I'd nurse a child?\nI've borne a son in my old age.\"\nThe child grew up and he was weaned;\nAbraham spread a feast that day.\n\n[Verse 2]\nSarah saw the Egyptian Hagar's son,\nBorn to Abraham, playing with Isaac.\n\"Cast out this slave woman and her son;\nHe won't inherit with my Isaac.\"\nIt cut Abraham deep for his boy.\nGod said, \"Don't be troubled for them;\nListen to Sarah in all she says;\nThrough Isaac your seed shall be named.\nI'll make her son a great nation too,\nBecause he is your seed.\"\nTwo sons beneath one father's sky,\nAnd a road he couldn't walk for them.\n\n[Chorus]\nLaughter in the doorway, dust along the road,\nOne man with a promise and a heavy load.\nWhen the skin runs empty and the sun hangs high,\nGod hears the child where the waters run dry.\n\n[Verse 3]\nMorning came; he gave Hagar bread\nAnd a skin of water for the way.\nHe put the child upon her shoulder,\nThen Abraham sent them away.\nShe wandered near the Well of the Oath;\nThe water failed; the road ran dry.\nShe laid the child beneath a fir,\nWent a bowshot off and sat nearby.\n\"I cannot watch my child die.\"\nThe child cried out, the child wept.\nThat little distance weighed like miles;\nThere wasn't one drop left.\n\n[Verse 4]\nGod heard the child right where he lay.\nHis angel called from heaven to her:\n\"What troubles you, Hagar? Do not fear;\nGod heard the child right where he is.\nRise, take the child, hold him in your hand;\nI'll make him a great nation.\"\nGod opened her eyes; a springing well!\nShe filled the skin and gave him a drink.\nWater on lips that had cried in the dust,\nA world made wide in a mother's arms.\nGod stayed with him; he grew in the wild,\nAn archer where the rough roads ran.\nHe dwelt in the wilderness; his mother\nFound him a wife from Pharan in Egypt.\n\n[Chorus]\nLaughter in the doorway, dust along the road,\nOne man with a promise and a heavy load.\nWhen the skin runs empty and the sun hangs high,\nGod hears the child where the waters run dry.\n\n[Verse 5]\nAbimelech came with Ochozath his friend,\nAnd Phichol, the captain of his men.\n\"God is with you in all you do;\nSwear by God you'll do no harm\nTo me, my descendants or my name.\nAs I've dealt justly, deal with me\nAnd with this land where you have stayed.\"\n\"I swear,\" was Abraham's reply.\nThen he called him out for the wells\nHis servants had seized and taken away.\n\"I don't know who; you never told me;\nI only heard of it today.\"\nAbraham gave him sheep and calves;\nThe two men made a covenant.\nWater was worth more than a quarrel,\nAnd a man's word needed ground to stand.\n\n[Verse 6]\nAbraham set seven ewe-lambs apart.\n\"Why these seven?\" Abimelech asked him.\n\"Take these seven ewe-lambs from my hand;\nLet them witness that I dug this well.\"\nThey named it the Well of the Oath,\nFor there the two men swore.\nThere they made their covenant;\nTheir words had water at the core.\nAbimelech, Ochozath and Phichol\nWent back to the Philistines' land.\nSeven small lives beside the water,\nA witness no clenched fist could give.\n\n[Chorus]\nLaughter in the doorway, dust along the road,\nOne man with a promise and a heavy load.\nWhen the skin runs empty and the sun hangs high,\nGod hears the child where the waters run dry.\n\n[Outro]\nAbraham planted a field by that well,\nCalled on the Lord, the Everlasting God.\nMany days in the Philistines' land,\nA stranger still upon that ground."
+      },
+      "source": {
+        "sourceReference": "Genesis 21",
+        "verses": [
+          {
+            "number": "1",
+            "text": "And the Lord visited Sarrha, as he said, and the Lord did to Sarrha, as he spoke."
+          },
+          {
+            "number": "2",
+            "text": "And she conceived and bore to Abraam a son in old age, at the set time according as the Lord spoke to him."
+          },
+          {
+            "number": "3",
+            "text": "And Abraam called the name of his son that was born to him, whom Sarrha bore to him, Isaac."
+          },
+          {
+            "number": "4",
+            "text": "And Abraam circumcised Isaac on the eighth day, as God commanded him."
+          },
+          {
+            "number": "5",
+            "text": "And Abraam was a hundred years old when Isaac his son was born to him."
+          },
+          {
+            "number": "6",
+            "text": "And Sarrha said, The Lord has made laughter for me, for whoever shall hear shall rejoice with me."
+          },
+          {
+            "number": "7",
+            "text": "And she said, Who shall say to Abraam that Sarrha suckles a child? for I have born a child in my old age."
+          },
+          {
+            "number": "8",
+            "text": "And the child grew and was weaned, and Abraam made a great feast the day that his son Isaac was weaned."
+          },
+          {
+            "number": "9",
+            "text": "And Sarrha having seen the son of Agar the Egyptian who was born to Abraam, sporting with Isaac her son,"
+          },
+          {
+            "number": "10",
+            "text": "then she said to Abraam, Cast out this bondwoman and her son, for the son of this bondwoman shall not inherit with my son Isaac."
+          },
+          {
+            "number": "11",
+            "text": "But the word appeared very hard before Abraam concerning his son."
+          },
+          {
+            "number": "12",
+            "text": "But God said to Abraam, Let it not be hard before thee concerning the child, and concerning the bondwoman; in all things whatsoever Sarrha shall say to thee, hear her voice, for in Isaac shall thy seed be called."
+          },
+          {
+            "number": "13",
+            "text": "And moreover I will make the son of this bondwoman a great nation, because he is thy seed."
+          },
+          {
+            "number": "14",
+            "text": "And Abraam rose up in the morning and took loaves and a skin of water, and gave [them] to Agar, and he put the child on her shoulder, and sent her away, and she having departed wandered in the wilderness near the well of the oath."
+          },
+          {
+            "number": "15",
+            "text": "And the water failed out of the skin, and she cast the child under a fir tree."
+          },
+          {
+            "number": "16",
+            "text": "And she departed and sat down opposite him at a distance, as it were a bow-shot, for she said, Surely I cannot see the death of my child: and she sat opposite him, and the child cried aloud and wept."
+          },
+          {
+            "number": "17",
+            "text": "And God heard the voice of the child from the place where he was, and an angel of God called Agar out of heaven, and said to her, What is it, Agar? fear not, for God has heard the voice of the child from the place where he is."
+          },
+          {
+            "number": "18",
+            "text": "Rise up, and take the child, and hold him in thine hand, for I will make him a great nation."
+          },
+          {
+            "number": "19",
+            "text": "And God opened her eyes, and she saw a well of springing water; and she went and filled the skin with water, and gave the child drink."
+          },
+          {
+            "number": "20",
+            "text": "And God was with the child, and he grew and dwelt in the wilderness, and became an archer."
+          },
+          {
+            "number": "21",
+            "text": "And he dwelt in the wilderness, and his mother took him a wife out of Pharan of Egypt."
+          },
+          {
+            "number": "22",
+            "text": "And it came to pass at that time that Abimelech spoke, and Ochozath his friend, and Phichol the chief captain of his host, to Abraam, saying, God is with thee in all things, whatsoever thou mayest do."
+          },
+          {
+            "number": "23",
+            "text": "Now therefore swear to me by God that thou wilt not injure me, nor my seed, nor my name, but according to the righteousness which I have performed with thee thou shalt deal with me, and with the land in which thou hast sojourned."
+          },
+          {
+            "number": "24",
+            "text": "And Abraam said, I will swear."
+          },
+          {
+            "number": "25",
+            "text": "And Abraam reproved Abimelech because of the wells of water, which the servants of Abimelech took away."
+          },
+          {
+            "number": "26",
+            "text": "And Abimelech said to him, I know not who has done this thing to thee, neither didst thou tell it me, neither heard I it but only to-day."
+          },
+          {
+            "number": "27",
+            "text": "And Abraam took sheep and calves, and gave them to Abimelech, and both made a covenant."
+          },
+          {
+            "number": "28",
+            "text": "And Abraam set seven ewe-lambs by themselves."
+          },
+          {
+            "number": "29",
+            "text": "And Abimelech said to Abraam, What are these seven ewe-lambs which thou hast set alone?"
+          },
+          {
+            "number": "30",
+            "text": "And Abraam said, Thou shalt receive the seven ewe-lambs of me, that they may be for me as a witness, that I dug this well."
+          },
+          {
+            "number": "31",
+            "text": "Therefore he named the name of that place, The Well of the Oath, for there they both swore."
+          },
+          {
+            "number": "32",
+            "text": "And they made a covenant at the well of the oath. And there rose up Abimelech, Ochozath his friend, and Phichol the commander-in-chief of his army, and they returned to the land of the Phylistines."
+          },
+          {
+            "number": "33",
+            "text": "And Abraam planted a field at the well of the oath, and called there on the name of the Lord, the everlasting God."
+          },
+          {
+            "number": "34",
+            "text": "And Abraam sojourned in the land of the Phylistines many days."
+          }
+        ]
+      }
+    },
+    {
       "id": "genesis-22",
       "studioId": "chapter:genesis:22",
       "book": "Genesis",
@@ -3070,5 +3230,5 @@
       "source": null
     }
   ],
-  "generatedAt": "2026-10-16T06:30:58.483Z"
+  "generatedAt": "2026-10-16T06:59:00.823Z"
 }
