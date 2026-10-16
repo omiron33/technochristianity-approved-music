@@ -353,6 +353,19 @@
       "key": "audio/genesis-20/0c1d9af9d30c252e.mp3",
       "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-20/0c1d9af9d30c252e.mp3",
       "verifiedAt": "2026-10-14T00:38:08.526Z"
+    },
+    {
+      "workId": "chapter:genesis:22",
+      "title": "On the Mountain - Genesis 22",
+      "approvedTakeId": "905c6fee-4579-4162-84b2-c75b2f9aaeba",
+      "sourceSha256": "e6199960ff9e893d79d05829833a09be20d3b592338af450969c4376bddca852",
+      "sourceCodec": "pcm_s16le",
+      "sha256": "eb84876169f9d8026836ff38dfc74e44fe24c9fc3cad377455aa886851f8e166",
+      "bytes": 6753474,
+      "contentType": "audio/mpeg",
+      "key": "audio/genesis-22/eb84876169f9d802.mp3",
+      "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-22/eb84876169f9d802.mp3",
+      "verifiedAt": "2026-10-16T06:30:53.235Z"
     }
   ]
 }
