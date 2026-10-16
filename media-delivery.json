@@ -392,6 +392,19 @@
       "key": "audio/genesis-23/5b81defa4fa69aea.mp3",
       "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-23/5b81defa4fa69aea.mp3",
       "verifiedAt": "2026-10-16T19:36:46.073Z"
+    },
+    {
+      "workId": "chapter:genesis:24",
+      "title": "At the Well - Genesis 24",
+      "approvedTakeId": "309d26de-e3d7-4a48-8974-fa046d4f97f5",
+      "sourceSha256": "392dd9fb604b2827af67be8b93c028009e7361c1a05aad4bbdd7cc6a1a756cc4",
+      "sourceCodec": "pcm_s16le",
+      "sha256": "640d91fdaf8f337e7055c354e1e896a6087378249d6d4fa771cad7ed74980e06",
+      "bytes": 6873014,
+      "contentType": "audio/mpeg",
+      "key": "audio/genesis-24/640d91fdaf8f337e.mp3",
+      "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-24/640d91fdaf8f337e.mp3",
+      "verifiedAt": "2026-10-16T19:41:54.043Z"
     }
   ]
 }
