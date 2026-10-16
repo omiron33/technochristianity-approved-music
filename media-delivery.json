@@ -379,6 +379,19 @@
       "key": "audio/genesis-21/ffdd1fcc3353d5ca.mp3",
       "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-21/ffdd1fcc3353d5ca.mp3",
       "verifiedAt": "2026-10-16T06:58:55.332Z"
+    },
+    {
+      "workId": "chapter:genesis:23",
+      "title": "Sarah - Genesis 23",
+      "approvedTakeId": "a86e2d55-7c6d-40f5-a8d4-9e9b1fc82f18",
+      "sourceSha256": "14225c9d480ce675586002835db66ee19c2910ac38f3d34503ccff65fce3b85d",
+      "sourceCodec": "pcm_s16le",
+      "sha256": "5b81defa4fa69aea245d9a634dc743430f2ca8f2d5b7ea3136f249f041c3f941",
+      "bytes": 6638456,
+      "contentType": "audio/mpeg",
+      "key": "audio/genesis-23/5b81defa4fa69aea.mp3",
+      "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-23/5b81defa4fa69aea.mp3",
+      "verifiedAt": "2026-10-16T19:36:46.073Z"
     }
   ]
 }
