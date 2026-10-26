@@ -30,6 +30,19 @@
       "verifiedAt": "2026-10-05T04:26:16.513Z"
     },
     {
+      "workId": "chapter:1-kings:18",
+      "title": "All Hype, No Heat — Answer by Fire - 1 Kings 18",
+      "approvedTakeId": "ba51019e-3064-4b14-bfff-20af8a34874d",
+      "sourceSha256": "19da24c692c5b8a97a91093221761469e35d7414ea3b3c84745affca76146017",
+      "sourceCodec": "aac",
+      "sha256": "19da24c692c5b8a97a91093221761469e35d7414ea3b3c84745affca76146017",
+      "bytes": 4983663,
+      "contentType": "audio/mp4",
+      "key": "audio/1-kings-18/19da24c692c5b8a9.m4a",
+      "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/1-kings-18/19da24c692c5b8a9.m4a",
+      "verifiedAt": "2026-10-26T02:33:42.137Z"
+    },
+    {
       "workId": "chapter:genesis:1",
       "title": "The Beginning - Genesis 1",
       "approvedTakeId": "b9b82c2c-7c8e-4ef4-9338-942de876644a",
@@ -80,6 +93,19 @@
       "key": "audio/genesis-12/37c9ebbe9830e014.mp3",
       "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-12/37c9ebbe9830e014.mp3",
       "verifiedAt": "2026-10-08T09:06:29.620Z"
+    },
+    {
+      "workId": "chapter:genesis:13",
+      "title": "The Land Before Them - Genesis 13",
+      "approvedTakeId": "57dfaa43-1f4a-4dcb-81f3-1f67ab052807",
+      "sourceSha256": "9e4571f5c8fafe528be4b3249c928b388061812327d30bb33abb037ac540d957",
+      "sourceCodec": "pcm_s16le",
+      "sha256": "bd44e21a7ca1fa4415748f840a950cfdc8d9618388dd1853db835a863cb7e57a",
+      "bytes": 5060759,
+      "contentType": "audio/mpeg",
+      "key": "audio/genesis-13/bd44e21a7ca1fa44.mp3",
+      "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-13/bd44e21a7ca1fa44.mp3",
+      "verifiedAt": "2026-10-13T13:36:47.264Z"
     },
     {
       "workId": "chapter:genesis:14",
@@ -147,6 +173,19 @@
       "verifiedAt": "2026-10-11T18:20:10.999Z"
     },
     {
+      "workId": "chapter:genesis:19",
+      "title": "Sodom - Genesis 19",
+      "approvedTakeId": "d617ab4f-38cf-44d4-a095-a853a998bc36",
+      "sourceSha256": "276b3147454c961fb4a5b03aa02bb116337d0f7727da5b5884cd744f84193162",
+      "sourceCodec": "pcm_s16le",
+      "sha256": "b708ddc5ea7a5404765e47b290a8d3aac38aa82d15b626a8068b7bd67469dc65",
+      "bytes": 8769320,
+      "contentType": "audio/mpeg",
+      "key": "audio/genesis-19/b708ddc5ea7a5404.mp3",
+      "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-19/b708ddc5ea7a5404.mp3",
+      "verifiedAt": "2026-10-13T13:38:45.146Z"
+    },
+    {
       "workId": "chapter:genesis:2",
       "title": "The Garden - Genesis 2",
       "approvedTakeId": "185c9425-6e80-42ae-8904-fc00cda3e189",
@@ -158,6 +197,71 @@
       "key": "audio/genesis-2/c5ba89d1c96171c0.mp3",
       "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-2/c5ba89d1c96171c0.mp3",
       "verifiedAt": "2026-10-11T18:34:03.549Z"
+    },
+    {
+      "workId": "chapter:genesis:20",
+      "title": "Abimelech - Genesis 20",
+      "approvedTakeId": "865417b8-39ca-46ef-b00e-452d86a00f33",
+      "sourceSha256": "47b64f54ca8a4d2f3ebf858fc1f99ff96cd702743d97505aebe866b1aaf80818",
+      "sourceCodec": "pcm_s16le",
+      "sha256": "0c1d9af9d30c252e8095978aa25e2f3b6263e746c68223ea0aa92dea779a8895",
+      "bytes": 5954748,
+      "contentType": "audio/mpeg",
+      "key": "audio/genesis-20/0c1d9af9d30c252e.mp3",
+      "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-20/0c1d9af9d30c252e.mp3",
+      "verifiedAt": "2026-10-14T00:38:08.526Z"
+    },
+    {
+      "workId": "chapter:genesis:21",
+      "title": "Isaac - Genesis 21",
+      "approvedTakeId": "4ec5021a-c0c0-47c8-99d7-cecd017a5abf",
+      "sourceSha256": "32d127f376bd534396d359ddf966d68b64f650dde99c8e8421063f995ea729a1",
+      "sourceCodec": "pcm_s16le",
+      "sha256": "ffdd1fcc3353d5ca35d79c1dc2fbe185962504b2b868e5c6e11ff5af84c73399",
+      "bytes": 8045648,
+      "contentType": "audio/mpeg",
+      "key": "audio/genesis-21/ffdd1fcc3353d5ca.mp3",
+      "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-21/ffdd1fcc3353d5ca.mp3",
+      "verifiedAt": "2026-10-16T06:58:55.332Z"
+    },
+    {
+      "workId": "chapter:genesis:22",
+      "title": "On the Mountain - Genesis 22",
+      "approvedTakeId": "905c6fee-4579-4162-84b2-c75b2f9aaeba",
+      "sourceSha256": "e6199960ff9e893d79d05829833a09be20d3b592338af450969c4376bddca852",
+      "sourceCodec": "pcm_s16le",
+      "sha256": "eb84876169f9d8026836ff38dfc74e44fe24c9fc3cad377455aa886851f8e166",
+      "bytes": 6753474,
+      "contentType": "audio/mpeg",
+      "key": "audio/genesis-22/eb84876169f9d802.mp3",
+      "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-22/eb84876169f9d802.mp3",
+      "verifiedAt": "2026-10-16T06:30:53.235Z"
+    },
+    {
+      "workId": "chapter:genesis:23",
+      "title": "Sarah - Genesis 23",
+      "approvedTakeId": "a86e2d55-7c6d-40f5-a8d4-9e9b1fc82f18",
+      "sourceSha256": "14225c9d480ce675586002835db66ee19c2910ac38f3d34503ccff65fce3b85d",
+      "sourceCodec": "pcm_s16le",
+      "sha256": "5b81defa4fa69aea245d9a634dc743430f2ca8f2d5b7ea3136f249f041c3f941",
+      "bytes": 6638456,
+      "contentType": "audio/mpeg",
+      "key": "audio/genesis-23/5b81defa4fa69aea.mp3",
+      "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-23/5b81defa4fa69aea.mp3",
+      "verifiedAt": "2026-10-16T19:36:46.073Z"
+    },
+    {
+      "workId": "chapter:genesis:24",
+      "title": "At the Well - Genesis 24",
+      "approvedTakeId": "309d26de-e3d7-4a48-8974-fa046d4f97f5",
+      "sourceSha256": "392dd9fb604b2827af67be8b93c028009e7361c1a05aad4bbdd7cc6a1a756cc4",
+      "sourceCodec": "pcm_s16le",
+      "sha256": "640d91fdaf8f337e7055c354e1e896a6087378249d6d4fa771cad7ed74980e06",
+      "bytes": 6873014,
+      "contentType": "audio/mpeg",
+      "key": "audio/genesis-24/640d91fdaf8f337e.mp3",
+      "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-24/640d91fdaf8f337e.mp3",
+      "verifiedAt": "2026-10-16T19:41:54.043Z"
     },
     {
       "workId": "chapter:genesis:3",
@@ -314,97 +418,6 @@
       "key": "audio/faith-of-the-apostles/ec100c6d0583f79d.mp3",
       "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/faith-of-the-apostles/ec100c6d0583f79d.mp3",
       "verifiedAt": "2026-10-04T19:28:46.129Z"
-    },
-    {
-      "workId": "chapter:genesis:13",
-      "title": "The Land Before Them - Genesis 13",
-      "approvedTakeId": "57dfaa43-1f4a-4dcb-81f3-1f67ab052807",
-      "sourceSha256": "9e4571f5c8fafe528be4b3249c928b388061812327d30bb33abb037ac540d957",
-      "sourceCodec": "pcm_s16le",
-      "sha256": "bd44e21a7ca1fa4415748f840a950cfdc8d9618388dd1853db835a863cb7e57a",
-      "bytes": 5060759,
-      "contentType": "audio/mpeg",
-      "key": "audio/genesis-13/bd44e21a7ca1fa44.mp3",
-      "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-13/bd44e21a7ca1fa44.mp3",
-      "verifiedAt": "2026-10-13T13:36:47.264Z"
-    },
-    {
-      "workId": "chapter:genesis:19",
-      "title": "Sodom - Genesis 19",
-      "approvedTakeId": "d617ab4f-38cf-44d4-a095-a853a998bc36",
-      "sourceSha256": "276b3147454c961fb4a5b03aa02bb116337d0f7727da5b5884cd744f84193162",
-      "sourceCodec": "pcm_s16le",
-      "sha256": "b708ddc5ea7a5404765e47b290a8d3aac38aa82d15b626a8068b7bd67469dc65",
-      "bytes": 8769320,
-      "contentType": "audio/mpeg",
-      "key": "audio/genesis-19/b708ddc5ea7a5404.mp3",
-      "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-19/b708ddc5ea7a5404.mp3",
-      "verifiedAt": "2026-10-13T13:38:45.146Z"
-    },
-    {
-      "workId": "chapter:genesis:20",
-      "title": "Abimelech - Genesis 20",
-      "approvedTakeId": "865417b8-39ca-46ef-b00e-452d86a00f33",
-      "sourceSha256": "47b64f54ca8a4d2f3ebf858fc1f99ff96cd702743d97505aebe866b1aaf80818",
-      "sourceCodec": "pcm_s16le",
-      "sha256": "0c1d9af9d30c252e8095978aa25e2f3b6263e746c68223ea0aa92dea779a8895",
-      "bytes": 5954748,
-      "contentType": "audio/mpeg",
-      "key": "audio/genesis-20/0c1d9af9d30c252e.mp3",
-      "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-20/0c1d9af9d30c252e.mp3",
-      "verifiedAt": "2026-10-14T00:38:08.526Z"
-    },
-    {
-      "workId": "chapter:genesis:22",
-      "title": "On the Mountain - Genesis 22",
-      "approvedTakeId": "905c6fee-4579-4162-84b2-c75b2f9aaeba",
-      "sourceSha256": "e6199960ff9e893d79d05829833a09be20d3b592338af450969c4376bddca852",
-      "sourceCodec": "pcm_s16le",
-      "sha256": "eb84876169f9d8026836ff38dfc74e44fe24c9fc3cad377455aa886851f8e166",
-      "bytes": 6753474,
-      "contentType": "audio/mpeg",
-      "key": "audio/genesis-22/eb84876169f9d802.mp3",
-      "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-22/eb84876169f9d802.mp3",
-      "verifiedAt": "2026-10-16T06:30:53.235Z"
-    },
-    {
-      "workId": "chapter:genesis:21",
-      "title": "Isaac - Genesis 21",
-      "approvedTakeId": "4ec5021a-c0c0-47c8-99d7-cecd017a5abf",
-      "sourceSha256": "32d127f376bd534396d359ddf966d68b64f650dde99c8e8421063f995ea729a1",
-      "sourceCodec": "pcm_s16le",
-      "sha256": "ffdd1fcc3353d5ca35d79c1dc2fbe185962504b2b868e5c6e11ff5af84c73399",
-      "bytes": 8045648,
-      "contentType": "audio/mpeg",
-      "key": "audio/genesis-21/ffdd1fcc3353d5ca.mp3",
-      "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-21/ffdd1fcc3353d5ca.mp3",
-      "verifiedAt": "2026-10-16T06:58:55.332Z"
-    },
-    {
-      "workId": "chapter:genesis:23",
-      "title": "Sarah - Genesis 23",
-      "approvedTakeId": "a86e2d55-7c6d-40f5-a8d4-9e9b1fc82f18",
-      "sourceSha256": "14225c9d480ce675586002835db66ee19c2910ac38f3d34503ccff65fce3b85d",
-      "sourceCodec": "pcm_s16le",
-      "sha256": "5b81defa4fa69aea245d9a634dc743430f2ca8f2d5b7ea3136f249f041c3f941",
-      "bytes": 6638456,
-      "contentType": "audio/mpeg",
-      "key": "audio/genesis-23/5b81defa4fa69aea.mp3",
-      "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-23/5b81defa4fa69aea.mp3",
-      "verifiedAt": "2026-10-16T19:36:46.073Z"
-    },
-    {
-      "workId": "chapter:genesis:24",
-      "title": "At the Well - Genesis 24",
-      "approvedTakeId": "309d26de-e3d7-4a48-8974-fa046d4f97f5",
-      "sourceSha256": "392dd9fb604b2827af67be8b93c028009e7361c1a05aad4bbdd7cc6a1a756cc4",
-      "sourceCodec": "pcm_s16le",
-      "sha256": "640d91fdaf8f337e7055c354e1e896a6087378249d6d4fa771cad7ed74980e06",
-      "bytes": 6873014,
-      "contentType": "audio/mpeg",
-      "key": "audio/genesis-24/640d91fdaf8f337e.mp3",
-      "audioUrl": "https://technochristianity-audio.sjfisher33.workers.dev/audio/genesis-24/640d91fdaf8f337e.mp3",
-      "verifiedAt": "2026-10-16T19:41:54.043Z"
     }
   ]
 }

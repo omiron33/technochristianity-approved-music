@@ -1,4 +1,5 @@
-import { readFile, writeFile } from "node:fs/promises";
+import { readFile, writeFile, mkdir } from "node:fs/promises";
+import { createHash } from "node:crypto";
 import { homedir } from "node:os";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -36,8 +37,28 @@ if (studio.settings?.paused && !authority) {
   console.log("Music Studio runner is paused; catalog sync skipped.");
   process.exit(0);
 }
-const label = { genesis: "Genesis", judges: "Judges", psalms: "Psalms", matthew: "Matthew" };
+// Studio owns the complete Scripture book catalog, including numbered books.
+const label = Object.fromEntries(studio.books.map(({ slug, name }) => [slug, name]));
+const bookOrder = new Map(studio.books.map(({ name }, index) => [name, index]));
+const coverFiles = new Set();
+const publicPoster = async (work) => {
+  if (typeof work.coverUrl !== "string") return null;
+  if (work.coverUrl.startsWith("https://omiron33.github.io/")) return work.coverUrl;
+  if (!/^\/media\/[a-f\d]+$/.test(work.coverUrl)) return null;
+  const response = await fetch(`${origin}${work.coverUrl}`, { headers, signal: AbortSignal.timeout(15000) });
+  if (!response.ok) throw new Error(`Cover for ${work.id} returned ${response.status}`);
+  const extension = { "image/jpeg": "jpg", "image/png": "png", "image/webp": "webp" }[response.headers.get("content-type")?.split(";")[0]];
+  if (!extension) throw new Error(`Unsupported public cover type for ${work.id}`);
+  const bytes = Buffer.from(await response.arrayBuffer());
+  const file = `covers/${createHash("sha256").update(bytes).digest("hex").slice(0,24)}.${extension}`;
+  await mkdir(join(root, "covers"), { recursive: true });
+  await writeFile(join(root, file), bytes);
+  coverFiles.add(file);
+  return legacyPosterMedia + file;
+};
+const approvedSunoLink = (work) => work.takes?.some(take => take.id === work.approvedTakeId && take.approved && take.url === `https://suno.com/song/${take.id}`);
 const publicIntros = {
+  "1-kings-18": "Elijah confronts the prophets of Baal on Mount Carmel: one soaked altar, one answer by fire. A female-vocal trap adaptation of 1 Kings 18.",
   "genesis-5": "From Adam's generations to Noe's birth, this song follows the long line of lives in Genesis 5 and the hope carried through it.",
   "judges-3": "A comic country-funk retelling of Ehud and Eglon in Judges 3:12–30. This is a loose adaptation, not a verse-by-verse setting.",
   "matthew-5": "Jesus calls his followers to be salt and light in the Sermon on the Mount.",
@@ -65,14 +86,14 @@ const songs = (await Promise.all(approved.map(async (work) => {
     suno: work.approvedTakeId,
     audio: deliveredAudio(work, delivery),
     audioSource: deliveredAudio(work, delivery) ? "cloudflare-r2" :
-      queuedSunoFallback(work, delivery) ? "suno" : null,
-    poster: typeof work.coverUrl === "string" && work.coverUrl.startsWith(legacyPosterMedia) ? work.coverUrl : null,
+      (queuedSunoFallback(work, delivery) || approvedSunoLink(work)) ? "suno" : null,
+    poster: await publicPoster(work),
     youtube: verifiedYouTube(work),
     lyric: work.lyrics ? { label: "Song adaptation", text: work.lyrics } : null,
     source,
   };
 }))).filter((song) => Boolean(song.audio || song.audioSource === "suno"));
-songs.sort((a, b) => Object.keys(label).indexOf(a.book.toLowerCase()) - Object.keys(label).indexOf(b.book.toLowerCase()) || Number(a.chapter) - Number(b.chapter));
+songs.sort((a, b) => bookOrder.get(a.book) - bookOrder.get(b.book) || Number(a.chapter) - Number(b.chapter));
 const readCurrent = async () => { try { return JSON.parse(await readFile(target, "utf8")); } catch { return null; } };
 const contentsFor = (current) => authority
   ? mergeWebsiteCatalog(current, songs, authority.work) : { formatVersion: 1, songs };
@@ -90,7 +111,7 @@ const recordWebsiteHandoff = async () => {
     await patch(`/works/${encodeURIComponent(work.id)}/publications/website`, {
       status: "submitted", url: `https://technochristianity.com/music/?work=${slug}`,
       note: songs.find((song) => song.studioId === work.id)?.audioSource === "suno"
-        ? "Approved Suno link exported while download slots are exhausted; R2 delivery remains queued. Live link verification pending."
+        ? "Approved Suno song exported for discovery; compressed audio delivery and live link verification remain separate."
         : "Approved song with verified R2 compressed audio exported to the public catalog; live page verification pending.",
     });
   }
@@ -119,7 +140,7 @@ await authority?.revalidate();
 await writeFile(target, JSON.stringify({ ...contents, generatedAt: new Date().toISOString() }, null, 2) + "\n");
 if (!writeOnly) {
   await authority?.revalidate();
-  git("add", "--", "approved-chapters.json");
+  git("add", "--", "approved-chapters.json", ...coverFiles);
   git("commit", "-m", "Sync Music Studio approved songs for public catalog");
   await authority?.revalidate();
   git("push", "origin", "HEAD:main");

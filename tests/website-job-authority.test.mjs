@@ -137,7 +137,7 @@ test("paused scoped catalog sync writes one current chapter and never records un
   const server = createServer((req, res) => {
     requests.push({ method: req.method, url: req.url });
     assert.equal(req.headers.authorization, "Bearer test-token");
-    const body = req.url === "/api/v1/studio" ? { settings: { paused: true }, works: [f.state.work], jobs: [f.state.job] } :
+    const body = req.url === "/api/v1/studio" ? { settings: { paused: true }, books: [{slug:"genesis", name:"Genesis"}], works: [f.state.work], jobs: [f.state.job] } :
       req.url === `/api/v1/jobs/${id}` ? f.state.job :
       req.url === `/api/v1/works/${encodeURIComponent(workId)}` ? f.state.work :
       req.url === "/api/v1/bible/genesis/13" ? { available: true, verses: [{ number: 1, text: "Test source." }] } : null;
